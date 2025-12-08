@@ -650,8 +650,8 @@ def print_summary(papers):
                 if name:
                     author_counts[name] = author_counts.get(name, 0) + 1
 
-    top_authors = sorted(author_counts.items(), key=lambda x: -x[1])[:20]
-    print("\nTop 20 authors:")
+    top_authors = sorted(author_counts.items(), key=lambda x: -x[1])[:25]
+    print("\nTop 25 authors:")
     for i, (name, count) in enumerate(top_authors, 1):
         print(f"  {i}. {name}: {count} papers")
 
