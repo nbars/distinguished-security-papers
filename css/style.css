@@ -1,0 +1,300 @@
+/* Best Papers in Systems Security - Custom Styles */
+/* Using RUB Bochum Blue: #003560 */
+
+:root {
+    --rub-blue: #003560;
+    --rub-blue-light: #004d8c;
+    --rub-blue-dark: #002440;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, var(--rub-blue) 0%, var(--rub-blue-dark) 100%);
+}
+
+header h1 {
+    font-weight: 600;
+}
+
+/* Section titles */
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--rub-blue);
+    border-bottom: 2px solid var(--rub-blue);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Filter buttons */
+.btn-group {
+    gap: 0.25rem;
+}
+
+.btn-outline-primary {
+    border-color: var(--rub-blue);
+    color: var(--rub-blue);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary.active {
+    background-color: var(--rub-blue);
+    border-color: var(--rub-blue);
+    color: white;
+}
+
+/* Year range slider */
+.year-slider-container {
+    max-width: 500px;
+}
+
+.year-slider-labels {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+    font-weight: 500;
+}
+
+.year-slider-labels span:first-child,
+.year-slider-labels span:nth-child(3) {
+    color: var(--rub-blue);
+    font-size: 1.1rem;
+    font-weight: 600;
+    min-width: 2.5rem;
+}
+
+.year-slider-separator {
+    color: #6c757d;
+}
+
+/* Dual range slider with above/below thumbs */
+.range-slider {
+    position: relative;
+    height: 6.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.range-track {
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background: #dee2e6;
+    border-radius: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.range-selected {
+    position: absolute;
+    height: 6px;
+    background: var(--rub-blue);
+    border-radius: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.range-slider input[type="range"] {
+    position: absolute;
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    pointer-events: none;
+}
+
+/* From slider - thumb positioned ABOVE the track (triangle pointing down) */
+#year-slider-from {
+    top: 0;
+    height: 50%;
+}
+
+#year-slider-from::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0;
+    height: 0;
+    border-left: 0.6rem solid transparent;
+    border-right: 0.6rem solid transparent;
+    border-top: 1rem solid var(--rub-blue);
+    background: transparent;
+    cursor: pointer;
+    pointer-events: auto;
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.3));
+    transition: transform 0.1s ease;
+    position: relative;
+    top: 0.55rem;
+}
+
+#year-slider-from::-moz-range-thumb {
+    width: 0;
+    height: 0;
+    border-left: 0.6rem solid transparent;
+    border-right: 0.6rem solid transparent;
+    border-top: 1rem solid var(--rub-blue);
+    border-bottom: none;
+    background: transparent;
+    border-radius: 0;
+    cursor: pointer;
+    pointer-events: auto;
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.3));
+    transform: translateY(0.55rem);
+}
+
+/* To slider - thumb positioned BELOW the track (triangle pointing up) */
+#year-slider-to {
+    bottom: 0;
+    height: 50%;
+}
+
+#year-slider-to::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0;
+    height: 0;
+    border-left: 0.6rem solid transparent;
+    border-right: 0.6rem solid transparent;
+    border-bottom: 1rem solid var(--rub-blue-light);
+    border-top: none;
+    background: transparent;
+    cursor: pointer;
+    pointer-events: auto;
+    filter: drop-shadow(0 -2px 3px rgba(0, 0, 0, 0.3));
+    transition: transform 0.1s ease;
+    position: relative;
+    top: -0.55rem;
+}
+
+#year-slider-to::-moz-range-thumb {
+    width: 0;
+    height: 0;
+    border-left: 0.6rem solid transparent;
+    border-right: 0.6rem solid transparent;
+    border-bottom: 1rem solid var(--rub-blue-light);
+    border-top: none;
+    background: transparent;
+    border-radius: 0;
+    cursor: pointer;
+    pointer-events: auto;
+    filter: drop-shadow(0 -2px 3px rgba(0, 0, 0, 0.3));
+    transform: translateY(-0.55rem);
+}
+
+/* Hover states */
+.range-slider input[type="range"]::-webkit-slider-thumb:hover {
+    transform: scale(1.1);
+}
+
+.range-slider input[type="range"]::-webkit-slider-thumb:active {
+    transform: scale(1.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.range-slider input[type="range"]::-moz-range-thumb:hover {
+    transform: scale(1.1);
+}
+
+/* Year sections */
+.year-section {
+    margin-bottom: 2rem;
+}
+
+.year-header {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--rub-blue);
+    border-bottom: 2px solid var(--rub-blue);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Paper entries */
+.paper-entry {
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    background: white;
+    border-radius: 0.5rem;
+    border-left: 4px solid var(--rub-blue);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease;
+}
+
+.paper-entry:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.paper-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.paper-title a {
+    color: #212529;
+    text-decoration: none;
+}
+
+.paper-title a:hover {
+    color: var(--rub-blue);
+    text-decoration: underline;
+}
+
+.paper-authors {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.paper-meta {
+    font-size: 0.85rem;
+}
+
+.paper-venue {
+    color: var(--rub-blue);
+    font-weight: 500;
+}
+
+/* Venue-specific border colors */
+.paper-entry[data-venue="IEEE S&P"] {
+    border-left-color: var(--rub-blue);
+}
+
+.paper-entry[data-venue="ACM CCS"] {
+    border-left-color: #6f42c1;
+}
+
+.paper-entry[data-venue="USENIX Security"] {
+    border-left-color: #fd7e14;
+}
+
+.paper-entry[data-venue="NDSS"] {
+    border-left-color: #20c997;
+}
+
+/* Footer */
+footer a {
+    color: var(--rub-blue);
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .btn-group {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn-group .btn {
+        border-radius: 0.375rem !important;
+        margin-bottom: 0.25rem;
+    }
+
+    .year-slider-container {
+        max-width: 100%;
+    }
+}

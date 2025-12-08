@@ -1,0 +1,6249 @@
+{
+  "description": "Best Papers in Systems Security - Award-winning papers from top security conferences",
+  "source": "https://github.com/prncoprs/best-papers-in-computer-security",
+  "venues": [
+    "IEEE S&P",
+    "ACM CCS",
+    "USENIX Security",
+    "NDSS"
+  ],
+  "papers": [
+    {
+      "title": "Breaking the Barrier: Post-Barrier Spectre Attacks",
+      "authors": [
+        {
+          "name": "Johannes Wikner",
+          "institution": "ETH Zurich"
+        },
+        {
+          "name": "Kaveh Razavi",
+          "institution": "ETH Zurich"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "COBBL: Dynamic Constraint Generation for SNARKs",
+      "authors": [
+        {
+          "name": "Kunming Jiang",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Fraser Brown",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Riad Wahby",
+          "institution": "Carnegie Mellon University"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Characterizing Robocalls with Multiple Vantage Points",
+      "authors": [
+        {
+          "name": "Sathvik Prasad",
+          "institution": "North Carolina State University"
+        },
+        {
+          "name": "Aleksandr Nahapetyan",
+          "institution": "North Carolina State University"
+        },
+        {
+          "name": "Bradley Reaves",
+          "institution": "North Carolina State University"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels",
+      "authors": [
+        {
+          "name": "Yuanyuan Yuan",
+          "institution": "HKUST"
+        },
+        {
+          "name": "Zhibo Liu",
+          "institution": "HKUST"
+        },
+        {
+          "name": "Sen Deng",
+          "institution": "HKUST"
+        },
+        {
+          "name": "Yanzuo Chen",
+          "institution": "HKUST"
+        },
+        {
+          "name": "Shuai Wang",
+          "institution": "HKUST"
+        },
+        {
+          "name": "Yinqian Zhang",
+          "institution": "SUSTech"
+        },
+        {
+          "name": "Zhendong Su",
+          "institution": "ETH Zurich"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "DataSentinel: A Game-Theoretic Detection of Prompt Injection Attacks",
+      "authors": [
+        {
+          "name": "Yupei Liu",
+          "institution": "Penn State"
+        },
+        {
+          "name": "Yuqi Jia",
+          "institution": "Duke University"
+        },
+        {
+          "name": "Neil Zhenqiang Gong",
+          "institution": "Duke University"
+        },
+        {
+          "name": "Jinyuan Jia",
+          "institution": "Penn State"
+        },
+        {
+          "name": "Dawn Song",
+          "institution": "UC Berkeley"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Detecting Taint-Style Vulnerabilities in Microservice-Structured Web Applications",
+      "authors": [
+        {
+          "name": "Fengyu Liu",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Yuan Zhang",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Tian Chen",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Youkun Shi",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Guangliang Yang",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Zihan Lin",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Min Yang",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Junyao He",
+          "institution": "Alibaba Group"
+        },
+        {
+          "name": "Qi Li",
+          "institution": "Alibaba Group"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Empc: Effective Path Prioritization for Symbolic Execution with Path Cover",
+      "authors": [
+        {
+          "name": "Shuangjie Yao",
+          "institution": "HKUST"
+        },
+        {
+          "name": "Dongdong She",
+          "institution": "HKUST"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Follow My Flow: Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites",
+      "authors": [
+        {
+          "name": "Zifeng Kang",
+          "institution": "Johns Hopkins University"
+        },
+        {
+          "name": "Muxi Lyu",
+          "institution": "Johns Hopkins University"
+        },
+        {
+          "name": "Zhengyu Liu",
+          "institution": "Johns Hopkins University"
+        },
+        {
+          "name": "Jianjia Yu",
+          "institution": "Johns Hopkins University"
+        },
+        {
+          "name": "Runqi Fan",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Song Li",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Yinzhi Cao",
+          "institution": "Johns Hopkins University"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon",
+      "authors": [
+        {
+          "name": "Jason Kim",
+          "institution": "Georgia Institute of Technology"
+        },
+        {
+          "name": "Daniel Genkin",
+          "institution": "Georgia Institute of Technology"
+        },
+        {
+          "name": "Yuval Yarom",
+          "institution": "Ruhr University Bochum"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "The Inadequacy of Similarity-based Privacy Metrics",
+      "authors": [
+        {
+          "name": "Georgi Ganev",
+          "institution": "UCL"
+        },
+        {
+          "name": "Emiliano De Cristofaro",
+          "institution": "UC Riverside"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Transport Layer Obscurity: Circumventing SNI Censorship on the TLS Layer",
+      "authors": [
+        {
+          "name": "Niklas Niere",
+          "institution": "Paderborn University"
+        },
+        {
+          "name": "Felix Lange",
+          "institution": "Paderborn University"
+        },
+        {
+          "name": "Juraj Somorovsky",
+          "institution": "Paderborn University"
+        },
+        {
+          "name": "Robert Merget",
+          "institution": "Technology Innovation Institute"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Unveiling Security Vulnerabilities in Git Large File Storage Protocol",
+      "authors": [
+        {
+          "name": "Yuan Chen",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Qinying Wang",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Yong Yang",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Yuanchao Chen",
+          "institution": "NUDT"
+        },
+        {
+          "name": "Yuwei Li",
+          "institution": "NUDT"
+        },
+        {
+          "name": "Shouling Ji",
+          "institution": "Zhejiang University"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Verifiable Boosted Tree Ensembles",
+      "authors": [
+        {
+          "name": "Stefano Calzavara",
+          "institution": "Università Ca' Foscari Venezia"
+        },
+        {
+          "name": "Lorenzo Cazzaro",
+          "institution": "Università Ca' Foscari Venezia"
+        },
+        {
+          "name": "Claudio Lucchese",
+          "institution": "Università Ca' Foscari Venezia"
+        },
+        {
+          "name": "Giulio Ermanno Pibiri",
+          "institution": "Università Ca' Foscari Venezia"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "An Empirical Study on Fingerprint API Misuse with Lifecycle Analysis in Real-world Android Apps",
+      "authors": [
+        {
+          "name": "Xin Zhang",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Xiaohan Zhang",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Zhichen Liu",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Bo Zhao",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Zhemin Yang",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Min Yang",
+          "institution": "Fudan University"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Blindfold: Confidential Memory Management by Untrusted Operating System",
+      "authors": [
+        {
+          "name": "Caihua Li",
+          "institution": "Yale University"
+        },
+        {
+          "name": "Seung-seob Lee",
+          "institution": "Yale University"
+        },
+        {
+          "name": "Ling Zhong",
+          "institution": "Yale University"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "DUMPLING: Fine-grained Differential JavaScript Engine Fuzzing",
+      "authors": [
+        {
+          "name": "Liam Wachter",
+          "institution": "EPFL"
+        },
+        {
+          "name": "Julian Gremminger",
+          "institution": "EPFL"
+        },
+        {
+          "name": "Christian Wressnegger",
+          "institution": "Karlsruhe Institute of Technology"
+        },
+        {
+          "name": "Mathias Payer",
+          "institution": "EPFL"
+        },
+        {
+          "name": "Flavio Toffalini",
+          "institution": "EPFL"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "DiStefano: Decentralized Infrastructure for Sharing Trusted Encrypted Facts",
+      "authors": [
+        {
+          "name": "Celi",
+          "institution": "Brave Software"
+        },
+        {
+          "name": "Alex Davidson",
+          "institution": "NOVA LINCS"
+        },
+        {
+          "name": "Hamed Haddadi",
+          "institution": "Imperial College London"
+        },
+        {
+          "name": "Pestana",
+          "institution": "Hashmatter"
+        },
+        {
+          "name": "Joe Rowell",
+          "institution": "University of London"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "PropertyGPT: LLM-driven Formal Verification of Smart Contracts",
+      "authors": [
+        {
+          "name": "Ye Liu",
+          "institution": "SMU"
+        },
+        {
+          "name": "Yue Xue",
+          "institution": "MetaTrust Labs"
+        },
+        {
+          "name": "Daoyuan Wu",
+          "institution": "HKUST"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Provably Unlearnable Data Examples",
+      "authors": [
+        {
+          "name": "Derui Wang",
+          "institution": "CSIRO's Data61"
+        },
+        {
+          "name": "Minhui Xue",
+          "institution": "CSIRO's Data61"
+        },
+        {
+          "name": "Bo Li",
+          "institution": "University of Chicago"
+        },
+        {
+          "name": "Seyit Camtepe",
+          "institution": "CSIRO's Data61"
+        },
+        {
+          "name": "Liming Zhu",
+          "institution": "CSIRO's Data61"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "ReDAN: An Empirical Study on Remote DoS Attacks against NAT Networks",
+      "authors": [
+        {
+          "name": "Xuewei Feng",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Yuxiang Yang",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Qi Li",
+          "institution": "Tsinghua University"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "ReThink: Reveal the Threat of Electromagnetic Interference on Power Inverters",
+      "authors": [
+        {
+          "name": "Fengchen Yang",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Zihao Dan",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Kaikai Pan",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Chen Yan",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Xiaoyu Ji",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Wenyuan Xu",
+          "institution": "Zhejiang University"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Rethinking Trust in Forge-Based Git Security",
+      "authors": [
+        {
+          "name": "Aditya Sirish A Yelgundhalli",
+          "institution": "NYU"
+        },
+        {
+          "name": "Patrick Zielinski",
+          "institution": "NYU"
+        },
+        {
+          "name": "Reza Curtmola",
+          "institution": "NJIT"
+        },
+        {
+          "name": "Justin Cappos",
+          "institution": "NYU"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "SafeSplit: A Novel Defense Against Client-Side Backdoor Attacks in Split Learning",
+      "authors": [
+        {
+          "name": "Phillip Rieger",
+          "institution": "Technical University of Darmstadt"
+        },
+        {
+          "name": "Alessandro Pegoraro",
+          "institution": "Technical University of Darmstadt"
+        },
+        {
+          "name": "Kavita Kumari",
+          "institution": "Technical University of Darmstadt"
+        },
+        {
+          "name": "Tigist Abera",
+          "institution": "Technical University of Darmstadt"
+        },
+        {
+          "name": "Jonathan Knauer",
+          "institution": "Technical University of Darmstadt"
+        },
+        {
+          "name": "Ahmad-Reza Sadeghi",
+          "institution": "Technical University of Darmstadt"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "VoiceRadar: Voice Deepfake Detection using Micro-Frequency and Compositional Analysis",
+      "authors": [
+        {
+          "name": "Kavita Kumari",
+          "institution": "TU Darmstadt"
+        },
+        {
+          "name": "Maryam Abbasihafshejani",
+          "institution": "UT San Antonio"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "type++: Prohibiting Type Confusion with Inline Type Information",
+      "authors": [
+        {
+          "name": "Nicolas Badoux",
+          "institution": "EPFL"
+        },
+        {
+          "name": "Flavio Toffalini",
+          "institution": "Ruhr-Universität Bochum"
+        },
+        {
+          "name": "Yuseok Jeon",
+          "institution": "UNIST"
+        },
+        {
+          "name": "Mathias Payer",
+          "institution": "EPFL"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Branch Privilege Injection",
+      "authors": [
+        {
+          "name": "Sandro Rüegge",
+          "institution": ""
+        },
+        {
+          "name": "Johannes Wikner",
+          "institution": ""
+        },
+        {
+          "name": "Kaveh Razavi",
+          "institution": ""
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Catch-22: Uncovering Compromised Hosts using SSH Public Keys",
+      "authors": [
+        {
+          "name": "Cristian Munteanu",
+          "institution": ""
+        },
+        {
+          "name": "Georgios Smaragdakis",
+          "institution": ""
+        },
+        {
+          "name": "Anja Feldmann",
+          "institution": ""
+        },
+        {
+          "name": "Tobias Fiebig",
+          "institution": ""
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Characterizing and Detecting Propaganda-Spreading Accounts on Telegram",
+      "authors": [
+        {
+          "name": "Klim Kireev",
+          "institution": ""
+        },
+        {
+          "name": "Yevhen Mykhno",
+          "institution": ""
+        },
+        {
+          "name": "Carmela Troncoso",
+          "institution": ""
+        },
+        {
+          "name": "Rebekah Overdorf",
+          "institution": ""
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Confusing Value with Enumeration",
+      "authors": [
+        {
+          "name": "Moritz Schloegel",
+          "institution": ""
+        },
+        {
+          "name": "Daniel Klischies",
+          "institution": ""
+        },
+        {
+          "name": "Simon Koch",
+          "institution": ""
+        },
+        {
+          "name": "David Klein",
+          "institution": ""
+        },
+        {
+          "name": "Lukas Gerlach",
+          "institution": ""
+        },
+        {
+          "name": "Malte Wessels",
+          "institution": ""
+        },
+        {
+          "name": "Leon Trampert",
+          "institution": ""
+        },
+        {
+          "name": "Martin Johns",
+          "institution": ""
+        },
+        {
+          "name": "Mathy Vanhoef",
+          "institution": ""
+        },
+        {
+          "name": "Michael Schwarz",
+          "institution": ""
+        },
+        {
+          "name": "Thorsten Holz",
+          "institution": ""
+        },
+        {
+          "name": "Jo Van Bulck",
+          "institution": ""
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Fuzzing the PHP Interpreter via Dataflow Fusion",
+      "authors": [
+        {
+          "name": "Yuancheng Jiang",
+          "institution": ""
+        },
+        {
+          "name": "Chuqi Zhang",
+          "institution": ""
+        },
+        {
+          "name": "Bonan Ruan",
+          "institution": ""
+        },
+        {
+          "name": "Jiahao Liu",
+          "institution": ""
+        },
+        {
+          "name": "Manuel Rigger",
+          "institution": ""
+        },
+        {
+          "name": "Roland H. C. Yap",
+          "institution": ""
+        },
+        {
+          "name": "Zhenkai Liang",
+          "institution": ""
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "How Transparent is Usable Privacy and Security Research?",
+      "authors": [
+        {
+          "name": "Jan H. Klemmer",
+          "institution": ""
+        },
+        {
+          "name": "Juliane Schmüser",
+          "institution": ""
+        },
+        {
+          "name": "Fabian Fischer",
+          "institution": ""
+        },
+        {
+          "name": "Jacques Suray",
+          "institution": ""
+        },
+        {
+          "name": "Jan-Ulrich Holtgrave",
+          "institution": ""
+        },
+        {
+          "name": "Simon Lenau",
+          "institution": ""
+        },
+        {
+          "name": "Byron M. Lowens",
+          "institution": ""
+        },
+        {
+          "name": "Florian Schaub",
+          "institution": ""
+        },
+        {
+          "name": "Sascha Fahl",
+          "institution": ""
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "My ZIP isn't your ZIP",
+      "authors": [
+        {
+          "name": "Yufan You",
+          "institution": ""
+        },
+        {
+          "name": "Jianjun Chen",
+          "institution": ""
+        },
+        {
+          "name": "Qi Wang",
+          "institution": ""
+        },
+        {
+          "name": "Haixin Duan",
+          "institution": ""
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "We Have a Package for You!",
+      "authors": [
+        {
+          "name": "Joseph Spracklen",
+          "institution": ""
+        },
+        {
+          "name": "Raveen Wijewickrama",
+          "institution": ""
+        },
+        {
+          "name": "A H M Nazmus Sakib",
+          "institution": ""
+        },
+        {
+          "name": "Anindya Maiti",
+          "institution": ""
+        },
+        {
+          "name": "Bimal Viswanath",
+          "institution": ""
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2025,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "\"False negative - that one is going to kill you.\" - Understanding Industry Perspectives of Static Analysis based Security Testing",
+      "authors": [
+        {
+          "name": "Kevin Moran",
+          "institution": "University of Central Florida"
+        },
+        {
+          "name": "Denys Poshyvanyk",
+          "institution": "William & Mary"
+        },
+        {
+          "name": "Adwait Nadkarni",
+          "institution": "William & Mary"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2024,
+      "award": "Best Paper",
+      "url": "https://arxiv.org/pdf/2307.16325"
+    },
+    {
+      "title": "BENZENE: A Practical Root Cause Analysis System with an Under-Constrained State Mutation",
+      "authors": [
+        {
+          "name": "Younggi Park",
+          "institution": "Korea University"
+        },
+        {
+          "name": "Hwiwon Lee",
+          "institution": "Korea University"
+        },
+        {
+          "name": "Jinho Jung",
+          "institution": "Ministry of National Defense"
+        },
+        {
+          "name": "Hyungjoon Koo",
+          "institution": "Sungkyunkwan University"
+        },
+        {
+          "name": "Huy Kang Kim",
+          "institution": "Korea University"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2024,
+      "award": "Best Paper",
+      "url": "https://kevinkoo001.github.io/assets/pdf/sp24-benzene-official.pdf"
+    },
+    {
+      "title": "From Chatbots to Phishbots?: Phishing Scam Generation in Commercial Large Language Models",
+      "authors": [
+        {
+          "name": "Sayak Saha Roy",
+          "institution": "University of Texas at Arlington"
+        },
+        {
+          "name": "Poojitha Thota",
+          "institution": "University of Texas at Arlington"
+        },
+        {
+          "name": "Krishna Vamsi Naragam",
+          "institution": "University of Texas at Arlington"
+        },
+        {
+          "name": "Shirin Nilizadeh",
+          "institution": "University of Texas at Arlington"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2024,
+      "award": "Best Paper",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a221/1WPcYLpYFHy"
+    },
+    {
+      "title": "From Virtual Touch to Tesla Command: Unlocking Unauthenticated Control Chains From Smart Glasses for Vehicle Takeover",
+      "authors": [
+        {
+          "name": "Xingli Zhang",
+          "institution": "University of Louisiana at Lafayette"
+        },
+        {
+          "name": "Yazhou Tu",
+          "institution": "University of Louisiana at Lafayette"
+        },
+        {
+          "name": "Yan Long",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "Liqun Shan",
+          "institution": "University of Louisiana at Lafayette"
+        },
+        {
+          "name": "Mohamed A Elsaadani",
+          "institution": "University of Louisiana at Lafayette"
+        },
+        {
+          "name": "Kevin Fu",
+          "institution": "Northeastern University"
+        },
+        {
+          "name": "Zhiqiang Lin",
+          "institution": "Ohio State University"
+        },
+        {
+          "name": "Xiali Hei",
+          "institution": "University of Louisiana at Lafayette"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2024,
+      "award": "Best Paper",
+      "url": "https://www.xialihei.com/wp-content/uploads/2024/04/SP2024.pdf"
+    },
+    {
+      "title": "Shedding Light on CVSS Scoring Inconsistencies: A User-Centric Study on Evaluating Widespread Security Vulnerabilities",
+      "authors": [
+        {
+          "name": "Julia Wunder",
+          "institution": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU"
+        },
+        {
+          "name": "Andreas Kurtz",
+          "institution": "Heilbronn University of Applied Sciences"
+        },
+        {
+          "name": "Freya Gassmann",
+          "institution": "Rheinland-Pfälzische Technische Universität Kaiserslautern-Landau (RPTU"
+        },
+        {
+          "name": "Zinaida Benenson",
+          "institution": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2024,
+      "award": "Best Paper",
+      "url": "https://arxiv.org/pdf/2308.15259"
+    },
+    {
+      "title": "SoK: Prudent Evaluation Practices for Fuzzing",
+      "authors": [
+        {
+          "name": "Moritz Schloegel",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Nils Bars",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Nico Schiller",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Lukas Bernhard",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Tobias Scharnowski",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Addison Crump",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Arash Ale Ebrahim",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Nicolai Bissantz",
+          "institution": "Ruhr University Bochum"
+        },
+        {
+          "name": "Marius Muench",
+          "institution": "University of Birmingham"
+        },
+        {
+          "name": "Thorsten Holz",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2024,
+      "award": "Best Paper",
+      "url": "https://arxiv.org/pdf/2308.15259"
+    },
+    {
+      "title": "SoK: Unintended Interactions among Machine Learning Defenses and Risks",
+      "authors": [
+        {
+          "name": "Vasisht Duddu",
+          "institution": "University of Waterloo"
+        },
+        {
+          "name": "Sebastian Szyller",
+          "institution": "Intel Labs"
+        },
+        {
+          "name": "N. Asokan",
+          "institution": "University of Waterloo, Aalto University"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2024,
+      "award": "Best Paper",
+      "url": "https://arxiv.org/pdf/2312.04542"
+    },
+    {
+      "title": "The Great Request Robbery: An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web",
+      "authors": [
+        {
+          "name": "Soheil Khodayari",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Thomas Barber",
+          "institution": "SAP Security Research"
+        },
+        {
+          "name": "Giancarlo Pellegrino",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2024,
+      "award": "Best Paper",
+      "url": "https://publications.cispa.saarland/4056/1/sp24_request_hijacking.pdf"
+    },
+    {
+      "title": "WESEE: Using Malicious #VC Interrupts to Break AMD SEV-SNP",
+      "authors": [
+        {
+          "name": "Supraja Sridhara",
+          "institution": "ETH Zurich"
+        },
+        {
+          "name": "Andrin Bertschi",
+          "institution": "ETH Zurich"
+        },
+        {
+          "name": "Shweta Shinde",
+          "institution": "ETH Zurich"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2024,
+      "award": "Best Paper",
+      "url": "https://arxiv.org/pdf/2404.03526"
+    },
+    {
+      "title": "Eavesdropping on Controller Acoustic Emanation for Keystroke Inference Attack in Virtual Reality",
+      "authors": [
+        {
+          "name": "Shiqing Luo",
+          "institution": "George Mason University"
+        },
+        {
+          "name": "Anh Nguyen",
+          "institution": "George Mason University"
+        },
+        {
+          "name": "Hafsa Farooq",
+          "institution": "Georgia State University"
+        },
+        {
+          "name": "Kun Sun",
+          "institution": "George Mason University"
+        },
+        {
+          "name": "Zhisheng Yan",
+          "institution": "George Mason University"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/eavesdropping-on-controller-acoustic-emanation-for-keystroke-inference-attack-in-virtual-reality/"
+    },
+    {
+      "title": "LMSanitator: Defending Prompt-Tuning Against Task-Agnostic Backdoors",
+      "authors": [
+        {
+          "name": "Chengkun Wei",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Wenlong Meng",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Zhikun Zhang",
+          "institution": "CISPA Helmholtz Center for Information Security and Stanford University"
+        },
+        {
+          "name": "Min Chen",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Minghu Zhao",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Wenjing Fang",
+          "institution": "Ant Group"
+        },
+        {
+          "name": "Lei Wang",
+          "institution": "Ant Group"
+        },
+        {
+          "name": "Zihui Zhang",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Wenzhi Chen",
+          "institution": "Zhejiang University"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/lmsanitator-defending-prompt-tuning-against-task-agnostic-backdoors/"
+    },
+    {
+      "title": "Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms",
+      "authors": [
+        {
+          "name": "Xigao Li",
+          "institution": "Stony Brook University"
+        },
+        {
+          "name": "Amir Rahmati",
+          "institution": "Stony Brook University"
+        },
+        {
+          "name": "Nick Nikiforakis",
+          "institution": "Stony Brook University"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/like-comment-get-scammed-characterizing-comment-scams-on-media-platforms/"
+    },
+    {
+      "title": "UntrustIDE: Exploiting Weaknesses in VS Code Extensions",
+      "authors": [
+        {
+          "name": "Igibek Koishybayev",
+          "institution": "North Carolina State University"
+        },
+        {
+          "name": "Trevor Dunlap",
+          "institution": "North Carolina State University"
+        },
+        {
+          "name": "William Enck",
+          "institution": "North Carolina State University"
+        },
+        {
+          "name": "Alexandros Kapravelos",
+          "institution": "North Carolina State University"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/"
+    },
+    {
+      "title": "\"I Don't Know If We're Doing Good. I Don't Know If We're Doing Bad\": Investigating How Practitioners Scope, Motivate, and Conduct Privacy Work When Developing AI Products",
+      "authors": [
+        {
+          "name": "Hao-Ping",
+          "institution": "Hank"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/lee"
+    },
+    {
+      "title": "Adversarial Illusions in Multi-Modal Embeddings",
+      "authors": [
+        {
+          "name": "Eugene Bagdasaryan",
+          "institution": "University of Massachusetts Amherst"
+        },
+        {
+          "name": "Rishi Jha",
+          "institution": "Cornell University"
+        },
+        {
+          "name": "Vitaly Shmatikov",
+          "institution": "Cornell Tech"
+        },
+        {
+          "name": "Tingwei Zhang",
+          "institution": "Cornell University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-tingwei"
+    },
+    {
+      "title": "DVSorder: Ballot Randomization Flaws Threaten Voter Privacy",
+      "authors": [
+        {
+          "name": "Braden L. Crimmins",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "Dhanya Y. Narayanan",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "Drew Springall",
+          "institution": "Auburn University"
+        },
+        {
+          "name": "J. Alex Halderman",
+          "institution": "University of Michigan"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/crimmins"
+    },
+    {
+      "title": "Dancer in the Dark: Synthesizing and Evaluating Polyglots for Blind Cross-Site Scripting",
+      "authors": [
+        {
+          "name": "Robin Kirchner",
+          "institution": "Technische Universität Braunschweig"
+        },
+        {
+          "name": "Jonas Möller",
+          "institution": "Technische Universität Berlin"
+        },
+        {
+          "name": "Marius Musch",
+          "institution": "Technische Universität Braunschweig"
+        },
+        {
+          "name": "David Klein",
+          "institution": "Technische Universität Braunschweig"
+        },
+        {
+          "name": "Konrad Rieck",
+          "institution": "Technische Universität Berlin"
+        },
+        {
+          "name": "Martin Johns",
+          "institution": "Technische Universität Braunschweig"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/kirchner"
+    },
+    {
+      "title": "Data Coverage for Guided Fuzzing",
+      "authors": [
+        {
+          "name": "Mingzhe Wang",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Jie Liang",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Chijin Zhou",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Zhiyong Wu",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Jingzhou Fu",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Zhuo Su",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Qing Liao",
+          "institution": "Harbin Institute of Technology"
+        },
+        {
+          "name": "Bin Gu",
+          "institution": "Beijing Institute of Control Engineering"
+        },
+        {
+          "name": "Bodong Wu",
+          "institution": "Huawei Technologies Co., Ltd"
+        },
+        {
+          "name": "Yu Jiang",
+          "institution": "Tsinghua University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/wang-mingzhe"
+    },
+    {
+      "title": "Digital Discrimination of Users in Sanctioned States: The Case of the Cuba Embargo",
+      "authors": [
+        {
+          "name": "Anna Ablove",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "Shreyas Chandrashekaran",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "Hieu Le",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "Ram Sundara Raman",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "Harry Oppenheimer",
+          "institution": "Georgia Institute of Technology"
+        },
+        {
+          "name": "Roya Ensafi",
+          "institution": "University of Michigan"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/ablove"
+    },
+    {
+      "title": "Don't Listen To Me: Understanding and Exploring Jailbreak Prompts of Large Language Models",
+      "authors": [
+        {
+          "name": "Zhiyuan Yu",
+          "institution": "Washington University in St. Louis"
+        },
+        {
+          "name": "Xiaogeng Liu",
+          "institution": "University of Wisconsin, Madison"
+        },
+        {
+          "name": "Shunning Liang",
+          "institution": "Washington University in St. Louis"
+        },
+        {
+          "name": "Zach Cameron",
+          "institution": "John Burroughs School"
+        },
+        {
+          "name": "Chaowei Xiao",
+          "institution": "University of Wisconsin, Madison"
+        },
+        {
+          "name": "Ning Zhang",
+          "institution": "Washington University in St. Louis"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/yu-zhiyuan"
+    },
+    {
+      "title": "HYPERPILL: Fuzzing for Hypervisor-bugs by Leveraging the Hardware Virtualization Interface",
+      "authors": [
+        {
+          "name": "Alexander Bulekov",
+          "institution": "EPFL, Boston University, and Amazon"
+        },
+        {
+          "name": "Qiang Liu",
+          "institution": "EPFL and Zhejiang University"
+        },
+        {
+          "name": "Manuel Egele",
+          "institution": "Boston University"
+        },
+        {
+          "name": "Mathias Payer",
+          "institution": "EPFL"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/bulekov"
+    },
+    {
+      "title": "InSpectre Gadget: Inspecting the Residual Attack Surface of Cross-privilege Spectre v2",
+      "authors": [
+        {
+          "name": "Sander Wiebing",
+          "institution": "Vrije Universiteit Amsterdam"
+        },
+        {
+          "name": "Herbert Bos",
+          "institution": "Vrije Universiteit Amsterdam"
+        },
+        {
+          "name": "Cristiano Giuffrida",
+          "institution": "Vrije Universiteit Amsterdam"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/wiebing"
+    },
+    {
+      "title": "Learning with Semantics: Towards a Semantics-Aware Routing Anomaly Detection System",
+      "authors": [
+        {
+          "name": "Yihao Chen",
+          "institution": "Department of Computer Science and Technology & BNRist, Tsinghua University"
+        },
+        {
+          "name": "Qilei Yin",
+          "institution": "Zhongguancun Laboratory"
+        },
+        {
+          "name": "Qi Li",
+          "institution": "Institute for Network Sciences and Cyberspace, Tsinghua University"
+        },
+        {
+          "name": "Zhuotao Liu",
+          "institution": "Institute for Network Sciences and Cyberspace, Tsinghua University"
+        },
+        {
+          "name": "Ke Xu",
+          "institution": "Department of Computer Science and Technology, Tsinghua University"
+        },
+        {
+          "name": "Yi Xu",
+          "institution": "Institute for Network Sciences and Cyberspace, Tsinghua University"
+        },
+        {
+          "name": "Mingwei Xu",
+          "institution": "Institute for Network Sciences and Cyberspace, Tsinghua University"
+        },
+        {
+          "name": "Ziqian Liu",
+          "institution": "China Telecom"
+        },
+        {
+          "name": "Jianping Wu",
+          "institution": "Department of Computer Science and Technology, Tsinghua University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/chen-yihao"
+    },
+    {
+      "title": "Logic Gone Astray: A Security Analysis Framework for the Control Plane Protocols of 5G Basebands",
+      "authors": [
+        {
+          "name": "Kai Tu",
+          "institution": "Pennsylvania State University"
+        },
+        {
+          "name": "Abdullah Al Ishtiaq",
+          "institution": "Pennsylvania State University"
+        },
+        {
+          "name": "Syed Md Mukit Rashid",
+          "institution": "Pennsylvania State University"
+        },
+        {
+          "name": "Yilu Dong",
+          "institution": "Pennsylvania State University"
+        },
+        {
+          "name": "Weixuan Wang",
+          "institution": "Pennsylvania State University"
+        },
+        {
+          "name": "Tianwei Wu",
+          "institution": "Pennsylvania State University"
+        },
+        {
+          "name": "Syed Rafiul Hussain",
+          "institution": "Pennsylvania State University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/tu"
+    },
+    {
+      "title": "PURE: Payments with UWB RElay-protection",
+      "authors": [
+        {
+          "name": "Daniele Coppola",
+          "institution": "ETH Zurich"
+        },
+        {
+          "name": "Giovanni Camurati",
+          "institution": "ETH Zurich"
+        },
+        {
+          "name": "Claudio Anliker",
+          "institution": "ETH Zurich"
+        },
+        {
+          "name": "Xenia Hofmeier",
+          "institution": "ETH Zurich"
+        },
+        {
+          "name": "Patrick Schaller",
+          "institution": "ETH Zurich"
+        },
+        {
+          "name": "David Basin",
+          "institution": "ETH Zurich"
+        },
+        {
+          "name": "Srdjan Capkun",
+          "institution": "ETH Zurich"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/coppola"
+    },
+    {
+      "title": "Smudged Fingerprints: Characterizing and Improving the Performance of Web Application Fingerprinting",
+      "authors": [
+        {
+          "name": "Brian Kondracki",
+          "institution": "Stony Brook University"
+        },
+        {
+          "name": "Nick Nikiforakis",
+          "institution": "Stony Brook University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/kondracki"
+    },
+    {
+      "title": "Terrapin Attack: Breaking SSH Channel Integrity By Sequence Number Manipulation",
+      "authors": [
+        {
+          "name": "Fabian Bäumer",
+          "institution": "Ruhr University Bochum"
+        },
+        {
+          "name": "Marcus Brinkmann",
+          "institution": "Ruhr University Bochum"
+        },
+        {
+          "name": "Jörg Schwenk",
+          "institution": "Ruhr University Bochum"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/b%C3%A4umer"
+    },
+    {
+      "title": "Yes, One-Bit-Flip Matters! Universal DNN Model Inference Depletion with Runtime Code Fault Injection",
+      "authors": [
+        {
+          "name": "Xuemin",
+          "institution": "Sherman"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2024,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/li-shaofeng"
+    },
+    {
+      "title": "Alert Alchemy: SOC Workflows and Decisions in the Management of NIDS Rules",
+      "authors": [
+        {
+          "name": "Mathew Vermeer",
+          "institution": ""
+        },
+        {
+          "name": "Natalia Kadenko",
+          "institution": ""
+        },
+        {
+          "name": "Michel Van Eeten",
+          "institution": ""
+        },
+        {
+          "name": "Carlos Gañán",
+          "institution": ""
+        },
+        {
+          "name": "and Simon Parkin",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Amplification by Shuffling without Shuffling",
+      "authors": [
+        {
+          "name": "Borja Balle",
+          "institution": ""
+        },
+        {
+          "name": "James Bell",
+          "institution": ""
+        },
+        {
+          "name": "and Adria Gascon",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Batchman and Robin: Batched and Non-batched Branching for Interactive ZK",
+      "authors": [
+        {
+          "name": "Yibin Yang",
+          "institution": ""
+        },
+        {
+          "name": "David Heath",
+          "institution": ""
+        },
+        {
+          "name": "Vladimir Kolesnikov",
+          "institution": ""
+        },
+        {
+          "name": "and Muthuramakrishnan Venkitasubramaniam",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Capacity: Cryptographically-Enforced In-process Capabilities for Modern ARM Architectures",
+      "authors": [
+        {
+          "name": "Kha Dinh Duy",
+          "institution": ""
+        },
+        {
+          "name": "Kyuwon Cho",
+          "institution": ""
+        },
+        {
+          "name": "Taehyun Noh",
+          "institution": ""
+        },
+        {
+          "name": "and Hojoon Lee",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation",
+      "authors": [
+        {
+          "name": "Jianjia Yu",
+          "institution": ""
+        },
+        {
+          "name": "Song Li",
+          "institution": ""
+        },
+        {
+          "name": "Junmin Zhu",
+          "institution": ""
+        },
+        {
+          "name": "and Yinzhi Cao",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters",
+      "authors": [
+        {
+          "name": "Samuel Haney",
+          "institution": ""
+        },
+        {
+          "name": "Michael Shoemate",
+          "institution": ""
+        },
+        {
+          "name": "Grace Tian",
+          "institution": ""
+        },
+        {
+          "name": "Salil Vadhan",
+          "institution": ""
+        },
+        {
+          "name": "Andrew Vyrros",
+          "institution": ""
+        },
+        {
+          "name": "Vicki Xu",
+          "institution": ""
+        },
+        {
+          "name": "and Wanrong Zhang",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM",
+      "authors": [
+        {
+          "name": "Gilad Asharov",
+          "institution": ""
+        },
+        {
+          "name": "Ilan Komargodski",
+          "institution": ""
+        },
+        {
+          "name": "and Yehuda Michelson",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption",
+      "authors": [
+        {
+          "name": "Song Bian",
+          "institution": ""
+        },
+        {
+          "name": "Zhou Zhang",
+          "institution": ""
+        },
+        {
+          "name": "Haowen Pan",
+          "institution": ""
+        },
+        {
+          "name": "Ran Mao",
+          "institution": ""
+        },
+        {
+          "name": "Zian Zhao",
+          "institution": ""
+        },
+        {
+          "name": "Yier Jin",
+          "institution": ""
+        },
+        {
+          "name": "and Zhenyu Guan",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "How Hard is Takeover in DPoS Blockchains? Understanding the Security of Coin-based Voting Governance",
+      "authors": [
+        {
+          "name": "Chao Li",
+          "institution": ""
+        },
+        {
+          "name": "Balaji Palanisamy",
+          "institution": ""
+        },
+        {
+          "name": "Runhua Xu",
+          "institution": ""
+        },
+        {
+          "name": "Li Duan",
+          "institution": ""
+        },
+        {
+          "name": "Jiqiang Liu",
+          "institution": ""
+        },
+        {
+          "name": "and Wei Wang",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Large Language Models for Code: Security Hardening and Adversarial Testing",
+      "authors": [
+        {
+          "name": "Jingxuan He",
+          "institution": ""
+        },
+        {
+          "name": "Martin Vechev",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "PANIC: PAN-assisted Intra-process Memory Isolation on ARM",
+      "authors": [
+        {
+          "name": "Jiali Xu",
+          "institution": ""
+        },
+        {
+          "name": "Mengyao Xie",
+          "institution": ""
+        },
+        {
+          "name": "Chenggang Wu",
+          "institution": ""
+        },
+        {
+          "name": "Yinqian Zhang",
+          "institution": ""
+        },
+        {
+          "name": "Qijing Li",
+          "institution": ""
+        },
+        {
+          "name": "Xuan Huang",
+          "institution": ""
+        },
+        {
+          "name": "Yuanming Lai",
+          "institution": ""
+        },
+        {
+          "name": "Yan Kang",
+          "institution": ""
+        },
+        {
+          "name": "Wei Wang",
+          "institution": ""
+        },
+        {
+          "name": "Qiang Wei",
+          "institution": ""
+        },
+        {
+          "name": "and Zhe Wang",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Security Verification of Low-Trust Architectures",
+      "authors": [
+        {
+          "name": "Qinhan Tan",
+          "institution": ""
+        },
+        {
+          "name": "Yonathan Fisseha",
+          "institution": ""
+        },
+        {
+          "name": "Shibo Chen",
+          "institution": ""
+        },
+        {
+          "name": "Lauren Biernacki",
+          "institution": ""
+        },
+        {
+          "name": "Jean-Baptiste Jeannin",
+          "institution": ""
+        },
+        {
+          "name": "Sharad Malik",
+          "institution": ""
+        },
+        {
+          "name": "and Todd Austin",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Silence is not Golden: Disrupting the Load Balancing of Authoritative DNS Servers",
+      "authors": [
+        {
+          "name": "Fenglu Zhang",
+          "institution": ""
+        },
+        {
+          "name": "Baojun Liu",
+          "institution": ""
+        },
+        {
+          "name": "Eihal Alowaisheq",
+          "institution": ""
+        },
+        {
+          "name": "Jianjun Chen",
+          "institution": ""
+        },
+        {
+          "name": "Chaoyi Lu",
+          "institution": ""
+        },
+        {
+          "name": "Linjian Song",
+          "institution": ""
+        },
+        {
+          "name": "Yong Ma",
+          "institution": ""
+        },
+        {
+          "name": "Ying Liu",
+          "institution": ""
+        },
+        {
+          "name": "Haixin Duan",
+          "institution": ""
+        },
+        {
+          "name": "and Min Yang",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "SpecVerilog: Adapting Information Flow Control for Secure Speculation",
+      "authors": [
+        {
+          "name": "Drew Zagieboylo",
+          "institution": ""
+        },
+        {
+          "name": "Charles Sherk",
+          "institution": ""
+        },
+        {
+          "name": "Gookwon Edward Suh",
+          "institution": ""
+        },
+        {
+          "name": "and Andrew Myers",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts",
+      "authors": [
+        {
+          "name": "Zilong Wang",
+          "institution": ""
+        },
+        {
+          "name": "Gideon Mohr",
+          "institution": ""
+        },
+        {
+          "name": "Klaus Von Gleissenthall",
+          "institution": ""
+        },
+        {
+          "name": "Jan Reineke",
+          "institution": ""
+        },
+        {
+          "name": "and Marco Guarnieri",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Stealing the Decoding Algorithms of Language Models",
+      "authors": [
+        {
+          "name": "Ali Naseh",
+          "institution": ""
+        },
+        {
+          "name": "Kalpesh Krishna",
+          "institution": ""
+        },
+        {
+          "name": "Mohit Iyyer",
+          "institution": ""
+        },
+        {
+          "name": "and Amir Houmansadr",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Uncle Maker: (Time)Stamping Out The Competition in Ethereum",
+      "authors": [
+        {
+          "name": "Aviv Yaish",
+          "institution": ""
+        },
+        {
+          "name": "Gilad Stern",
+          "institution": ""
+        },
+        {
+          "name": "and Aviv Zohar",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Characterizing Everyday Misuse of Smart Home Devices",
+      "authors": [
+        {
+          "name": "Phoebe Moh",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Pubali Datta",
+          "institution": "University of Illinois Urbana-Champaign"
+        },
+        {
+          "name": "Noel Warford",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Adam Bates",
+          "institution": "University of Illinois Urbana-Champaign"
+        },
+        {
+          "name": "Nathan Malkin",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Michelle L. Mazurek",
+          "institution": "University of Maryland"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": "https://ieeexplore.ieee.org/document/10179476"
+    },
+    {
+      "title": "It's (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses",
+      "authors": [
+        {
+          "name": "Soheil Khodayari",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Giancarlo Pellegrino",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": "https://ieeexplore.ieee.org/document/10179403"
+    },
+    {
+      "title": "MEGA: Malleable Encryption Goes Awry",
+      "authors": [
+        {
+          "name": "Matilda Backendal",
+          "institution": "ETH Zurich"
+        },
+        {
+          "name": "Miro Haller",
+          "institution": "ETH Zurich"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": "https://eprint.iacr.org/2022/959"
+    },
+    {
+      "title": "Not Yet Another Digital ID: Privacy-preserving Humanitarian Aid Distribution",
+      "authors": [
+        {
+          "name": "Boya Wang",
+          "institution": "EPFL"
+        },
+        {
+          "name": "Wouter Lueks",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Justinas Sukaitis",
+          "institution": "ICRC"
+        },
+        {
+          "name": "Carmela Troncoso",
+          "institution": "EPFL"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2023/933600a645/1OXH55rpknm"
+    },
+    {
+      "title": "Practically-exploitable Cryptographic Vulnerabilities in Matrix",
+      "authors": [
+        {
+          "name": "Martin R. Albrecht",
+          "institution": "Royal Holloway, University of London"
+        },
+        {
+          "name": "Celi",
+          "institution": "Brave Software"
+        },
+        {
+          "name": "Benjamin Dowling",
+          "institution": "University of Sheffield"
+        },
+        {
+          "name": "Daniel Jones",
+          "institution": "Royal Holloway, University of London"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": "https://eprint.iacr.org/2023/485"
+    },
+    {
+      "title": "Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations",
+      "authors": [
+        {
+          "name": "Endres Puschner",
+          "institution": "Max Planck Institute for Security and Privacy"
+        },
+        {
+          "name": "Thorben Moos",
+          "institution": "UCLouvain"
+        },
+        {
+          "name": "Christian Kison",
+          "institution": "Bundeskriminalamt"
+        },
+        {
+          "name": "Steffen Becker",
+          "institution": "Ruhr University Bochum & Max Planck Institute for Security and Privacy"
+        },
+        {
+          "name": "Amir Moradi",
+          "institution": "Ruhr University Bochum"
+        },
+        {
+          "name": "Christof Paar",
+          "institution": "Max Planck Institute for Security and Privacy"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": "https://eprint.iacr.org/2022/1720"
+    },
+    {
+      "title": "Space Odyssey: An Experimental Software Security Analysis of Satellites",
+      "authors": [
+        {
+          "name": "Johannes Willbold",
+          "institution": "Ruhr-Universität Bochum"
+        },
+        {
+          "name": "Moritz Schloegel",
+          "institution": "Ruhr-Universität Bochum"
+        },
+        {
+          "name": "Maximilian Gerhardt",
+          "institution": "Ruhr-Universität Bochum"
+        },
+        {
+          "name": "Thorsten Holz",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Ali Abbasi",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": "https://publications.cispa.saarland/3934/"
+    },
+    {
+      "title": "The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web",
+      "authors": [
+        {
+          "name": "Jannis Rautenstrauch",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Giancarlo Pellegrino",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Ben Stock",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": "https://ieeexplore.ieee.org/document/10179311"
+    },
+    {
+      "title": "Typing High-Speed Cryptography against Spectre v1",
+      "authors": [
+        {
+          "name": "Basavesh Ammanaghatta Shivakumar",
+          "institution": "MPI-SP"
+        },
+        {
+          "name": "Gilles Barthe",
+          "institution": "MPI-SP and IMDEA Software Institute"
+        },
+        {
+          "name": "Tiago Oliviera",
+          "institution": "MPI-SP"
+        },
+        {
+          "name": "Swarn Priya",
+          "institution": "Inria and Université Côte d'Azur"
+        },
+        {
+          "name": "Peter Schwabe",
+          "institution": "MPI-SP & Radboud University"
+        },
+        {
+          "name": "Lucas Tabary-Maujean",
+          "institution": "ENS Paris-Saclay"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": "https://eprint.iacr.org/2022/1270"
+    },
+    {
+      "title": "WaVe: a verifiably secure WebAssembly sandboxing runtime",
+      "authors": [
+        {
+          "name": "Evan Johnson",
+          "institution": "University of California San Diego"
+        },
+        {
+          "name": "Evan Laufer",
+          "institution": "Stanford University"
+        },
+        {
+          "name": "Zijie Zhao",
+          "institution": "University of Illinois Urbana-Champaign"
+        },
+        {
+          "name": "Shravan Narayan",
+          "institution": "University of California San Diego"
+        },
+        {
+          "name": "Stefan Savage",
+          "institution": "University of California San Diego"
+        },
+        {
+          "name": "Deian Stefan",
+          "institution": "University of California San Diego"
+        },
+        {
+          "name": "Fraser Brown",
+          "institution": "Carnegie Mellon University"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": "https://ieeexplore.ieee.org/document/10179357"
+    },
+    {
+      "title": "Weak Fiat-Shamir Attacks on Modern Proof Systems",
+      "authors": [
+        {
+          "name": "Quang Dao",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Jim Miller",
+          "institution": "Trail of Bits"
+        },
+        {
+          "name": "Opal Wright",
+          "institution": "Trail of Bits"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": "https://eprint.iacr.org/2023/691"
+    },
+    {
+      "title": "“In Eighty Percent of the Cases, I Select the Password for Them”: Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya",
+      "authors": [
+        {
+          "name": "Collins W. Munyendo",
+          "institution": "The George Washington University"
+        },
+        {
+          "name": "Yasemin Acar",
+          "institution": "The George Washington University"
+        },
+        {
+          "name": "Adam J. Aviv",
+          "institution": "The George Washington University"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2023,
+      "award": "Best Paper",
+      "url": "https://ieeexplore.ieee.org/document/10179410"
+    },
+    {
+      "title": "DARWIN: Survival of the Fittest Fuzzing Mutators",
+      "authors": [
+        {
+          "name": "Patrick Jauernig",
+          "institution": "Technical University of Darmstadt"
+        },
+        {
+          "name": "Domagoj Jakobovic",
+          "institution": "University of Zagreb, Croatia"
+        },
+        {
+          "name": "Stjepan Picek",
+          "institution": "Radboud University and TU Delft"
+        },
+        {
+          "name": "Emmanuel Stapf",
+          "institution": "Technical University of Darmstadt"
+        },
+        {
+          "name": "Ahmad-Reza Sadeghi",
+          "institution": "Technical University of Darmstadt"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/darwin-survival-of-the-fittest-fuzzing-mutators/"
+    },
+    {
+      "title": "Your Router is My Prober: Measuring IPv6 Networks via ICMP Rate Limiting Side Channels",
+      "authors": [
+        {
+          "name": "Long Pan",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Jiahai Yang",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Lin He",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Zhiliang Wang",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Leyao Nie",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Guanglei Song",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Yaozhong Liu",
+          "institution": "Tsinghua University"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/your-router-is-my-prober-measuring-ipv6-networks-via-icmp-rate-limiting-side-channels/"
+    },
+    {
+      "title": "A Bug's Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs",
+      "authors": [
+        {
+          "name": "Gertjan Franken",
+          "institution": "imec-DistriNet, KU Leuven"
+        },
+        {
+          "name": "Lieven Desmet",
+          "institution": "imec-DistriNet, KU Leuven"
+        },
+        {
+          "name": "Wouter Joosen",
+          "institution": "imec-DistriNet, KU Leuven"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/franken"
+    },
+    {
+      "title": "A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords",
+      "authors": [
+        {
+          "name": "Alexandra Nisenoff",
+          "institution": "University of Chicago and Carnegie Mellon University"
+        },
+        {
+          "name": "Maximilian Golla",
+          "institution": "University of Chicago / Max Planck Institute for Security and Privacy"
+        },
+        {
+          "name": "Miranda Wei",
+          "institution": "University of Chicago / University of Washington"
+        },
+        {
+          "name": "Juliette Hainline",
+          "institution": "University of Chicago"
+        },
+        {
+          "name": "Hayley Szymanek",
+          "institution": "University of Chicago"
+        },
+        {
+          "name": "Annika Braun",
+          "institution": "University of Chicago"
+        },
+        {
+          "name": "Annika Hildebrandt",
+          "institution": "University of Chicago"
+        },
+        {
+          "name": "Blair Christensen",
+          "institution": "University of Chicago"
+        },
+        {
+          "name": "David Langenberg",
+          "institution": "University of Chicago"
+        },
+        {
+          "name": "Blase Ur",
+          "institution": "University of Chicago"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/nisenoff-retrospective"
+    },
+    {
+      "title": "Account Security Interfaces: Important, Unintuitive, and Untrustworthy",
+      "authors": [
+        {
+          "name": "Alaa Daffalla",
+          "institution": "Cornell University"
+        },
+        {
+          "name": "Marina Bohuk",
+          "institution": "Cornell University"
+        },
+        {
+          "name": "Nicola Dell",
+          "institution": "Jacobs Institute Cornell Tech"
+        },
+        {
+          "name": "Rosanna Bellini",
+          "institution": "Cornell University"
+        },
+        {
+          "name": "Thomas Ristenpart",
+          "institution": "Cornell Tech"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/daffalla"
+    },
+    {
+      "title": "An Efficient Design of Intelligent Network Data Plane",
+      "authors": [
+        {
+          "name": "Guangmeng Zhou",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Zhuotao Liu",
+          "institution": "Tsinghua University and Zhongguancun Laboratory"
+        },
+        {
+          "name": "Chuanpu Fu",
+          "institution": "Tsinghua University"
+        },
+        {
+          "name": "Qi Li",
+          "institution": "Tsinghua University and Zhongguancun Laboratory"
+        },
+        {
+          "name": "Ke Xu",
+          "institution": "Tsinghua University and Zhongguancun Laboratory"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/zhou-guangmeng"
+    },
+    {
+      "title": "Automated Analysis of Protocols that use Authenticated Encryption: How Subtle AEAD Differences can impact Protocol Security",
+      "authors": [
+        {
+          "name": "Cas Cremers",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Alexander Dax",
+          "institution": "CISPA Helmholtz Center for Information Security and Saarland University"
+        },
+        {
+          "name": "Charlie Jacomme",
+          "institution": "Inria Paris"
+        },
+        {
+          "name": "Mang Zhao",
+          "institution": "CISPA Helmholtz Center for Information Security and Saarland University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/cremers-protocols"
+    },
+    {
+      "title": "BotScreen: Trust Everybody, but Cut the Aimbots Yourself",
+      "authors": [
+        {
+          "name": "Minyeop Choi",
+          "institution": "KAIST"
+        },
+        {
+          "name": "Gihyuk Ko",
+          "institution": "Cyber Security Research Center at KAIST and Carnegie Mellon University"
+        },
+        {
+          "name": "Sang Kil Cha",
+          "institution": "KAIST"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/choi"
+    },
+    {
+      "title": "Bug Hunters’ Perspectives on the Challenges and Benefits of the Bug Bounty Ecosystem",
+      "authors": [
+        {
+          "name": "Omer Akgul",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Taha Eghtesad",
+          "institution": "Pennsylvania State University"
+        },
+        {
+          "name": "Omprakash Gnawali",
+          "institution": "University of Houston"
+        },
+        {
+          "name": "Jens Grossklags",
+          "institution": "Technical University of Munich"
+        },
+        {
+          "name": "Michelle L. Mazurek",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Daniel Votipka",
+          "institution": "Tufts University"
+        },
+        {
+          "name": "Aron Laszka",
+          "institution": "Pennsylvania State University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/akgul"
+    },
+    {
+      "title": "Don’t be Dense: Efficient Keyword PIR for Sparse Databases",
+      "authors": [
+        {
+          "name": "Sarvar Patel",
+          "institution": "Google"
+        },
+        {
+          "name": "Joon Young Seo",
+          "institution": "Google"
+        },
+        {
+          "name": "Kevin Yeo",
+          "institution": "Google and Columbia University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/patel"
+    },
+    {
+      "title": "Ethical Frameworks and Computer Security Trolley Problems: Foundations for Conversations",
+      "authors": [
+        {
+          "name": "Tadayoshi Kohno",
+          "institution": "University of Washington"
+        },
+        {
+          "name": "Yasemin Acar",
+          "institution": "Paderborn University and George Washington University"
+        },
+        {
+          "name": "Wulf Loh",
+          "institution": "Universität Tübingen"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/kohno"
+    },
+    {
+      "title": "Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households",
+      "authors": [
+        {
+          "name": "Wael Albayaydh",
+          "institution": "University of Oxford"
+        },
+        {
+          "name": "Ivan Flechais",
+          "institution": "University of Oxford"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/albayaydh"
+    },
+    {
+      "title": "Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge",
+      "authors": [
+        {
+          "name": "Nils Bars",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Moritz Schloegel",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Tobias Scharnowski",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Nico Schiller",
+          "institution": "Ruhr-Universität Bochum"
+        },
+        {
+          "name": "Thorsten Holz",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/bars"
+    },
+    {
+      "title": "Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models",
+      "authors": [
+        {
+          "name": "Shawn Shan",
+          "institution": "University of Chicago"
+        },
+        {
+          "name": "Jenna Cryan",
+          "institution": "University of Chicago"
+        },
+        {
+          "name": "Emily Wenger",
+          "institution": "University of Chicago"
+        },
+        {
+          "name": "Haitao Zheng",
+          "institution": "University of Chicago"
+        },
+        {
+          "name": "Rana Hanocka",
+          "institution": "University of Chicago"
+        },
+        {
+          "name": "Ben Y. Zhao",
+          "institution": "University of Chicago"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/shan"
+    },
+    {
+      "title": "Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses",
+      "authors": [
+        {
+          "name": "Cas Cremers",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Alexander Dax",
+          "institution": "CISPA Helmholtz Center for Information Security and Saarland University"
+        },
+        {
+          "name": "Lucca Hirschi",
+          "institution": "Université de Lorraine, Inria, CNRS, France"
+        },
+        {
+          "name": "Charlie Jacomme",
+          "institution": "Inria Paris"
+        },
+        {
+          "name": "Steve Kremer",
+          "institution": "Université de Lorraine, LORIA, Inria Nancy Grand-Est"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/cheval"
+    },
+    {
+      "title": "Remote Direct Memory Introspection",
+      "authors": [
+        {
+          "name": "Hongyi Liu",
+          "institution": "Rice University"
+        },
+        {
+          "name": "Jiarong Xing",
+          "institution": "Rice University"
+        },
+        {
+          "name": "Yibo Huang",
+          "institution": "Rice University"
+        },
+        {
+          "name": "Danyang Zhuo",
+          "institution": "Duke University"
+        },
+        {
+          "name": "Srinivas Devadas",
+          "institution": "Massachusetts Institute of Technology"
+        },
+        {
+          "name": "Ang Chen",
+          "institution": "Rice University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/liu-hongyi"
+    },
+    {
+      "title": "Tight Auditing of Differentially Private Machine Learning",
+      "authors": [
+        {
+          "name": "Milad Nasr",
+          "institution": "Google DeepMind"
+        },
+        {
+          "name": "Jamie Hayes",
+          "institution": "Google DeepMind"
+        },
+        {
+          "name": "Thomas Steinke",
+          "institution": "Google DeepMind"
+        },
+        {
+          "name": "Borja Balle",
+          "institution": "DeepMind"
+        },
+        {
+          "name": "Florian Tramèr",
+          "institution": "ETH Zurich"
+        },
+        {
+          "name": "Matthew Jagielski",
+          "institution": "Google DeepMind"
+        },
+        {
+          "name": "Nicholas Carlini",
+          "institution": "Google DeepMind"
+        },
+        {
+          "name": "Andreas Terzis",
+          "institution": "Google DeepMind"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/nasr"
+    },
+    {
+      "title": "TreeSync: Authenticated Group Management for Messaging Layer Security",
+      "authors": [
+        {
+          "name": "Théophile Wallez",
+          "institution": "Inria Paris"
+        },
+        {
+          "name": "Jonathan Protzenko",
+          "institution": "Microsoft Research"
+        },
+        {
+          "name": "Benjamin Beurdouche",
+          "institution": "Mozilla"
+        },
+        {
+          "name": "Karthikeyan Bhargavan",
+          "institution": "Inria Paris"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2023,
+      "award": "Distinguished Paper",
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/wallez"
+    },
+    {
+      "title": "Automatic Detection of Speculative Execution Combinations",
+      "authors": [
+        {
+          "name": "Xaver Fabian",
+          "institution": ""
+        },
+        {
+          "name": "Marco Patrignani",
+          "institution": ""
+        },
+        {
+          "name": "Marco Guarnieri",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2022,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Proving UNSAT in Zero Knowledge",
+      "authors": [
+        {
+          "name": "Ning Luo",
+          "institution": ""
+        },
+        {
+          "name": "Timos Antonopoulos",
+          "institution": ""
+        },
+        {
+          "name": "William Harris",
+          "institution": ""
+        },
+        {
+          "name": "Ruzica Piskac",
+          "institution": ""
+        },
+        {
+          "name": "Eran Tromer",
+          "institution": ""
+        },
+        {
+          "name": "Xiao Wang",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2022,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "STAR: Secret Sharing for Private Threshold Aggregation Reporting",
+      "authors": [
+        {
+          "name": "Alex Davidson",
+          "institution": ""
+        },
+        {
+          "name": "Peter Snyder",
+          "institution": ""
+        },
+        {
+          "name": "E. B. Quirk",
+          "institution": ""
+        },
+        {
+          "name": "Joseph Genereux",
+          "institution": ""
+        },
+        {
+          "name": "Hamed Haddadi",
+          "institution": ""
+        },
+        {
+          "name": "Benjamin Livshits",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2022,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Victory by KO: Attacking OpenPGP Using Key Overwriting",
+      "authors": [
+        {
+          "name": "Kenny Paterson",
+          "institution": ""
+        },
+        {
+          "name": "Lara Bruseghini",
+          "institution": ""
+        },
+        {
+          "name": "Daniel Huigens",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2022,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Zapper: Smart Contracts with Data and Identity Privacy",
+      "authors": [
+        {
+          "name": "Samuel Steffen",
+          "institution": ""
+        },
+        {
+          "name": "Benjamin Bichsel",
+          "institution": ""
+        },
+        {
+          "name": "Martin Vechev",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2022,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
+      "authors": [
+        {
+          "name": "Ramesh Karri",
+          "institution": "NYU Tandon School of Engineering"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2022,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects",
+      "authors": [
+        {
+          "name": "Dominik Wermke",
+          "institution": "CISPA"
+        },
+        {
+          "name": "Noah Woehler",
+          "institution": "CISPA"
+        },
+        {
+          "name": "Jan H. Klemmer",
+          "institution": "Leibniz University Hannover"
+        },
+        {
+          "name": "Yasemin Acar",
+          "institution": "George Washington University"
+        },
+        {
+          "name": "Sascha Fahl",
+          "institution": "CISPA, Leibniz University Hannover"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2022,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Four Attacks and a Proof for Telegram",
+      "authors": [
+        {
+          "name": "Martin R. Albrecht",
+          "institution": "Royal Holloway, University of London"
+        },
+        {
+          "name": "Igors Stepanovs",
+          "institution": "ETH Zurich"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2022,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices",
+      "authors": [
+        {
+          "name": "Haoqi Shan",
+          "institution": "University of Florida"
+        },
+        {
+          "name": "Boyi Zhang",
+          "institution": "University of Florida"
+        },
+        {
+          "name": "Zihao Zhan",
+          "institution": "University of Florida"
+        },
+        {
+          "name": "Dean Sullivan",
+          "institution": "University of New Hampshire"
+        },
+        {
+          "name": "Shuo Wang",
+          "institution": "University of Florida"
+        },
+        {
+          "name": "Yier Jin",
+          "institution": "University of Florida"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2022,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Preventing Kernel Hacks with HAKCs",
+      "authors": [
+        {
+          "name": "Derrick McKee",
+          "institution": "Purdue University"
+        },
+        {
+          "name": "Yianni Giannaris",
+          "institution": "MIT CSAIL"
+        },
+        {
+          "name": "Carolina Ortega",
+          "institution": "MIT CSAIL"
+        },
+        {
+          "name": "Howard Shrobe",
+          "institution": "MIT CSAIL"
+        },
+        {
+          "name": "Mathias Payer",
+          "institution": "EPFL"
+        },
+        {
+          "name": "Hamed Okhravi",
+          "institution": "MIT Lincoln Laboratory"
+        },
+        {
+          "name": "Nathan Burow",
+          "institution": "MIT Lincoln Laboratory"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2022,
+      "award": "Distinguished Paper",
+      "url": "https://www.ndss-symposium.org/ndss-paper/auto-draft-257/"
+    },
+    {
+      "title": "An Audit of Facebook's Political Ad Policy Enforcement",
+      "authors": [
+        {
+          "name": "Victor Le Pochat",
+          "institution": "imec-DistriNet, KU Leuven"
+        },
+        {
+          "name": "Laura Edelson",
+          "institution": "New York University"
+        },
+        {
+          "name": "Wouter Joosen",
+          "institution": "imec-DistriNet, KU Leuven"
+        },
+        {
+          "name": "Damon McCoy",
+          "institution": "New York University"
+        },
+        {
+          "name": "Tobias Lauinger",
+          "institution": "New York University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2022,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Attacks on Deidentification's Defenses",
+      "authors": [
+        {
+          "name": "Aloni Cohen",
+          "institution": ""
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2022,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Augmenting Decompiler Output with Learned Variable Names and Types",
+      "authors": [
+        {
+          "name": "Qibin Chen",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Jeremy Lacomis",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Edward J. Schwartz",
+          "institution": "Carnegie Mellon University Software Engineering Institute"
+        },
+        {
+          "name": "Claire Le Goues",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Graham Neubig",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Bogdan Vasilescu",
+          "institution": "Carnegie Mellon University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2022,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Dos and Don'ts of Machine Learning in Computer Security",
+      "authors": [
+        {
+          "name": "Daniel Arp",
+          "institution": "Technische Universität Berlin"
+        },
+        {
+          "name": "Erwin Quiring",
+          "institution": "Technische Universität Braunschweig"
+        },
+        {
+          "name": "Feargus Pendlebury",
+          "institution": "King's College London and Royal Holloway, University of London and The Alan Turing Institute"
+        },
+        {
+          "name": "Alexander Warnecke",
+          "institution": "Technische Universität Braunschweig"
+        },
+        {
+          "name": "Fabio Pierazzi",
+          "institution": "King's College London"
+        },
+        {
+          "name": "Christian Wressnegger",
+          "institution": "KASTEL Security Research Labs and Karlsruhe Institute of Technology"
+        },
+        {
+          "name": "Lorenzo Cavallaro",
+          "institution": "University College London"
+        },
+        {
+          "name": "Konrad Rieck",
+          "institution": "Technische Universität Braunschweig"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2022,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing",
+      "authors": [
+        {
+          "name": "Zenong Zhang",
+          "institution": "University of Texas at Dallas"
+        },
+        {
+          "name": "Zach Patterson",
+          "institution": "University of Texas at Dallas"
+        },
+        {
+          "name": "Michael Hicks",
+          "institution": "University of Maryland and Amazon"
+        },
+        {
+          "name": "Shiyi Wei",
+          "institution": "University of Texas at Dallas"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2022,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Faster Yet Safer: Logging System Via Fixed-Key Blockcipher",
+      "authors": [
+        {
+          "name": "Viet Tung Hoang",
+          "institution": "Florida State University"
+        },
+        {
+          "name": "Cong Wu",
+          "institution": "Florida State University"
+        },
+        {
+          "name": "Xin Yuan",
+          "institution": "Florida State University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2022,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Identity Confusion in WebView-based Mobile App-in-app Ecosystems",
+      "authors": [
+        {
+          "name": "Lei Zhang",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Zhibo Zhang",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Ancong Liu",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Yinzhi Cao",
+          "institution": "Johns Hopkins University"
+        },
+        {
+          "name": "Xiaohan Zhang",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Yanjun Chen",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Yuan Zhang",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Guangliang Yang",
+          "institution": "Fudan University"
+        },
+        {
+          "name": "Min Yang",
+          "institution": "Fudan University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2022,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World",
+      "authors": [
+        {
+          "name": "Rob Jansen",
+          "institution": "U.S. Naval Research Laboratory"
+        },
+        {
+          "name": "Carmela Troncoso",
+          "institution": "EPFL SPRING Lab"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2022,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "OpenVPN is Open to VPN Fingerprinting",
+      "authors": [
+        {
+          "name": "Diwen Xue",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "Arham Jain",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "Michalis Kallitsis",
+          "institution": "Merit Network, Inc."
+        },
+        {
+          "name": "J. Alex Halderman",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "Jedidiah R. Crandall",
+          "institution": "Arizona State University/Breakpointing Bad"
+        },
+        {
+          "name": "Roya Ensafi",
+          "institution": "University of Michigan"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2022,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Private Signaling",
+      "authors": [
+        {
+          "name": "Varun Madathil",
+          "institution": "North Carolina State University"
+        },
+        {
+          "name": "Alessandra Scafuro",
+          "institution": "North Carolina State University"
+        },
+        {
+          "name": "István András Seres",
+          "institution": "Eötvös Loránd University"
+        },
+        {
+          "name": "Omer Shlomovits",
+          "institution": "ZenGo X"
+        },
+        {
+          "name": "Denis Varlakov",
+          "institution": "ZenGo X"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2022,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Provably-Safe Multilingual Software Sandboxing using WebAssembly",
+      "authors": [
+        {
+          "name": "Jay Bosamiya",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Wen Shih Lim",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Bryan Parno",
+          "institution": "Carnegie Mellon University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2022,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "The Antrim County 2020 Election Incident: An Independent Forensic Investigation",
+      "authors": [
+        {
+          "name": "J. Alex Halderman",
+          "institution": ""
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2022,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "On the (In)Security of ElGamal in OpenPGP",
+      "authors": [
+        {
+          "name": "Alessandro Sorniotti",
+          "institution": "IBM Research Europe - Zurich"
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2021,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "On the Renyi Differential Privacy of the Shuffle Model",
+      "authors": [
+        {
+          "name": "Suhas Diggavi",
+          "institution": "University of California Los Angeles"
+        },
+        {
+          "name": "Peter Kairouz",
+          "institution": "Google Research"
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2021,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "One Glitch to Rule Them All: Fault Injection Attacks Against AMD's Secure Encrypted Virtualization",
+      "authors": [
+        {
+          "name": "Thilo Krachenfels",
+          "institution": "Technische UniversitätBerlin - SECT"
+        },
+        {
+          "name": "Jean-Pierre Seifert",
+          "institution": "Technische Universität Berlin - SECT & Fraunhofer SIT"
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2021,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "V-Shuttle: Scalable and Semantics-Aware Hypervisor Virtual Device Fuzzing",
+      "authors": [
+        {
+          "name": "Gaoning Pan",
+          "institution": "Zhejiang University & Ant Group"
+        },
+        {
+          "name": "Xingwei Lin",
+          "institution": "Ant Group"
+        },
+        {
+          "name": "Xuhong Zhang",
+          "institution": "Zhejiang University & Binjiang Institute of Zhejiang University"
+        },
+        {
+          "name": "Yongkang Jia",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Shouling Ji",
+          "institution": "Zhejiang University & Binjiang Institute of Zhejiang University"
+        },
+        {
+          "name": "Chunming Wu",
+          "institution": "Zhejiang University"
+        },
+        {
+          "name": "Xinlei Ying",
+          "institution": "Ant Group"
+        },
+        {
+          "name": "Jiashui Wang",
+          "institution": "Ant Group"
+        },
+        {
+          "name": "Yanjun Wu",
+          "institution": "Institute of Software, Chinese Academy of Sciences"
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2021,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "XSinator.com: From a Formal Model to the Automatic Evaluation of Cross-Site Leaks in Web Browsers",
+      "authors": [
+        {
+          "name": "Christian Mainka",
+          "institution": "Ruhr University Bochum"
+        },
+        {
+          "name": "Marcus Niemietz",
+          "institution": "Niederrhein University of Applied Sciences"
+        },
+        {
+          "name": "Schwenk",
+          "institution": "Ruhr University Bochum"
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2021,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Compositional Security for Reentrant Applications",
+      "authors": [
+        {
+          "name": "Siqiu Yao",
+          "institution": "Cornell University"
+        },
+        {
+          "name": "Haobin Ni",
+          "institution": "Cornell University"
+        },
+        {
+          "name": "Andrew C. Myers",
+          "institution": "Cornell University"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2021,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Hardware-Software Contracts for Secure Speculation",
+      "authors": [
+        {
+          "name": "Marco Guarnieri",
+          "institution": "IMDEA Software Institute"
+        },
+        {
+          "name": "Jan Reineke",
+          "institution": "Saarland University"
+        },
+        {
+          "name": "Pepe Vila",
+          "institution": "IMDEA Software Institute"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2021,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Awakening the Web’s Sleeper Agents: Misusing Service Workers for Privacy Leakage",
+      "authors": [
+        {
+          "name": "Jason Polakis",
+          "institution": "University of Illinois at Chicago"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2021,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "An Analysis of Speculative Type Confusion Vulnerabilities in the Wild",
+      "authors": [
+        {
+          "name": "Ofek Kirzner",
+          "institution": "Tel Aviv University"
+        },
+        {
+          "name": "Adam Morrison",
+          "institution": "Tel Aviv University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2021,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "It's stressful having all these phones: Investigating Sex Workers' Safety Goals, Risks, and Practices Online",
+      "authors": [
+        {
+          "name": "Allison McDonald",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "Catherine Barwulor",
+          "institution": "Clemson University"
+        },
+        {
+          "name": "Michelle L. Mazurek",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Florian Schaub",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "Elissa M. Redmiles",
+          "institution": "Max Planck Institute for Software Systems"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2021,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Poisoning the Unlabeled Dataset of Semi-Supervised Learning",
+      "authors": [
+        {
+          "name": "Nicholas Carlini",
+          "institution": ""
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2021,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks",
+      "authors": [
+        {
+          "name": "Hany Ragab",
+          "institution": "Vrije Universiteit Amsterdam"
+        },
+        {
+          "name": "Enrico Barberis",
+          "institution": "Vrije Universiteit Amsterdam"
+        },
+        {
+          "name": "Herbert Bos",
+          "institution": "VU Amsterdam"
+        },
+        {
+          "name": "Cristiano Giuffrida",
+          "institution": "VU Amsterdam"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2021,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Weaponizing Middleboxes for TCP Reﬂected Ampliﬁcation",
+      "authors": [
+        {
+          "name": "Kevin Bock",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Abdulrahman Alaraj",
+          "institution": "University of Colorado Boulder"
+        },
+        {
+          "name": "Yair Fax",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Kyle Hurley",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Eric Wustrow",
+          "institution": "University of Colorado Boulder"
+        },
+        {
+          "name": "Dave Levin",
+          "institution": "University of Maryland"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2021,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Why wouldn't someone think of democracy as a target?: Security practices & challenges of people involved with U.S. political campaigns",
+      "authors": [
+        {
+          "name": "Sunny Consolvo",
+          "institution": "Google"
+        },
+        {
+          "name": "Patrick Gage Kelley",
+          "institution": "Google"
+        },
+        {
+          "name": "Tara Matthews",
+          "institution": "Google"
+        },
+        {
+          "name": "Kurt Thomas",
+          "institution": "Google"
+        },
+        {
+          "name": "Lee Dunn",
+          "institution": "Google"
+        },
+        {
+          "name": "Elie Bursztein",
+          "institution": "Google"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2021,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion",
+      "authors": [
+        {
+          "name": "Roei Schuster",
+          "institution": "Tel Aviv University and Cornell Tech"
+        },
+        {
+          "name": "Congzheng Song",
+          "institution": "Cornell University"
+        },
+        {
+          "name": "Eran Tromer",
+          "institution": "Tel Aviv University and Columbia University"
+        },
+        {
+          "name": "Vitaly Shmatikov",
+          "institution": "Cornell Tech"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2021,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "DNS Cache Poisoning Attack Reloaded: Revolutions with Side Channels",
+      "authors": [
+        {
+          "name": "Keyu Man",
+          "institution": ""
+        },
+        {
+          "name": "Zhiyun Qian",
+          "institution": ""
+        },
+        {
+          "name": "Zhongjie Wang",
+          "institution": ""
+        },
+        {
+          "name": "Xiaofeng Zheng",
+          "institution": ""
+        },
+        {
+          "name": "Youjun Huang",
+          "institution": ""
+        },
+        {
+          "name": "Haixin Duan",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2020,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "TRRespass: Exploiting the Many Sides of Target Row Refresh",
+      "authors": [
+        {
+          "name": "Pietro Frigo",
+          "institution": "Vrije Universiteit Amsterdam"
+        },
+        {
+          "name": "Emanuele Vannacci",
+          "institution": "Vrije Universiteit Amsterdam"
+        },
+        {
+          "name": "Hasan Hassan",
+          "institution": "ETH Zürich"
+        },
+        {
+          "name": "Victor van der Veen",
+          "institution": "Qualcomm Technologies, Inc."
+        },
+        {
+          "name": "Onur Mutlu",
+          "institution": "ETH Zürich"
+        },
+        {
+          "name": "Cristiano Giuffrida",
+          "institution": "Vrije Universiteit Amsterdam"
+        },
+        {
+          "name": "Herbert Bos",
+          "institution": "Vrije Universiteit Amsterdam"
+        },
+        {
+          "name": "Kaveh Razavi",
+          "institution": "Vrije Universiteit Amsterdam"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2020,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Melting Pot of Origins: Compromising the Intermediary Web Services that Rehost Websites",
+      "authors": [
+        {
+          "name": "Takuya Watanabe",
+          "institution": ""
+        },
+        {
+          "name": "Eitaro Shioji",
+          "institution": ""
+        },
+        {
+          "name": "Tatsuya Mori",
+          "institution": ""
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2020,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "A Comprehensive Quality Evaluation of Security and Privacy Advice on the Web",
+      "authors": [
+        {
+          "name": "Elissa M. Redmiles",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Noel Warford",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Amritha Jayanti",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Aravind Koneru",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Sean Kross",
+          "institution": "University of California, San Diego"
+        },
+        {
+          "name": "Miraida Morales",
+          "institution": "Rutgers University"
+        },
+        {
+          "name": "Rock Stevens",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Michelle L. Mazurek",
+          "institution": "University of Maryland"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2020,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Composition Kills: A Case Study of Email Sender Authentication",
+      "authors": [
+        {
+          "name": "Jianjun Chen",
+          "institution": "International Computer Science Institute"
+        },
+        {
+          "name": "Vern Paxson",
+          "institution": "University of California Berkeley and International Computer Science Institute"
+        },
+        {
+          "name": "Jian Jiang",
+          "institution": "Shape Security"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2020,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Datalog Disassembly",
+      "authors": [
+        {
+          "name": "Antonio Flores-Montoya",
+          "institution": "GrammaTech Inc."
+        },
+        {
+          "name": "Eric Schulte",
+          "institution": "GrammaTech Inc."
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2020,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Pancake: Frequency Smoothing for Encrypted Data Stores",
+      "authors": [
+        {
+          "name": "Anurag Khandelwal",
+          "institution": "Yale University"
+        },
+        {
+          "name": "Marie-Sarah Lacharité",
+          "institution": "Royal Holloway, University of London"
+        },
+        {
+          "name": "Lloyd Brown",
+          "institution": "University of California, Berkeley"
+        },
+        {
+          "name": "Lucy Li",
+          "institution": "Cornell Tech"
+        },
+        {
+          "name": "Rachit Agarwal",
+          "institution": "Cornell University"
+        },
+        {
+          "name": "Thomas Ristenpart",
+          "institution": "Cornell Tech"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2020,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Retroﬁtting Fine Grain Isolation in the Firefox Renderer",
+      "authors": [
+        {
+          "name": "Shravan Narayan",
+          "institution": "UC San Diego"
+        },
+        {
+          "name": "Craig Disselkoen",
+          "institution": "UC San Diego"
+        },
+        {
+          "name": "Tal Garﬁnkel",
+          "institution": "Stanford University"
+        },
+        {
+          "name": "Nathan Froyd",
+          "institution": "Mozilla"
+        },
+        {
+          "name": "Eric Rahm",
+          "institution": "Mozilla"
+        },
+        {
+          "name": "Sorin Lerner",
+          "institution": "UC San Diego"
+        },
+        {
+          "name": "Hovav Shacham",
+          "institution": "UT Austin"
+        },
+        {
+          "name": "Deian Stefan",
+          "institution": "UC San Diego"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2020,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Sunrise to Sunset: Analyzing the End-to-end Life Cycle and Effectiveness of Phishing Attacks at Scale",
+      "authors": [
+        {
+          "name": "Adam Oest",
+          "institution": "Arizona State University"
+        },
+        {
+          "name": "Penghui Zhang",
+          "institution": "Arizona State University"
+        },
+        {
+          "name": "Brad Wardman",
+          "institution": "PayPal"
+        },
+        {
+          "name": "Eric Nunes",
+          "institution": "PayPal"
+        },
+        {
+          "name": "Jakub Burgis",
+          "institution": "PayPal"
+        },
+        {
+          "name": "Ali Zand",
+          "institution": "Google"
+        },
+        {
+          "name": "Kurt Thomas",
+          "institution": "Google"
+        },
+        {
+          "name": "Adam Doupé",
+          "institution": "Arizona State University"
+        },
+        {
+          "name": "Gail-Joon Ahn",
+          "institution": "Arizona State University, Samsung Research"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2020,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Symbolic execution with SymCC: Don't interpret, compile!",
+      "authors": [
+        {
+          "name": "Sebastian Poeplau",
+          "institution": "EURECOM"
+        },
+        {
+          "name": "Aurélien Francillon",
+          "institution": "EURECOM"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2020,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "The Tools and Tactics Used in Intimate Partner Surveillance: An Analysis of Online Inﬁdelity Forums",
+      "authors": [
+        {
+          "name": "Emily Tseng",
+          "institution": "Cornell University"
+        },
+        {
+          "name": "Rosanna Bellini",
+          "institution": "Open Lab, Newcastle University"
+        },
+        {
+          "name": "Nora McDonald",
+          "institution": "University of Maryland, Baltimore County"
+        },
+        {
+          "name": "Matan Danos",
+          "institution": "Weizmann Institute of Science"
+        },
+        {
+          "name": "Rachel Greenstadt",
+          "institution": "New York University"
+        },
+        {
+          "name": "Damon McCoy",
+          "institution": "New York University"
+        },
+        {
+          "name": "Nicola Dell",
+          "institution": "Cornell Tech"
+        },
+        {
+          "name": "Thomas Ristenpart",
+          "institution": "Cornell Tech"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2020,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "The Unpatchable Silicon: A Full Break of the Bitstream Encryption of Xilinx 7-Series FPGAs",
+      "authors": [
+        {
+          "name": "Maik Ender",
+          "institution": "Horst Goertz Institute for IT Security, Ruhr University Bochum, Germany"
+        },
+        {
+          "name": "Amir Moradi",
+          "institution": "Horst Goertz Institute for IT Security, Ruhr University Bochum, Germany"
+        },
+        {
+          "name": "Christof Paar",
+          "institution": "Max Planck Institute for Cyber Security and Privacy and Horst Goertz Institute for IT Security, Ruhr University Bochum, Germany"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2020,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Understanding security mistakes developers make: Qualitative analysis from Build It, Break It, Fix It",
+      "authors": [
+        {
+          "name": "Daniel Votipka",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Kelsey R. Fulton",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "James Parker",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Matthew Hou",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Michelle L. Mazurek",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Michael Hicks",
+          "institution": "University of Maryland"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2020,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Who's Calling? Characterizing Robocalls through Audio and Metadata Analysis",
+      "authors": [
+        {
+          "name": "Sathvik Prasad",
+          "institution": "North Carolina State University"
+        },
+        {
+          "name": "Elijah Bouma-Sims",
+          "institution": "North Carolina State University"
+        },
+        {
+          "name": "Athishay Kiran Mylappan",
+          "institution": "North Carolina State University"
+        },
+        {
+          "name": "Bradley Reaves",
+          "institution": "North Carolina State University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2020,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Where Does It Go? Refining Indirect-Call Targets with Multi-layer Type Analysis",
+      "authors": [
+        {
+          "name": "Kangjie Lu",
+          "institution": ""
+        },
+        {
+          "name": "Hong Hu",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2019,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Spectre Attacks: Exploiting Speculative Execution",
+      "authors": [
+        {
+          "name": "Paul Kocher",
+          "institution": "Independent (www.paulkocher.com"
+        },
+        {
+          "name": "Jann Horn",
+          "institution": "Google Project Zero"
+        },
+        {
+          "name": "Anders Fogh",
+          "institution": "G DATA Advanced Analytics"
+        },
+        {
+          "name": "Daniel Genkin",
+          "institution": "University of Pennsylvania and University of Maryland"
+        },
+        {
+          "name": "Daniel Gruss",
+          "institution": "Graz University of Technology"
+        },
+        {
+          "name": "Werner Haas",
+          "institution": "Cyberus Technology"
+        },
+        {
+          "name": "Mike Hamburg",
+          "institution": "Rambus, Cryptography Research Division"
+        },
+        {
+          "name": "Moritz Lipp",
+          "institution": "Graz University of Technology"
+        },
+        {
+          "name": "Stefan Mangard",
+          "institution": "Graz University of Technology"
+        },
+        {
+          "name": "Thomas Prescher",
+          "institution": "Cyberus Technology"
+        },
+        {
+          "name": "Michael Schwarz",
+          "institution": "Graz University of Technology"
+        },
+        {
+          "name": "Yuval Yarom",
+          "institution": "University of Adelaide and Data61"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2019,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Cleaning Up the Internet of Evil Things: Real-World Evidence on ISP and Consumer Efforts to Remove Mirai",
+      "authors": [
+        {
+          "name": "Orcun Cetin",
+          "institution": "Delft University of Technology"
+        },
+        {
+          "name": "Carlos Ganan",
+          "institution": "Delft University of Technology"
+        },
+        {
+          "name": "Lisette Altena",
+          "institution": "Delft University of Technology"
+        },
+        {
+          "name": "Takahiro Kasama",
+          "institution": "National Institute of Information and Communications Technology"
+        },
+        {
+          "name": "Daisuke Inoue",
+          "institution": "National Institute of Information and Communications Technology"
+        },
+        {
+          "name": "Kazuki Tamiya",
+          "institution": "Yokohama National University"
+        },
+        {
+          "name": "Ying Tie",
+          "institution": "Yokohama National University"
+        },
+        {
+          "name": "Katsunari Yoshioka",
+          "institution": "Yokohama National University"
+        },
+        {
+          "name": "Michel van Eeten",
+          "institution": "Delft University of Technology"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2019,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Cracking the Wall of Confinement: Understanding and Analyzing Malicious Domain Take-downs",
+      "authors": [
+        {
+          "name": "Eihal Alowaisheq",
+          "institution": "Indiana University, King Saud University"
+        },
+        {
+          "name": "Peng Wang",
+          "institution": "Indiana University"
+        },
+        {
+          "name": "Sumayah Alrwais",
+          "institution": "King Saud University"
+        },
+        {
+          "name": "Xiaojing Liao",
+          "institution": "Indiana University"
+        },
+        {
+          "name": "XiaoFeng Wang",
+          "institution": "Indiana University"
+        },
+        {
+          "name": "Tasneem Alowaisheq",
+          "institution": "Indiana University, King Saud University"
+        },
+        {
+          "name": "Xianghang Mi",
+          "institution": "Indiana University"
+        },
+        {
+          "name": "Siyuan Tang",
+          "institution": "Indiana University"
+        },
+        {
+          "name": "Baojun Liu",
+          "institution": "Tsinghua University"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2019,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Establishing Software Root of Trust Unconditionally",
+      "authors": [
+        {
+          "name": "Virgil D. Gligor",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Maverick S. L. Woo",
+          "institution": "Carnegie Mellon University"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2019,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "MBeacon: Privacy-Preserving Beacons for DNA Methylation Data",
+      "authors": [
+        {
+          "name": "Inken Hagestedt",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Yang Zhang",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Mathias Humbert",
+          "institution": "Swiss Data Science Center, ETH Zurich/EPFL"
+        },
+        {
+          "name": "Pascal Berrang",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        },
+        {
+          "name": "Haixu Tang",
+          "institution": "Indiana University Bloomington"
+        },
+        {
+          "name": "XiaoFeng Wang",
+          "institution": "Indiana University Bloomington"
+        },
+        {
+          "name": "Michael Backes",
+          "institution": "CISPA Helmholtz Center for Information Security"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2019,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "50 Ways to Leak Your Data: An Exploration of Apps' Circumvention of the Android Permissions System",
+      "authors": [
+        {
+          "name": "Joel Reardon",
+          "institution": "University of Calgary / AppCensus Inc."
+        },
+        {
+          "name": "Álvaro Feal",
+          "institution": "IMDEA Networks Institute / Universidad Carlos III Madrid"
+        },
+        {
+          "name": "Primal Wijesekera",
+          "institution": "U.C. Berkeley / ICSI"
+        },
+        {
+          "name": "Narseo Vallina-Rodriguez",
+          "institution": "IMDEA Networks Institute / ICSI / AppCensus Inc."
+        },
+        {
+          "name": "Serge Egelman",
+          "institution": "U.C. Berkeley / ICSI / AppCensus Inc."
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2019,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Computer Security and Privacy in the Interactions Between Victim Service Providers and Human Trafﬁcking Survivors",
+      "authors": [
+        {
+          "name": "Christine Chen",
+          "institution": "University of Washington"
+        },
+        {
+          "name": "Nicola Dell",
+          "institution": "Cornell Tech"
+        },
+        {
+          "name": "Franziska Roesner",
+          "institution": "University of Washington"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2019,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Detecting and Characterizing Lateral Phishing at Scale",
+      "authors": [
+        {
+          "name": "Grant Ho",
+          "institution": "UC Berkeley and Barracuda Networks"
+        },
+        {
+          "name": "Asaf Cidon",
+          "institution": "Barracuda Networks and Columbia University"
+        },
+        {
+          "name": "Lior Gavish",
+          "institution": "Barracuda Networks"
+        },
+        {
+          "name": "Marco Schweighauser",
+          "institution": "Barracuda Networks"
+        },
+        {
+          "name": "Vern Paxson",
+          "institution": "UC Berkeley and ICSI"
+        },
+        {
+          "name": "Stefan Savage",
+          "institution": "UC San Diego"
+        },
+        {
+          "name": "Geoffrey M. Voelker",
+          "institution": "UC San Diego"
+        },
+        {
+          "name": "David Wagner",
+          "institution": "UC Berkeley"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2019,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "ERIM: Secure, Efﬁcient In-process Isolation with Protection Keys (MPK)",
+      "authors": [
+        {
+          "name": "Anjo Vahldiek-Oberwagner",
+          "institution": "Max Planck Institute for Software Systems, Saarland Informatics Campus"
+        },
+        {
+          "name": "Eslam Elnikety",
+          "institution": "Max Planck Institute for Software Systems, Saarland Informatics Campus"
+        },
+        {
+          "name": "Nuno O. Duarte",
+          "institution": "Max Planck Institute for Software Systems, Saarland Informatics Campus"
+        },
+        {
+          "name": "Michael Sammler",
+          "institution": "Max Planck Institute for Software Systems, Saarland Informatics Campus"
+        },
+        {
+          "name": "Peter Druschel",
+          "institution": "Max Planck Institute for Software Systems, Saarland Informatics Campus"
+        },
+        {
+          "name": "Deepak Garg",
+          "institution": "Max Planck Institute for Software Systems, Saarland Informatics Campus"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2019,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Protecting accounts from credential stufﬁng with password breach alerting",
+      "authors": [
+        {
+          "name": "Kurt Thomas",
+          "institution": "Google"
+        },
+        {
+          "name": "Jennifer Pullman",
+          "institution": "Google"
+        },
+        {
+          "name": "Kevin Yeo",
+          "institution": "Google"
+        },
+        {
+          "name": "Ananth Raghunathan",
+          "institution": "Google"
+        },
+        {
+          "name": "Patrick Gage Kelley",
+          "institution": "Google"
+        },
+        {
+          "name": "Luca Invernizzi",
+          "institution": "Google"
+        },
+        {
+          "name": "Borbala Benko",
+          "institution": "Google"
+        },
+        {
+          "name": "Tadek Pietraszek",
+          "institution": "Google"
+        },
+        {
+          "name": "Sarvar Patel",
+          "institution": "Google"
+        },
+        {
+          "name": "Dan Boneh",
+          "institution": "Stanford"
+        },
+        {
+          "name": "Elie Bursztein",
+          "institution": "Google"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2019,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Users Really Do Answer Telephone Scams",
+      "authors": [
+        {
+          "name": "Huahong Tu",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Adam Doupé",
+          "institution": "Arizona State University"
+        },
+        {
+          "name": "Ziming Zhao",
+          "institution": "Rochester Institute of Technology"
+        },
+        {
+          "name": "Gail-Joon Ahn",
+          "institution": "Arizona State University and Samsung Research"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2019,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "LEMNA: Explaining Deep Learning based Security Applications",
+      "authors": [
+        {
+          "name": "Wenbo Guo",
+          "institution": ""
+        },
+        {
+          "name": "Dongliang Mu",
+          "institution": ""
+        },
+        {
+          "name": "Jun Xu",
+          "institution": ""
+        },
+        {
+          "name": "Purui Su",
+          "institution": ""
+        },
+        {
+          "name": "Gang Wang",
+          "institution": ""
+        },
+        {
+          "name": "Xinyu Xing",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2018,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Toward Detecting Violations of Differential Privacy",
+      "authors": [
+        {
+          "name": "Ding Ding",
+          "institution": ""
+        },
+        {
+          "name": "Yuxin Wang",
+          "institution": ""
+        },
+        {
+          "name": "Guanhong Wang",
+          "institution": ""
+        },
+        {
+          "name": "Danfeng Zhang",
+          "institution": ""
+        },
+        {
+          "name": "Daniel Kifer",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2018,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "DEEPSEC: Deciding Equivalence Properties in Security Protocols -- Theory and Practice",
+      "authors": [
+        {
+          "name": "Steve Kremer",
+          "institution": "Inria Nancy & Loria"
+        },
+        {
+          "name": "Itsaka Rakotonirina",
+          "institution": "Inria Nancy & Loria"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2018,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "On Enforcing the Digital Immunity of a Large Humanitarian Organization",
+      "authors": [
+        {
+          "name": "Stevens Le Blond",
+          "institution": "École Polytechnique Fédérale de Lausanne"
+        },
+        {
+          "name": "Alejandro Cuevas",
+          "institution": "École Polytechnique Fédérale de Lausanne"
+        },
+        {
+          "name": "Troncoso-Pastoriza",
+          "institution": "École Polytechnique Fédérale de Lausanne"
+        },
+        {
+          "name": "Philipp Jovanovic",
+          "institution": "École Polytechnique Fédérale de Lausanne"
+        },
+        {
+          "name": "Bryan Ford",
+          "institution": "École Polytechnique Fédérale de Lausanne"
+        },
+        {
+          "name": "Jean-Pierre Hubaux",
+          "institution": "École Polytechnique Fédérale de Lausanne"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2018,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Knock Knock, Who’s There? Membership Inference on Aggregate Location Data",
+      "authors": [
+        {
+          "name": "Apostolos Pyrgelis",
+          "institution": "UCL"
+        },
+        {
+          "name": "Carmela Troncoso",
+          "institution": "EPFL"
+        },
+        {
+          "name": "Emiliano De Cristofaro",
+          "institution": "UCL"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2018,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Resolving the Predicament of Android Custom Permissions",
+      "authors": [
+        {
+          "name": "Carl Gunter",
+          "institution": "UIUC"
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2018,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Fear the Reaper: Characterization and Fast Detection of Card Skimmers",
+      "authors": [
+        {
+          "name": "Nolen Scaife",
+          "institution": "University of Florida"
+        },
+        {
+          "name": "Christian Peeters",
+          "institution": "University of Florida"
+        },
+        {
+          "name": "Patrick Traynor",
+          "institution": "University of Florida"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2018,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "NAVEX: Precise and Scalable Exploit Generation for Dynamic Web Applications",
+      "authors": [
+        {
+          "name": "Abeer Alhuzali",
+          "institution": "University of Illinois at Chicago"
+        },
+        {
+          "name": "Rigel Gjomemo",
+          "institution": "University of Illinois at Chicago"
+        },
+        {
+          "name": "Birhanu Eshete",
+          "institution": "University of Illinois at Chicago"
+        },
+        {
+          "name": "V.N. Venkatakrishnan",
+          "institution": "University of Illinois at Chicago"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2018,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "QSYM : A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing",
+      "authors": [
+        {
+          "name": "Insu Yun",
+          "institution": "Georgia Institute of Technology"
+        },
+        {
+          "name": "Sangho Lee",
+          "institution": "Georgia Institute of Technology"
+        },
+        {
+          "name": "Meng Xu",
+          "institution": "Georgia Institute of Technology"
+        },
+        {
+          "name": "Yeongjin Jang",
+          "institution": "Oregon State University"
+        },
+        {
+          "name": "Taesoo Kim",
+          "institution": "Georgia Institute of Technology"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2018,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "The Battle for New York: A Case Study of Applied Digital Threat Modeling at the Enterprise Level",
+      "authors": [
+        {
+          "name": "Rock Stevens",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Daniel Votipka",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Elissa M. Redmiles",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Colin Ahern",
+          "institution": "NYC Cyber Command"
+        },
+        {
+          "name": "Patrick Sweeney",
+          "institution": "Wake Forest University"
+        },
+        {
+          "name": "Michelle L. Mazurek",
+          "institution": "University of Maryland"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2018,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Who Left Open the Cookie Jar? A Comprehensive Evaluation of Third-Party Cookie Policies",
+      "authors": [
+        {
+          "name": "Gertjan Franken",
+          "institution": "imec-Distrinet, KU Leuven"
+        },
+        {
+          "name": "Wouter Joosen",
+          "institution": "imec-Distrinet, KU Leuven"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2018,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "A Formal Foundation for Secure Remote Execution of Enclaves",
+      "authors": [
+        {
+          "name": "Pramod Subramanyan",
+          "institution": ""
+        },
+        {
+          "name": "Rohit Sinha",
+          "institution": ""
+        },
+        {
+          "name": "Ilia Lebedev",
+          "institution": ""
+        },
+        {
+          "name": "Srinivas Devadas",
+          "institution": ""
+        },
+        {
+          "name": "Sanjit Seshia",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2017,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Authenticated Garbling and Efficient Maliciously Secure Two-Party Computation",
+      "authors": [
+        {
+          "name": "Xiao Wang",
+          "institution": ""
+        },
+        {
+          "name": "Samuel Ranellucci",
+          "institution": ""
+        },
+        {
+          "name": "Jonathan Katz",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2017,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Better Bounds for Block Cipher Modes of Operation via Nonce-Based Key Derivation",
+      "authors": [
+        {
+          "name": "Shay Gueron",
+          "institution": ""
+        },
+        {
+          "name": "Yehuda Lindell",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2017,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "DolphinAttack: Inaudible Voice Commands",
+      "authors": [
+        {
+          "name": "Guoming Zhang",
+          "institution": ""
+        },
+        {
+          "name": "Chen Yan",
+          "institution": ""
+        },
+        {
+          "name": "Xiaoyu Ji",
+          "institution": ""
+        },
+        {
+          "name": "Tianchen Zhang",
+          "institution": ""
+        },
+        {
+          "name": "Taimin Zhang",
+          "institution": ""
+        },
+        {
+          "name": "Wenyuan Xu",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2017,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Scaling ORAM for Secure Computation",
+      "authors": [
+        {
+          "name": "Jack Doerner",
+          "institution": ""
+        },
+        {
+          "name": "Abhi Shelat",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2017,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Veriﬁed Models and Reference Implementations for the TLS 1.3 Standard Candidate",
+      "authors": [
+        {
+          "name": "Karthikeyan Bhargavan",
+          "institution": "INRIA"
+        },
+        {
+          "name": "Bruno Blanchet",
+          "institution": "INRIA"
+        },
+        {
+          "name": "Nadim Kobeissi",
+          "institution": "INRIA"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2017,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Dial One for Scam: A Large-Scale Analysis of Technical Support Scams",
+      "authors": [
+        {
+          "name": "Najmeh Miramirkhani",
+          "institution": ""
+        },
+        {
+          "name": "Oleksii Starov",
+          "institution": ""
+        },
+        {
+          "name": "Nick Nikiforakis",
+          "institution": ""
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2017,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Ramblr: Making Reassembly Great Again",
+      "authors": [
+        {
+          "name": "Ruoyu Wang",
+          "institution": ""
+        },
+        {
+          "name": "Yan Shoshitaishvili",
+          "institution": ""
+        },
+        {
+          "name": "Antonio Bianchi",
+          "institution": ""
+        },
+        {
+          "name": "Aravind Machiry",
+          "institution": ""
+        },
+        {
+          "name": "John Grosen",
+          "institution": ""
+        },
+        {
+          "name": "Paul Grosen",
+          "institution": ""
+        },
+        {
+          "name": "Christopher Kruegel",
+          "institution": ""
+        },
+        {
+          "name": "Giovanni Vigna",
+          "institution": ""
+        }
+      ],
+      "venue": "NDSS",
+      "year": 2017,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "A Longitudinal, End-to-End View of the DNSSEC Ecosystem",
+      "authors": [
+        {
+          "name": "Taejoong Chung",
+          "institution": "Northeastern University"
+        },
+        {
+          "name": "Balakrishnan Chandrasekaran",
+          "institution": "TU Berlin"
+        },
+        {
+          "name": "David Choffnes",
+          "institution": "Northeastern University"
+        },
+        {
+          "name": "Dave Levin",
+          "institution": "University of Maryland"
+        },
+        {
+          "name": "Bruce M. Maggs",
+          "institution": "Duke University and Akamai Technologies"
+        },
+        {
+          "name": "Alan Mislove",
+          "institution": "Northeastern University"
+        },
+        {
+          "name": "Christo Wilson",
+          "institution": "Northeastern University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2017,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "CLKSCREW: Exposing the Perils of Security-Oblivious Energy Management",
+      "authors": [
+        {
+          "name": "Adrian Tang",
+          "institution": "Columbia University"
+        },
+        {
+          "name": "Salvatore Stolfo",
+          "institution": "Columbia University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2017,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Detecting Credential Spearphishing in Enterprise Settings",
+      "authors": [
+        {
+          "name": "Grant Ho",
+          "institution": "UC Berkeley"
+        },
+        {
+          "name": "Aashish Sharma",
+          "institution": "The Lawrence Berkeley National Labratory"
+        },
+        {
+          "name": "Mobin Javed",
+          "institution": "UC Berkeley"
+        },
+        {
+          "name": "Vern Paxson",
+          "institution": "UC Berkeley and ICSI"
+        },
+        {
+          "name": "David Wagner",
+          "institution": "UC Berkeley"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2017,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Loophole: Timing Attacks on Shared Event Loops in Chrome",
+      "authors": [
+        {
+          "name": "Pepe Vila",
+          "institution": "IMDEA Software Institute & Technical University of Madrid (UPM)"
+        },
+        {
+          "name": "Boris Köpf",
+          "institution": "IMDEA Software Institute"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2017,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "MPI: Multiple Perspective Attack Investigation with Semantic Aware Execution Partitioning",
+      "authors": [
+        {
+          "name": "Shiqing Ma",
+          "institution": "Purdue University"
+        },
+        {
+          "name": "Juan Zhai",
+          "institution": "Nanjing University"
+        },
+        {
+          "name": "Fei Wang",
+          "institution": "Purdue University"
+        },
+        {
+          "name": "Kyu Hyung Lee",
+          "institution": "University of Georgia"
+        },
+        {
+          "name": "Xiangyu Zhang",
+          "institution": "Purdue University"
+        },
+        {
+          "name": "Dongyan Xu",
+          "institution": "Purdue University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2017,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Vale: Verifying High-Performance Cryptographic Assembly Code",
+      "authors": [
+        {
+          "name": "Barry Bond",
+          "institution": "Microsoft Research"
+        },
+        {
+          "name": "Chris Hawblitzel",
+          "institution": "Microsoft Research"
+        },
+        {
+          "name": "Manos Kapritsos",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "K. Rustan M. Leino",
+          "institution": "Microsoft Research"
+        },
+        {
+          "name": "Jacob R. Lorch",
+          "institution": "Microsoft Research"
+        },
+        {
+          "name": "Bryan Parno",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Ashay Rane",
+          "institution": "The University of Texas at Austin"
+        },
+        {
+          "name": "Srinath Setty",
+          "institution": "Microsoft Research"
+        },
+        {
+          "name": "Laure Thompson",
+          "institution": "Cornell University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2017,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "A Surfeit of SSH Cipher Suites",
+      "authors": [
+        {
+          "name": "Martin R. Albrecht",
+          "institution": ""
+        },
+        {
+          "name": "Jean Paul Degabriele",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2016,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "A Systematic Analysis of the Juniper Dual EC Incident",
+      "authors": [
+        {
+          "name": "Stephen Checkoway",
+          "institution": ""
+        },
+        {
+          "name": "Jacob Mankiewicz",
+          "institution": ""
+        },
+        {
+          "name": "Christina Garman",
+          "institution": ""
+        },
+        {
+          "name": "Joshua Fried",
+          "institution": ""
+        },
+        {
+          "name": "Shaanan Cohney",
+          "institution": ""
+        },
+        {
+          "name": "Matthew Green",
+          "institution": ""
+        },
+        {
+          "name": "Nadia Heninger",
+          "institution": ""
+        },
+        {
+          "name": "Ralf-Philipp Weinmann",
+          "institution": ""
+        },
+        {
+          "name": "Eric Rescorla",
+          "institution": ""
+        },
+        {
+          "name": "and Hovav Shacham",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2016,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "High-Throughput Semi-Honest Secure Three-Party Computation with an Honest Majority",
+      "authors": [
+        {
+          "name": "Toshinori Araki",
+          "institution": ""
+        },
+        {
+          "name": "Jun Furukawa",
+          "institution": ""
+        },
+        {
+          "name": "Yehuda Lindell",
+          "institution": ""
+        },
+        {
+          "name": "Ariel Nof",
+          "institution": ""
+        },
+        {
+          "name": "Kazuma Ohara",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2016,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "A2: Analog Malicious Hardware",
+      "authors": [
+        {
+          "name": "Dennis Sylvester",
+          "institution": "University of Michigan"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2016,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Fast, Lean, and Accurate: Modeling Password Guessability Using Neural Networks",
+      "authors": [
+        {
+          "name": "William Melicher",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Blase Ur",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Sean M. Segreti",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Saranga Komanduri",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Lujo Bauer",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Nicolas Christin",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Lorrie Faith Cranor",
+          "institution": "Carnegie Mellon University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2016,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "The Million-Key Question—Investigating the Origins of RSA Public Keys",
+      "authors": [
+        {
+          "name": "Petr Švenda",
+          "institution": "Masaryk University"
+        },
+        {
+          "name": "Matúš Nemec",
+          "institution": "Masaryk University"
+        },
+        {
+          "name": "Peter Sekan",
+          "institution": "Masaryk University"
+        },
+        {
+          "name": "Rudolf Kvašňovský",
+          "institution": "Masaryk University"
+        },
+        {
+          "name": "David Formánek",
+          "institution": "Masaryk University"
+        },
+        {
+          "name": "David Komárek",
+          "institution": "Masaryk University"
+        },
+        {
+          "name": "Vashek Matyáš",
+          "institution": "Masaryk University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2016,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "ZKBoo: Faster Zero-Knowledge for Boolean Circuits",
+      "authors": [
+        {
+          "name": "Irene Giacomelli",
+          "institution": "Aarhus University"
+        },
+        {
+          "name": "Jesper Madsen",
+          "institution": "Aarhus University"
+        },
+        {
+          "name": "Claudio Orlandi",
+          "institution": "Aarhus University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2016,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Automated Analysis And Synthesis Of Authenticated Encryption Schemes",
+      "authors": [
+        {
+          "name": "Viet Tung Hoang",
+          "institution": ""
+        },
+        {
+          "name": "Jonathan Katz",
+          "institution": ""
+        },
+        {
+          "name": "Alex J. Malozemoff",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2015,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Guitar: Piecing Together Android App GUIs From Memory Images",
+      "authors": [
+        {
+          "name": "Brendan Saltaformaggio",
+          "institution": ""
+        },
+        {
+          "name": "Rohit Bhatia",
+          "institution": ""
+        },
+        {
+          "name": "Zhongshu Gu",
+          "institution": ""
+        },
+        {
+          "name": "Xiangyu Zhang",
+          "institution": ""
+        },
+        {
+          "name": "Dongyan Xu",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2015,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Imperfect Forward Secrecy: How Diffie-Hellman Fails In Practice",
+      "authors": [
+        {
+          "name": "David Adrian",
+          "institution": ""
+        },
+        {
+          "name": "Karthikeyan Bhargavan",
+          "institution": ""
+        },
+        {
+          "name": "Zakir Durumeric",
+          "institution": ""
+        },
+        {
+          "name": "Pierrick Gaudry",
+          "institution": ""
+        },
+        {
+          "name": "Mathew Green",
+          "institution": ""
+        },
+        {
+          "name": "J. Alex Halderman",
+          "institution": ""
+        },
+        {
+          "name": "Nadia Heninger",
+          "institution": ""
+        },
+        {
+          "name": "Drew Springall",
+          "institution": ""
+        },
+        {
+          "name": "Emmanuel Thomé",
+          "institution": ""
+        },
+        {
+          "name": "Luke Valenta",
+          "institution": ""
+        },
+        {
+          "name": "Benjamin Vandersloot",
+          "institution": ""
+        },
+        {
+          "name": "Eric Wustrow",
+          "institution": ""
+        },
+        {
+          "name": "Santiago Zanella-Béquelin",
+          "institution": ""
+        },
+        {
+          "name": "and Paul Zimmerman",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2015,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "A Messy State of the Union: Taming the Composite State Machines of TLS",
+      "authors": [
+        {
+          "name": "Benjamin Beurdouche",
+          "institution": "INRIA"
+        },
+        {
+          "name": "Karthikeyan Bhargavan",
+          "institution": "INRIA"
+        },
+        {
+          "name": "Antoine Delignat-Lavaud",
+          "institution": "INRIA"
+        },
+        {
+          "name": "Fournet",
+          "institution": "Microsoft Research"
+        },
+        {
+          "name": "Markulf Kohlweiss",
+          "institution": "Microsoft Research"
+        },
+        {
+          "name": "Alfredo Pironti",
+          "institution": "INRIA"
+        },
+        {
+          "name": "Jean Karim Zinzindohoue",
+          "institution": "INRIA"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2015,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Riposte: An Anonymous Messaging System Handling Millions of Users",
+      "authors": [
+        {
+          "name": "Henry Corrigan-Gibbs",
+          "institution": "Stanford University"
+        },
+        {
+          "name": "Dan Boneh",
+          "institution": "Stanford University"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2015,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "All Your Biases Belong to Us: Breaking RC4 in WPA-TKIP and TLS",
+      "authors": [
+        {
+          "name": "Mathy Vanhoef",
+          "institution": "Katholieke Universiteit Leuven"
+        },
+        {
+          "name": "Frank Piessens",
+          "institution": "Katholieke Universiteit Leuven"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2015,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Under-Constrained Symbolic Execution: Correctness Checking for Real Code",
+      "authors": [
+        {
+          "name": "David A. Ramos",
+          "institution": "Stanford University"
+        },
+        {
+          "name": "Dawson Engler",
+          "institution": "Stanford University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2015,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Code Reuse Attacks in PHP: Automated POP Chain Generation",
+      "authors": [
+        {
+          "name": "Johannes Dahse",
+          "institution": ""
+        },
+        {
+          "name": "Nikolai Krein",
+          "institution": ""
+        },
+        {
+          "name": "Thorsten Holz",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2014,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Multi-ciphersuite security of the Secure Shell (SSH) protocol",
+      "authors": [
+        {
+          "name": "Florian Bergsma",
+          "institution": ""
+        },
+        {
+          "name": "Benjamin Dowling",
+          "institution": ""
+        },
+        {
+          "name": "Florian Kohlar",
+          "institution": ""
+        },
+        {
+          "name": "Jörg Schwenk",
+          "institution": ""
+        },
+        {
+          "name": "Douglas Stebila",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2014,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Private-by-Design Advertising Meets the Real World Alexey Reznichenko and Paul Francis",
+      "authors": [
+        {
+          "name": "Alexey Reznichenko",
+          "institution": ""
+        },
+        {
+          "name": "Paul Francis",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2014,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Secure Multiparty Computations on Bitcoin",
+      "authors": [
+        {
+          "name": "Marcin Andrychowicz",
+          "institution": "University of Warsaw"
+        },
+        {
+          "name": "Stefan Dziembowski",
+          "institution": "University of Warsaw and Sapienza University of Rome"
+        },
+        {
+          "name": "Mazurek",
+          "institution": "University of Warsaw"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2014,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Automatically Detecting Vulnerable Websites Before They Turn Malicious",
+      "authors": [
+        {
+          "name": "Kyle Soska",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Nicolas Christin",
+          "institution": "Carnegie Mellon University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2014,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "DSCRETE: Automatic Rendering of Forensic Information from Memory Images via Application Logic Reuse",
+      "authors": [
+        {
+          "name": "Brendan Saltaformaggio",
+          "institution": "Purdue University"
+        },
+        {
+          "name": "Zhongshu Gu",
+          "institution": "Purdue University"
+        },
+        {
+          "name": "Xiangyu Zhang",
+          "institution": "Purdue University"
+        },
+        {
+          "name": "Dongyan Xu",
+          "institution": "Purdue University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2014,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Privacy in Pharmacogenetics: An End-to-End Case Study of Personalized Warfarin Dosing",
+      "authors": [
+        {
+          "name": "Matthew Fredrikson",
+          "institution": "University of Wisconsin—Madison"
+        },
+        {
+          "name": "Eric Lantz",
+          "institution": "University of Wisconsin—Madison"
+        },
+        {
+          "name": "Somesh Jha",
+          "institution": "University of WisconsinMadison"
+        },
+        {
+          "name": "Simon Lin",
+          "institution": "Marshﬁeld Clinic Research Foundation"
+        },
+        {
+          "name": "David Page",
+          "institution": "University of Wisconsin—Madison"
+        },
+        {
+          "name": "Thomas Ristenpart",
+          "institution": "University of Wisconsin—Madison"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2014,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "FANCI: Identification of Stealthy Malicious Logic Using Boolean Functional Analysis",
+      "authors": [
+        {
+          "name": "Adam Waksman",
+          "institution": ""
+        },
+        {
+          "name": "Matthew Suozzo",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2013,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Path ORAM: An Extremely Simple Oblivious RAM Protocol",
+      "authors": [
+        {
+          "name": "Emil Stefanov",
+          "institution": ""
+        },
+        {
+          "name": "Christopher Fletcher",
+          "institution": ""
+        },
+        {
+          "name": "Ling Ren",
+          "institution": ""
+        },
+        {
+          "name": "and Xiangyao Yu",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2013,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Security Analysis of Integrated Circuit Camouflaging",
+      "authors": [
+        {
+          "name": "eyavijayan Rajendran",
+          "institution": ""
+        },
+        {
+          "name": "Michael Sam",
+          "institution": ""
+        }
+      ],
+      "venue": "ACM CCS",
+      "year": 2013,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Pinocchio: Nearly Practical Veriﬁable Computation",
+      "authors": [
+        {
+          "name": "Bryan Parno",
+          "institution": ""
+        },
+        {
+          "name": "Craig Gentry",
+          "institution": ""
+        },
+        {
+          "name": "Jon Howell",
+          "institution": ""
+        },
+        {
+          "name": "and Mariana Raykova",
+          "institution": ""
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2013,
+      "award": "Best Paper",
+      "url": ""
+    },
+    {
+      "title": "Control Flow Integrity for COTS Binaries",
+      "authors": [
+        {
+          "name": "Mingwei Zhang",
+          "institution": "Stony Brook University"
+        },
+        {
+          "name": "R. Sekar",
+          "institution": "Stony Brook University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2013,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Securing Computer Hardware Using 3D Integrated Circuit (IC) Technology and Split Manufacturing for Obfuscation",
+      "authors": [
+        {
+          "name": "Frank Imeson",
+          "institution": "University of Waterloo"
+        },
+        {
+          "name": "Ariq Emtenan",
+          "institution": "University of Waterloo"
+        },
+        {
+          "name": "Siddharth Garg",
+          "institution": "University of Waterloo"
+        },
+        {
+          "name": "Mahesh Tripunitara",
+          "institution": "University of Waterloo"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2013,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Mining Your Ps and Qs: Detection of Widespread Weak Keys in Network Devices",
+      "authors": [
+        {
+          "name": "Nadia Heninger",
+          "institution": "University of California, San Diego"
+        },
+        {
+          "name": "Zakir Durumeric",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "Eric Wustrow",
+          "institution": "University of Michigan"
+        },
+        {
+          "name": "J. Alex Halderman",
+          "institution": "University of Michigan"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2012,
+      "award": "Distinguished Paper",
+      "url": ""
+    },
+    {
+      "title": "Social Networking with Frientegrity: Privacy and Integrity with an Untrusted Provider",
+      "authors": [
+        {
+          "name": "Ariel J. Feldman",
+          "institution": "Princeton University"
+        },
+        {
+          "name": "Aaron Blankstein",
+          "institution": "Princeton University"
+        },
+        {
+          "name": "Michael J. Freedman",
+          "institution": "Princeton University"
+        },
+        {
+          "name": "Edward W. Felten",
+          "institution": "Princeton University"
+        }
+      ],
+      "venue": "USENIX Security",
+      "year": 2012,
+      "award": "Distinguished Paper",
+      "url": ""
+    }
+  ]
+}

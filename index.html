@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distinguished Security Papers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="text-white py-4 mb-4">
+        <div class="container">
+            <h1 class="display-5">Distinguished Security Papers</h1>
+            <p class="lead mb-0">Award-winning papers from top computer security conferences</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Filters -->
+        <section class="mb-4">
+            <h2 class="section-title">Papers</h2>
+
+            <!-- Venue filter -->
+            <div class="mb-3">
+                <label class="form-label fw-semibold">Filter by Venue</label>
+                <div class="btn-group flex-wrap" role="group" aria-label="Filter by venue">
+                    <button type="button" class="btn btn-outline-primary active" data-venue="all">All Venues</button>
+                    <button type="button" class="btn btn-outline-primary" data-venue="IEEE S&P">IEEE S&P</button>
+                    <button type="button" class="btn btn-outline-primary" data-venue="ACM CCS">ACM CCS</button>
+                    <button type="button" class="btn btn-outline-primary" data-venue="USENIX Security">USENIX Security</button>
+                    <button type="button" class="btn btn-outline-primary" data-venue="NDSS">NDSS</button>
+                </div>
+            </div>
+
+            <!-- Year range slider -->
+            <div class="mb-3">
+                <label class="form-label fw-semibold">Filter by Year</label>
+                <div class="year-slider-container">
+                    <div class="year-slider-labels">
+                        <span id="year-label-from">2012</span>
+                        <span class="year-slider-separator">—</span>
+                        <span id="year-label-to">2025</span>
+                        <button type="button" id="reset-years" class="btn btn-outline-secondary btn-sm ms-3">Reset</button>
+                    </div>
+                    <div class="range-slider">
+                        <div class="range-track"></div>
+                        <div class="range-selected" id="range-selected"></div>
+                        <input type="range" id="year-slider-from" min="2012" max="2025" value="2012">
+                        <input type="range" id="year-slider-to" min="2012" max="2025" value="2025">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Papers container -->
+        <div id="papers-container">
+            <p class="text-muted">Loading papers...</p>
+        </div>
+    </main>
+
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center text-muted">
+            <p class="mb-1">
+                Data source: <a href="https://github.com/prncoprs/best-papers-in-computer-security" target="_blank">prncoprs/best-papers-in-computer-security</a>
+            </p>
+            <p class="mb-0">
+                Inspired by <a href="https://oaklandsok.github.io/" target="_blank">oaklandsok.github.io</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
