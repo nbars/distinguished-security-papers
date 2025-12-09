@@ -904,27 +904,6 @@
       "url": "https://doi.org/10.1109/SP61157.2025.00089"
     },
     {
-      "title": "CoBBL: Dynamic Constraint Generation for SNARKs",
-      "authors": [
-        {
-          "name": "Kunming Jiang",
-          "institution": "Carnegie Mellon University"
-        },
-        {
-          "name": "Fraser Brown",
-          "institution": "Carnegie Mellon University"
-        },
-        {
-          "name": "Riad Wahby",
-          "institution": "Carnegie Mellon University"
-        }
-      ],
-      "venue": "IEEE S&P",
-      "year": 2025,
-      "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00200"
-    },
-    {
       "title": "Characterizing Robocalls with Multiple Vantage Points",
       "authors": [
         {
@@ -981,6 +960,27 @@
       "year": 2025,
       "award": "Best Paper",
       "url": "https://doi.org/10.1109/SP61157.2025.00079"
+    },
+    {
+      "title": "CoBBL: Dynamic Constraint Generation for SNARKs",
+      "authors": [
+        {
+          "name": "Kunming Jiang",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Fraser Brown",
+          "institution": "Carnegie Mellon University"
+        },
+        {
+          "name": "Riad Wahby",
+          "institution": "Carnegie Mellon University"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2025,
+      "award": "Best Paper",
+      "url": "https://doi.org/10.1109/SP61157.2025.00200"
     },
     {
       "title": "DataSentinel: A Game-Theoretic Detection of Prompt Injection Attacks",
@@ -1357,6 +1357,22 @@
         {
           "name": "Daoyuan Wu",
           "institution": "HKUST"
+        },
+        {
+          "name": "Yuqiang Sun",
+          "institution": ""
+        },
+        {
+          "name": "Yi Li",
+          "institution": ""
+        },
+        {
+          "name": "Miaolei Shi",
+          "institution": ""
+        },
+        {
+          "name": "Yang Liu",
+          "institution": ""
         }
       ],
       "venue": "NDSS",
@@ -8091,6 +8107,35 @@
       "year": 2013,
       "award": "Distinguished Paper",
       "url": "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/imeson"
+    },
+    {
+      "title": "Don't Trust Satellite Phones: A Security Analysis of Two Satphone Standards",
+      "authors": [
+        {
+          "name": "Benedikt Driessen",
+          "institution": "Horst-Goertz Institute"
+        },
+        {
+          "name": "Ralf Hund",
+          "institution": "Horst-Goertz Institute"
+        },
+        {
+          "name": "Carsten Willems",
+          "institution": "Horst-Goertz Institute"
+        },
+        {
+          "name": "Christof Paar",
+          "institution": "Horst-Goertz Institute"
+        },
+        {
+          "name": "Thorsten Holz",
+          "institution": "Horst-Goertz Institute"
+        }
+      ],
+      "venue": "IEEE S&P",
+      "year": 2012,
+      "award": "Best Paper",
+      "url": "https://doi.org/10.1109/SP.2012.18"
     },
     {
       "title": "Mining Your Ps and Qs: Detection of Widespread Weak Keys in Network Devices",

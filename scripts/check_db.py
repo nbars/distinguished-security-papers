@@ -100,6 +100,11 @@ def normalize_title(title):
     return t
 
 
+def strip_dblp_disambiguation(name):
+    """Strip DBLP disambiguation numbers from author names (e.g., 'Wenbo Guo 0002' -> 'Wenbo Guo')."""
+    return re.sub(r'\s+\d{4}$', '', name)
+
+
 def fuzzy_similarity(s1, s2):
     """Calculate fuzzy similarity between two strings."""
     return SequenceMatcher(None, s1, s2).ratio()
@@ -411,7 +416,8 @@ def verify_against_dblp(papers, sample_size=None, delay=0.5, log_file=None, use_
             paper_authors = [a.get('name', '') for a in paper.get('authors', [])]
 
             # Normalize author names for comparison
-            dblp_names = set(normalize_title(a) for a in dblp_authors)
+            # Strip DBLP disambiguation numbers (e.g., "0002") before comparing
+            dblp_names = set(normalize_title(strip_dblp_disambiguation(a)) for a in dblp_authors)
             paper_names = set(normalize_title(a) for a in paper_authors)
 
             author_overlap = len(dblp_names & paper_names) / max(len(dblp_names), len(paper_names), 1)
