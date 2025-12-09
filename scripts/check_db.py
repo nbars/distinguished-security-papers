@@ -82,12 +82,27 @@ def is_dblp_cached(title, max_results=5):
     return load_from_cache(url) is not None
 
 
+def get_json_path():
+    """Get the path to the papers.json file."""
+    return Path(__file__).parent.parent / "data" / "papers.json"
+
+
+def load_data():
+    """Load data from JSON file."""
+    with open(get_json_path(), 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+
+def save_data(data):
+    """Save data to JSON file."""
+    with open(get_json_path(), 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+        f.write('\n')
+
+
 def load_papers():
     """Load papers from JSON file."""
-    json_path = Path(__file__).parent.parent / "data" / "papers.json"
-    with open(json_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    return data['papers']
+    return load_data()['papers']
 
 
 def normalize_title(title):
@@ -318,7 +333,7 @@ def query_arxiv(title, max_results=3, use_cache=True):
 
 
 def verify_against_dblp(papers, sample_size=None, delay=0.5, log_file=None, use_cache=True):
-    """Verify papers against DBLP database."""
+    """Verify papers against DBLP database and add data_checked_via URLs."""
     print("\n" + "=" * 60)
     print("VERIFYING AGAINST DBLP")
     print("=" * 60)
@@ -338,6 +353,7 @@ def verify_against_dblp(papers, sample_size=None, delay=0.5, log_file=None, use_
     verified = 0
     not_found = 0
     cache_hits = 0
+    dblp_urls_added = 0
 
     for i, paper in enumerate(papers_to_check):
         title = paper['title']
@@ -412,6 +428,10 @@ def verify_against_dblp(papers, sample_size=None, delay=0.5, log_file=None, use_
                 }
             })
         else:
+            # Add DBLP URL to paper for verification tracking
+            if dblp_url:
+                paper['data_checked_via'] = dblp_url
+                dblp_urls_added += 1
             # Check authors
             paper_authors = [a.get('name', '') for a in paper.get('authors', [])]
 
@@ -488,6 +508,7 @@ def verify_against_dblp(papers, sample_size=None, delay=0.5, log_file=None, use_
     print(f"  Verified: {verified}/{len(papers_to_check)}")
     print(f"  Not found: {not_found}")
     print(f"  Issues: {len(issues) - not_found}")
+    print(f"  DBLP URLs added: {dblp_urls_added}")
     if use_cache:
         print(f"  Cache hits: {cache_hits}/{len(papers_to_check)}")
 
@@ -683,7 +704,8 @@ def main():
     print("Distinguished Papers Database Checker")
     print("=" * 60)
 
-    papers = load_papers()
+    data = load_data()
+    papers = data['papers']
     print(f"Loaded {len(papers)} papers from database.")
 
     # Run checks
@@ -697,10 +719,16 @@ def main():
     use_cache = not args.no_cache
     if args.dblp_all:
         has_dblp_issues = verify_against_dblp(papers, log_file=log_file, use_cache=use_cache)
+        save_data(data)
+        print(f"\nSaved updated data to {get_json_path()}")
     elif args.dblp_sample:
         has_dblp_issues = verify_against_dblp(papers, sample_size=args.dblp_sample, log_file=log_file, use_cache=use_cache)
+        save_data(data)
+        print(f"\nSaved updated data to {get_json_path()}")
     elif args.dblp:
         has_dblp_issues = verify_against_dblp(papers, sample_size=10, log_file=log_file, use_cache=use_cache)
+        save_data(data)
+        print(f"\nSaved updated data to {get_json_path()}")
 
     # Print summary
     print_summary(papers)

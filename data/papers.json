@@ -35,7 +35,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765085"
+      "url": "https://doi.org/10.1145/3719027.3765085",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/YuldoshkhujaevJ25"
     },
     {
       "title": "Adversarial Observations in Weather Forecasting",
@@ -56,7 +57,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765076"
+      "url": "https://doi.org/10.1145/3719027.3765076",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/ImgrundER25"
     },
     {
       "title": "Automatically Detecting Online Deceptive Patterns",
@@ -81,7 +83,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765191"
+      "url": "https://doi.org/10.1145/3719027.3765191",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/NayakW0KF25"
     },
     {
       "title": "BACScan: Automatic Black-Box Detection of Broken-Access-Control Vulnerabilities in Web Applications",
@@ -126,7 +129,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3744825"
+      "url": "https://doi.org/10.1145/3719027.3744825",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/Liu0L0SWWL025"
     },
     {
       "title": "BadAML: Exploiting Legacy Firmware Interfaces to Compromise Confidential Virtual Machines",
@@ -151,7 +155,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765123"
+      "url": "https://doi.org/10.1145/3719027.3765123",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/TakekoshiMFS25"
     },
     {
       "title": "CITesting: Systematic Testing of Context Integrity Violations in Cellular Core Networks",
@@ -217,7 +222,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3744867"
+      "url": "https://doi.org/10.1145/3719027.3744867",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/FanZ00000Z25"
     },
     {
       "title": "Don't Look Up: There Are Sensitive Internal Links in the Clear on GEO Satellites",
@@ -250,7 +256,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765198"
+      "url": "https://doi.org/10.1145/3719027.3765198",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/ZhangDRLHS25"
     },
     {
       "title": "Empirical Security Analysis of Software-based Fault Isolation through Controlled Fault Injection",
@@ -275,7 +282,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765027"
+      "url": "https://doi.org/10.1145/3719027.3765027",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/BarsBSH25"
     },
     {
       "title": "Exact Robustness Certification of k-Nearest Neighbors",
@@ -296,7 +304,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765140"
+      "url": "https://doi.org/10.1145/3719027.3765140",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/RanzatoSZ25"
     },
     {
       "title": "Forking the RANDAO: Manipulating Ethereum's Distributed Randomness Beacon",
@@ -321,7 +330,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3744852"
+      "url": "https://doi.org/10.1145/3719027.3744852",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/NagyTSL25"
     },
     {
       "title": "From OT to OLE with Subquadratic Communication",
@@ -346,7 +356,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765225"
+      "url": "https://doi.org/10.1145/3719027.3765225",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/DoernerHIM25"
     },
     {
       "title": "Harnessing Sparsification in Federated Learning: A Secure, Efficient, and Differentially Private Realization",
@@ -367,7 +378,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765044"
+      "url": "https://doi.org/10.1145/3719027.3765044",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/Xu0H25"
     },
     {
       "title": "Harnessing Vital Sign Vibration Harmonics for Effortless and Inbuilt XR User Authentication",
@@ -412,7 +424,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765060"
+      "url": "https://doi.org/10.1145/3719027.3765060",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/ZhangJAYM00S025"
     },
     {
       "title": "High-Throughput Universally Composable Threshold FHE Decryption",
@@ -437,7 +450,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3744884"
+      "url": "https://doi.org/10.1145/3719027.3744884",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/ZyskindZLP25"
     },
     {
       "title": "Jazzline: Composable CryptoLine Functional Correctness Proofs for Jasmin Programs",
@@ -494,7 +508,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3744814"
+      "url": "https://doi.org/10.1145/3719027.3744814",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/AlmeidaBBBADG0Q25"
     },
     {
       "title": "Layered, Overlapping, and Inconsistent: A Large-Scale Analysis of the Multiple Privacy Policies and Controls of U.S. Banks",
@@ -527,7 +542,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765072"
+      "url": "https://doi.org/10.1145/3719027.3765072",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/XianTLKZS25"
     },
     {
       "title": "Leaky Apps: Large-scale Analysis of Secrets Distributed in Android and iOS Apps",
@@ -548,7 +564,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765033"
+      "url": "https://doi.org/10.1145/3719027.3765033",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/SchmidtSW25"
     },
     {
       "title": "Looping for Good: Cyclic Proofs for Security Protocols",
@@ -573,7 +590,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765131"
+      "url": "https://doi.org/10.1145/3719027.3765131",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/Linker0CB25"
     },
     {
       "title": "On the Security of SSH Client Signatures",
@@ -602,7 +620,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765079"
+      "url": "https://doi.org/10.1145/3719027.3765079",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/BaumerBRSS25"
     },
     {
       "title": "Optimistic, Signature-Free Reliable Broadcast and Its Applications",
@@ -635,7 +654,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765220"
+      "url": "https://doi.org/10.1145/3719027.3765220",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/Shrestha0KLNW25"
     },
     {
       "title": "PAnDA: Rethinking Metric Differential Privacy Optimization at Scale with Anchor-Based Approximation",
@@ -652,7 +672,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765042"
+      "url": "https://doi.org/10.1145/3719027.3765042",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/LiuQ25"
     },
     {
       "title": "Rethinking Tamper-Evident Logging: A High-Performance, Co-Designed Auditing System",
@@ -677,7 +698,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765024"
+      "url": "https://doi.org/10.1145/3719027.3765024",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/ZhaoSHH25"
     },
     {
       "title": "RingSG: Optimal Secure Vertex-Centric Computation for Collaborative Graph Processing",
@@ -710,7 +732,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3744824"
+      "url": "https://doi.org/10.1145/3719027.3744824",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/ZouLS00025"
     },
     {
       "title": "Sliced PIR: Offloading Heavyweight Work with NTT",
@@ -768,7 +791,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3744787"
+      "url": "https://doi.org/10.1145/3719027.3744787",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/JiangY00MS0025"
     },
     {
       "title": "SyzSpec: Specification Generation for Linux Kernel Fuzzing via Under-Constrained Symbolic Execution",
@@ -797,7 +821,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3744811"
+      "url": "https://doi.org/10.1145/3719027.3744811",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/0006PLQS25"
     },
     {
       "title": "The OCH Authenticated Encryption Scheme",
@@ -822,7 +847,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765224"
+      "url": "https://doi.org/10.1145/3719027.3765224",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/MendaBHLR25"
     },
     {
       "title": "The Odyssey of robots.txt Governance: Measuring Convention Implications of Web Bots in Large Language Model Services",
@@ -847,7 +873,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765063"
+      "url": "https://doi.org/10.1145/3719027.3765063",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/Cui00L25"
     },
     {
       "title": "WireTap: Breaking Server SGX via DRAM Bus Interposition",
@@ -884,7 +911,8 @@
       "venue": "ACM CCS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3719027.3765204"
+      "url": "https://doi.org/10.1145/3719027.3765204",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/SetoDACSGG25"
     },
     {
       "title": "Breaking the Barrier: Post-Barrier Spectre Attacks",
@@ -901,7 +929,8 @@
       "venue": "IEEE S&P",
       "year": 2025,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00089"
+      "url": "https://doi.org/10.1109/SP61157.2025.00089",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/WiknerR25"
     },
     {
       "title": "Characterizing Robocalls with Multiple Vantage Points",
@@ -922,7 +951,8 @@
       "venue": "IEEE S&P",
       "year": 2025,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00096"
+      "url": "https://doi.org/10.1109/SP61157.2025.00096",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/PrasadNR25"
     },
     {
       "title": "CipherSteal: Stealing Input Data from TEE-Shielded Neural Networks with Ciphertext Side Channels",
@@ -959,7 +989,8 @@
       "venue": "IEEE S&P",
       "year": 2025,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00079"
+      "url": "https://doi.org/10.1109/SP61157.2025.00079",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/YuanLDCWZ025"
     },
     {
       "title": "CoBBL: Dynamic Constraint Generation for SNARKs",
@@ -980,7 +1011,8 @@
       "venue": "IEEE S&P",
       "year": 2025,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00200"
+      "url": "https://doi.org/10.1109/SP61157.2025.00200",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/JiangBW25"
     },
     {
       "title": "DataSentinel: A Game-Theoretic Detection of Prompt Injection Attacks",
@@ -1009,7 +1041,8 @@
       "venue": "IEEE S&P",
       "year": 2025,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00250"
+      "url": "https://doi.org/10.1109/SP61157.2025.00250",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/LiuJ0SG25"
     },
     {
       "title": "Detecting Taint-Style Vulnerabilities in Microservice-Structured Web Applications",
@@ -1054,7 +1087,8 @@
       "venue": "IEEE S&P",
       "year": 2025,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00137"
+      "url": "https://doi.org/10.1109/SP61157.2025.00137",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/Liu0CS0L0HL25"
     },
     {
       "title": "Empc: Effective Path Prioritization for Symbolic Execution with Path Cover",
@@ -1071,7 +1105,8 @@
       "venue": "IEEE S&P",
       "year": 2025,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00190"
+      "url": "https://doi.org/10.1109/SP61157.2025.00190",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/YaoS25"
     },
     {
       "title": "Follow My Flow: Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites",
@@ -1108,7 +1143,8 @@
       "venue": "IEEE S&P",
       "year": 2025,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00016"
+      "url": "https://doi.org/10.1109/SP61157.2025.00016",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/KangLLYFLC25"
     },
     {
       "title": "SLAP: Data Speculation Attacks via Load Address Prediction on Apple Silicon",
@@ -1129,7 +1165,8 @@
       "venue": "IEEE S&P",
       "year": 2025,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00098"
+      "url": "https://doi.org/10.1109/SP61157.2025.00098",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/0007GY25"
     },
     {
       "title": "The Inadequacy of Similarity-Based Privacy Metrics: Privacy Attacks Against \"Truly Anonymous\" Synthetic Datasets",
@@ -1146,7 +1183,8 @@
       "venue": "IEEE S&P",
       "year": 2025,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00218"
+      "url": "https://doi.org/10.1109/SP61157.2025.00218",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/GanevC25"
     },
     {
       "title": "Transport Layer Obscurity: Circumventing SNI Censorship on the TLS Layer",
@@ -1171,7 +1209,8 @@
       "venue": "IEEE S&P",
       "year": 2025,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00151"
+      "url": "https://doi.org/10.1109/SP61157.2025.00151",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/NiereLMS25"
     },
     {
       "title": "Unveiling Security Vulnerabilities in Git Large File Storage Protocol",
@@ -1204,7 +1243,8 @@
       "venue": "IEEE S&P",
       "year": 2025,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00123"
+      "url": "https://doi.org/10.1109/SP61157.2025.00123",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/ChenWYCLJ25"
     },
     {
       "title": "Verifiable Boosted Tree Ensembles",
@@ -1229,7 +1269,8 @@
       "venue": "IEEE S&P",
       "year": 2025,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP61157.2025.00022"
+      "url": "https://doi.org/10.1109/SP61157.2025.00022",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/CalzavaraCLP25"
     },
     {
       "title": "An Empirical Study on Fingerprint API Misuse with Lifecycle Analysis in Real-world Android Apps",
@@ -1262,7 +1303,8 @@
       "venue": "NDSS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/an-empirical-study-on-fingerprint-api-misuse-with-lifecycle-analysis-in-real-world-android-apps/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/an-empirical-study-on-fingerprint-api-misuse-with-lifecycle-analysis-in-real-world-android-apps/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/ZhangZLZY025"
     },
     {
       "title": "Blindfold: Confidential Memory Management by Untrusted Operating System",
@@ -1283,7 +1325,8 @@
       "venue": "NDSS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/blindfold-confidential-memory-management-by-untrusted-operating-system/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/blindfold-confidential-memory-management-by-untrusted-operating-system/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/LiL025"
     },
     {
       "title": "DUMPLING: Fine-grained Differential JavaScript Engine Fuzzing",
@@ -1312,7 +1355,8 @@
       "venue": "NDSS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/dumpling-fine-grained-differential-javascript-engine-fuzzing/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/dumpling-fine-grained-differential-javascript-engine-fuzzing/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/WachterGWPT25"
     },
     {
       "title": "DiStefano: Decentralized Infrastructure for Sharing Trusted Encrypted Facts",
@@ -1341,7 +1385,8 @@
       "venue": "NDSS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/distefano-decentralized-infrastructure-for-sharing-trusted-encrypted-facts-and-nothing-more/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/distefano-decentralized-infrastructure-for-sharing-trusted-encrypted-facts-and-nothing-more/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/CeliDHPR25"
     },
     {
       "title": "PropertyGPT: LLM-driven Formal Verification of Smart Contracts through Retrieval-Augmented Property Generation",
@@ -1378,7 +1423,8 @@
       "venue": "NDSS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/propertygpt-llm-driven-formal-verification-of-smart-contracts-through-retrieval-augmented-property-generation/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/propertygpt-llm-driven-formal-verification-of-smart-contracts-through-retrieval-augmented-property-generation/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/0012XW00S025"
     },
     {
       "title": "Provably Unlearnable Data Examples",
@@ -1407,7 +1453,8 @@
       "venue": "NDSS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/provably-unlearnable-data-examples/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/provably-unlearnable-data-examples/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/Wang00C025"
     },
     {
       "title": "ReDAN: An Empirical Study on Remote DoS Attacks against NAT Networks",
@@ -1452,7 +1499,8 @@
       "venue": "NDSS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/redan-an-empirical-study-on-remote-dos-attacks-against-nat-networks/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/redan-an-empirical-study-on-remote-dos-attacks-against-nat-networks/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/FengY0Z0WWD025"
     },
     {
       "title": "ReThink: Reveal the Threat of Electromagnetic Interference on Power Inverters",
@@ -1485,7 +1533,8 @@
       "venue": "NDSS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/rethink-reveal-the-threat-of-electromagnetic-interference-on-power-inverters/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/rethink-reveal-the-threat-of-electromagnetic-interference-on-power-inverters/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/YangDP00025"
     },
     {
       "title": "Rethinking Trust in Forge-Based Git Security",
@@ -1510,7 +1559,8 @@
       "venue": "NDSS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/rethinking-trust-in-forge-based-git-security/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/rethinking-trust-in-forge-based-git-security/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/YelgundhalliZCC25"
     },
     {
       "title": "SafeSplit: A Novel Defense Against Client-Side Backdoor Attacks in Split Learning",
@@ -1543,7 +1593,8 @@
       "venue": "NDSS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/safesplit-a-novel-defense-against-client-side-backdoor-attacks-in-split-learning/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/safesplit-a-novel-defense-against-client-side-backdoor-attacks-in-split-learning/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/RiegerPKAKS25"
     },
     {
       "title": "VoiceRadar: Voice Deepfake Detection using Micro-Frequency and Compositional Analysis",
@@ -1580,7 +1631,8 @@
       "venue": "NDSS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/voiceradar-voice-deepfake-detection-using-micro-frequency-and-compositional-analysis/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/voiceradar-voice-deepfake-detection-using-micro-frequency-and-compositional-analysis/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/KumariAPRAJS25"
     },
     {
       "title": "type++: Prohibiting Type Confusion with Inline Type Information",
@@ -1605,7 +1657,8 @@
       "venue": "NDSS",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/type-prohibiting-type-confusion-with-inline-type-information/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/type-prohibiting-type-confusion-with-inline-type-information/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/BadouxTJP25"
     },
     {
       "title": "Branch Privilege Injection: Compromising Spectre v2 Hardware Mitigations by Exploiting Branch Predictor Race Conditions",
@@ -1626,7 +1679,8 @@
       "venue": "USENIX Security",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/ruegge"
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/ruegge",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/RueggeWR25"
     },
     {
       "title": "Catch-22: Uncovering Compromised Hosts using SSH Public Keys",
@@ -1651,7 +1705,8 @@
       "venue": "USENIX Security",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/munteanu"
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/munteanu",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/MunteanuSFF25"
     },
     {
       "title": "Characterizing and Detecting Propaganda-Spreading Accounts on Telegram",
@@ -1676,7 +1731,8 @@
       "venue": "USENIX Security",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/kireev"
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/kireev",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/KireevMTO25"
     },
     {
       "title": "Confusing Value with Enumeration: Studying the Use of CVEs in Academia",
@@ -1733,7 +1789,8 @@
       "venue": "USENIX Security",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/schloegel"
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/schloegel",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/SchloegelK000WT25"
     },
     {
       "title": "Fuzzing the PHP Interpreter via Dataflow Fusion",
@@ -1770,7 +1827,8 @@
       "venue": "USENIX Security",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/jiang-yuancheng"
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/jiang-yuancheng",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/JiangZR0RYL25"
     },
     {
       "title": "How Transparent is Usable Privacy and Security Research? A Meta-Study on Current Research Transparency Practices",
@@ -1815,7 +1873,8 @@
       "venue": "USENIX Security",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/klemmer"
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/klemmer",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/KlemmerS0SHLLSF25"
     },
     {
       "title": "My ZIP isn't your ZIP: Identifying and Exploiting Semantic Gaps Between ZIP Parsers",
@@ -1840,7 +1899,8 @@
       "venue": "USENIX Security",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/you"
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/you",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/You00D25"
     },
     {
       "title": "We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs",
@@ -1873,7 +1933,8 @@
       "venue": "USENIX Security",
       "year": 2025,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/spracklen"
+      "url": "https://www.usenix.org/conference/usenixsecurity25/presentation/spracklen",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/SpracklenWSMV25"
     },
     {
       "title": "\"Better Be Computer or I'm Dumb\": A Large-Scale Evaluation of Humans as Audio Deepfake Detectors",
@@ -1926,7 +1987,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3670325"
+      "url": "https://doi.org/10.1145/3658644.3670325",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/WarrenTCOLFPLBG24"
     },
     {
       "title": "Atomic and Fair Data Exchange via Blockchain",
@@ -1963,7 +2025,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690248"
+      "url": "https://doi.org/10.1145/3658644.3690248",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/TasSZMKBN24"
     },
     {
       "title": "Content, Nudges and Incentives: A Study on the Effectiveness and Perception of Embedded Phishing Training",
@@ -1992,7 +2055,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690348"
+      "url": "https://doi.org/10.1145/3658644.3690348",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/LainJMKC24"
     },
     {
       "title": "Cross-silo Federated Learning with Record-level Personalized Differential Privacy",
@@ -2021,7 +2085,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3670351"
+      "url": "https://doi.org/10.1145/3658644.3670351",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/Liu00L024"
     },
     {
       "title": "Distributed Backdoor Attacks on Federated Graph Learning and Certified Defenses",
@@ -2050,7 +2115,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690187"
+      "url": "https://doi.org/10.1145/3658644.3690187",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/YangLJHW24"
     },
     {
       "title": "DoubleUp Roll: Double-spending in Arbitrum by Rolling It Back",
@@ -2087,7 +2153,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690256"
+      "url": "https://doi.org/10.1145/3658644.3690256",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/Sun0PLJ0Z24"
     },
     {
       "title": "ERACAN: Defending Against an Emerging CAN Threat Model",
@@ -2120,7 +2187,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690267"
+      "url": "https://doi.org/10.1145/3658644.3690267",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/TangSZCXB24"
     },
     {
       "title": "Fast Two-party Threshold ECDSA with Proactive Security",
@@ -2141,7 +2209,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3670387"
+      "url": "https://doi.org/10.1145/3658644.3670387",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/KozielGG24"
     },
     {
       "title": "FuzzCache: Optimizing Web Application Fuzzing Through Software-Based Data Cache",
@@ -2158,7 +2227,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3670278"
+      "url": "https://doi.org/10.1145/3658644.3670278",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/0001024"
     },
     {
       "title": "Isolate and Detect the Untrusted Driver with a Virtual Box",
@@ -2191,7 +2261,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3670269"
+      "url": "https://doi.org/10.1145/3658644.3670269",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/LiJBCZC24"
     },
     {
       "title": "Jäger: Automated Telephone Call Traceback",
@@ -2220,7 +2291,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690290"
+      "url": "https://doi.org/10.1145/3658644.3690290",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/AdeiMPRS24"
     },
     {
       "title": "Libra: Architectural Support for Principled, Secure, and Efficient Balanced Execution on High-End Processors",
@@ -2245,7 +2317,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690319"
+      "url": "https://doi.org/10.1145/3658644.3690319",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/WinderixBDP24"
     },
     {
       "title": "Lutris: A Blockchain Combining Broadcast and Consensus",
@@ -2302,7 +2375,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3670286"
+      "url": "https://doi.org/10.1145/3658644.3670286",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/BlackshearCDKKL24"
     },
     {
       "title": "Manipulative Interference Attacks",
@@ -2327,7 +2401,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690246"
+      "url": "https://doi.org/10.1145/3658644.3690246",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/MergendahlFNS24"
     },
     {
       "title": "Moderator: Moderating Text-to-Image Diffusion Models through Fine-grained Context-based Policies",
@@ -2360,7 +2435,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690327"
+      "url": "https://doi.org/10.1145/3658644.3690327",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/WangLYW0J24"
     },
     {
       "title": "Organic or Diffused: Can We Distinguish Human Art from AI-generated Images?",
@@ -2397,7 +2473,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3670306"
+      "url": "https://doi.org/10.1145/3658644.3670306",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/HaPBSSZZ24"
     },
     {
       "title": "Practical Key Extraction Attacks in Leading MPC Wallets",
@@ -2418,7 +2495,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3670359"
+      "url": "https://doi.org/10.1145/3658644.3670359",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/MakriyannisYG24"
     },
     {
       "title": "Principled Microarchitectural Isolation on Cloud CPUs",
@@ -2447,7 +2525,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690183"
+      "url": "https://doi.org/10.1145/3658644.3690183",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/VolosFHKO24"
     },
     {
       "title": "QueryCheetah: Fast Automated Discovery of Attribute Inference Attacks Against Query-Based Systems",
@@ -2468,7 +2547,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690272"
+      "url": "https://doi.org/10.1145/3658644.3690272",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/Stevanoski0M24"
     },
     {
       "title": "ReSym: Harnessing LLMs to Recover Variable and Data Structure Symbols from Stripped Binaries",
@@ -2501,7 +2581,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3670340"
+      "url": "https://doi.org/10.1145/3658644.3670340",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/Xie00X0024"
     },
     {
       "title": "RefleXnoop: Passwords Snooping on NLoS Laptops Leveraging Screen-Induced Sound Reflection",
@@ -2526,7 +2607,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3670341"
+      "url": "https://doi.org/10.1145/3658644.3670341",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/WangHL024"
     },
     {
       "title": "Spec-o-Scope: Cache Probing at Cache Speed",
@@ -2547,7 +2629,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690313"
+      "url": "https://doi.org/10.1145/3658644.3690313",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/HorowitzRY24"
     },
     {
       "title": "Stealing Trust: Unraveling Blind Message Attacks in Web3 Authentication",
@@ -2568,7 +2651,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3670323"
+      "url": "https://doi.org/10.1145/3658644.3670323",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/YanZD24"
     },
     {
       "title": "Testing Side-channel Security of Cryptographic Implementations against Future Microarchitectures",
@@ -2617,7 +2701,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3670319"
+      "url": "https://doi.org/10.1145/3658644.3670319",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/BartheBCCGGRSWY24"
     },
     {
       "title": "The Harder You Try, The Harder You Fail: The KeyTrap Denial-of-Service Algorithmic Complexity Attacks on DNSSEC",
@@ -2642,7 +2727,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3670389"
+      "url": "https://doi.org/10.1145/3658644.3670389",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/HeftrigSVW24"
     },
     {
       "title": "Unmasking the Security and Usability of Password Masking",
@@ -2667,7 +2753,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690333"
+      "url": "https://doi.org/10.1145/3658644.3690333",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/HuAS024"
     },
     {
       "title": "uMMU: Securing Data Confidentiality with Unobservable Memory Subsystem",
@@ -2688,7 +2775,8 @@
       "venue": "ACM CCS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3658644.3690340"
+      "url": "https://doi.org/10.1145/3658644.3690340",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/LimK024"
     },
     {
       "title": "\"False negative - that one is going to kill you.\" - Understanding Industry Perspectives of Static Analysis based Security Testing",
@@ -2709,7 +2797,8 @@
       "venue": "IEEE S&P",
       "year": 2024,
       "award": "Best Paper",
-      "url": "https://arxiv.org/pdf/2307.16325"
+      "url": "https://arxiv.org/pdf/2307.16325",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/AmiMPN24"
     },
     {
       "title": "BENZENE: A Practical Root Cause Analysis System with an Under-Constrained State Mutation",
@@ -2738,7 +2827,8 @@
       "venue": "IEEE S&P",
       "year": 2024,
       "award": "Best Paper",
-      "url": "https://kevinkoo001.github.io/assets/pdf/sp24-benzene-official.pdf"
+      "url": "https://kevinkoo001.github.io/assets/pdf/sp24-benzene-official.pdf",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/ParkLJKK24"
     },
     {
       "title": "From Chatbots to Phishbots?: Phishing Scam Generation in Commercial Large Language Models",
@@ -2763,7 +2853,8 @@
       "venue": "IEEE S&P",
       "year": 2024,
       "award": "Best Paper",
-      "url": "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a221/1WPcYLpYFHy"
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2024/313000a221/1WPcYLpYFHy",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/RoyTNN24"
     },
     {
       "title": "From Virtual Touch to Tesla Command: Unlocking Unauthenticated Control Chains From Smart Glasses for Vehicle Takeover",
@@ -2804,7 +2895,8 @@
       "venue": "IEEE S&P",
       "year": 2024,
       "award": "Best Paper",
-      "url": "https://www.xialihei.com/wp-content/uploads/2024/04/SP2024.pdf"
+      "url": "https://www.xialihei.com/wp-content/uploads/2024/04/SP2024.pdf",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/ZhangTLSEFLH24"
     },
     {
       "title": "Shedding Light on CVSS Scoring Inconsistencies: A User-Centric Study on Evaluating Widespread Security Vulnerabilities",
@@ -2829,7 +2921,8 @@
       "venue": "IEEE S&P",
       "year": 2024,
       "award": "Best Paper",
-      "url": "https://arxiv.org/pdf/2308.15259"
+      "url": "https://arxiv.org/pdf/2308.15259",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/WunderKEGB24"
     },
     {
       "title": "SoK: Prudent Evaluation Practices for Fuzzing",
@@ -2878,7 +2971,8 @@
       "venue": "IEEE S&P",
       "year": 2024,
       "award": "Best Paper",
-      "url": "https://arxiv.org/pdf/2308.15259"
+      "url": "https://arxiv.org/pdf/2308.15259",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/SchloegelBSBSCEBMH24"
     },
     {
       "title": "SoK: Unintended Interactions among Machine Learning Defenses and Risks",
@@ -2899,7 +2993,8 @@
       "venue": "IEEE S&P",
       "year": 2024,
       "award": "Best Paper",
-      "url": "https://arxiv.org/pdf/2312.04542"
+      "url": "https://arxiv.org/pdf/2312.04542",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/DudduSA24"
     },
     {
       "title": "The Great Request Robbery: An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web",
@@ -2920,7 +3015,8 @@
       "venue": "IEEE S&P",
       "year": 2024,
       "award": "Best Paper",
-      "url": "https://publications.cispa.saarland/4056/1/sp24_request_hijacking.pdf"
+      "url": "https://publications.cispa.saarland/4056/1/sp24_request_hijacking.pdf",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/KhodayariBP24"
     },
     {
       "title": "WESEE: Using Malicious #VC Interrupts to Break AMD SEV-SNP",
@@ -2941,7 +3037,8 @@
       "venue": "IEEE S&P",
       "year": 2024,
       "award": "Best Paper",
-      "url": "https://arxiv.org/pdf/2404.03526"
+      "url": "https://arxiv.org/pdf/2404.03526",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/SchluterSBS24"
     },
     {
       "title": "Eavesdropping on Controller Acoustic Emanation for Keystroke Inference Attack in Virtual Reality",
@@ -2970,7 +3067,8 @@
       "venue": "NDSS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/eavesdropping-on-controller-acoustic-emanation-for-keystroke-inference-attack-in-virtual-reality/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/eavesdropping-on-controller-acoustic-emanation-for-keystroke-inference-attack-in-virtual-reality/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/LuoNF0Y24"
     },
     {
       "title": "LMSanitator: Defending Prompt-Tuning Against Task-Agnostic Backdoors",
@@ -3015,7 +3113,8 @@
       "venue": "NDSS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/lmsanitator-defending-prompt-tuning-against-task-agnostic-backdoors/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/lmsanitator-defending-prompt-tuning-against-task-agnostic-backdoors/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/WeiM00ZFWZC24"
     },
     {
       "title": "Like, Comment, Get Scammed: Characterizing Comment Scams on Media Platforms",
@@ -3036,7 +3135,8 @@
       "venue": "NDSS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/like-comment-get-scammed-characterizing-comment-scams-on-media-platforms/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/like-comment-get-scammed-characterizing-comment-scams-on-media-platforms/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/LiRN24"
     },
     {
       "title": "UntrustIDE: Exploiting Weaknesses in VS Code Extensions",
@@ -3061,7 +3161,8 @@
       "venue": "NDSS",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/untrustide-exploiting-weaknesses-in-vs-code-extensions/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/LinKDEK24"
     },
     {
       "title": "\"I Don't Know If We're Doing Good. I Don't Know If We're Doing Bad\": Investigating How Practitioners Scope, Motivate, and Conduct Privacy Work When Developing AI Products",
@@ -3090,7 +3191,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/lee"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/lee",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/LeeGYFD24"
     },
     {
       "title": "Adversarial Illusions in Multi-Modal Embeddings",
@@ -3115,7 +3217,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-tingwei"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/zhang-tingwei",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ZhangJBS24"
     },
     {
       "title": "DVSorder: Ballot Randomization Flaws Threaten Voter Privacy",
@@ -3140,7 +3243,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/crimmins"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/crimmins",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/CrimminsNSH24"
     },
     {
       "title": "Dancer in the Dark: Synthesizing and Evaluating Polyglots for Blind Cross-Site Scripting",
@@ -3173,7 +3277,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/kirchner"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/kirchner",
+      "data_checked_via": "https://dblp.org/rec/journals/corr/abs-2502-08467"
     },
     {
       "title": "Data Coverage for Guided Fuzzing",
@@ -3222,7 +3327,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/wang-mingzhe"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/wang-mingzhe",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/Wang0ZWF000W024"
     },
     {
       "title": "Digital Discrimination of Users in Sanctioned States: The Case of the Cuba Embargo",
@@ -3255,7 +3361,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/ablove"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/ablove",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/AbloveCLRROE24"
     },
     {
       "title": "Don't Listen To Me: Understanding and Exploring Jailbreak Prompts of Large Language Models",
@@ -3288,7 +3395,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/yu-zhiyuan"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/yu-zhiyuan",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/YuLLCXZ24"
     },
     {
       "title": "HYPERPILL: Fuzzing for Hypervisor-bugs by Leveraging the Hardware Virtualization Interface",
@@ -3313,7 +3421,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/bulekov"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/bulekov",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/BulekovLEP24"
     },
     {
       "title": "InSpectre Gadget: Inspecting the Residual Attack Surface of Cross-privilege Spectre v2",
@@ -3334,7 +3443,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/wiebing"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/wiebing",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/WiebingTBG24"
     },
     {
       "title": "Learning with Semantics: Towards a Semantics-Aware Routing Anomaly Detection System",
@@ -3379,7 +3489,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/chen-yihao"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/chen-yihao",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ChenY0L0XXLW24"
     },
     {
       "title": "Logic Gone Astray: A Security Analysis Framework for the Control Plane Protocols of 5G Basebands",
@@ -3416,7 +3527,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/tu"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/tu",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/TuIRDWWH24"
     },
     {
       "title": "PURE: Payments with UWB RElay-protection",
@@ -3453,7 +3565,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/coppola"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/coppola",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/CoppolaCAHSBC24"
     },
     {
       "title": "Smudged Fingerprints: Characterizing and Improving the Performance of Web Application Fingerprinting",
@@ -3470,7 +3583,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/kondracki"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/kondracki",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/KondrackiN24"
     },
     {
       "title": "Terrapin Attack: Breaking SSH Channel Integrity By Sequence Number Manipulation",
@@ -3491,7 +3605,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/b%C3%A4umer"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/b%C3%A4umer",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/BaumerBS24"
     },
     {
       "title": "Yes, One-Bit-Flip Matters! Universal DNN Model Inference Depletion with Runtime Code Fault Injection",
@@ -3532,7 +3647,8 @@
       "venue": "USENIX Security",
       "year": 2024,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/li-shaofeng"
+      "url": "https://www.usenix.org/conference/usenixsecurity24/presentation/li-shaofeng",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/LiWXZZG0S24"
     },
     {
       "title": "Alert Alchemy: SOC Workflows and Decisions in the Management of NIDS Rules",
@@ -3561,7 +3677,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3616581"
+      "url": "https://doi.org/10.1145/3576915.3616581",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/VermeerKEGP23"
     },
     {
       "title": "Amplification by Shuffling without Shuffling",
@@ -3582,7 +3699,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3623215"
+      "url": "https://doi.org/10.1145/3576915.3623215",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/Balle0G23"
     },
     {
       "title": "Batchman and Robin: Batched and Non-batched Branching for Interactive ZK",
@@ -3611,7 +3729,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3623169"
+      "url": "https://doi.org/10.1145/3576915.3623169",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/YangHHKV23"
     },
     {
       "title": "Capacity: Cryptographically-Enforced In-Process Capabilities for Modern ARM Architectures",
@@ -3636,7 +3755,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3623079"
+      "url": "https://doi.org/10.1145/3576915.3623079",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/DuyCN023"
     },
     {
       "title": "CoCo: Efficient Browser Extension Vulnerability Detection via Coverage-guided, Concurrent Abstract Interpretation",
@@ -3661,7 +3781,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3616584"
+      "url": "https://doi.org/10.1145/3576915.3616584",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/Yu0ZC23"
     },
     {
       "title": "Concurrent Composition for Interactive Differential Privacy with Adaptive Privacy-Loss Parameters",
@@ -3698,7 +3819,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3623128"
+      "url": "https://doi.org/10.1145/3576915.3623128",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/HaneySTVVX023"
     },
     {
       "title": "FutORAMa: A Concretely Efficient Hierarchical Oblivious RAM",
@@ -3719,7 +3841,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3623125"
+      "url": "https://doi.org/10.1145/3576915.3623125",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/AsharovKM23"
     },
     {
       "title": "HE3DB: An Efficient and Elastic Encrypted Database Via Arithmetic-And-Logic Fully Homomorphic Encryption",
@@ -3756,7 +3879,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3616608"
+      "url": "https://doi.org/10.1145/3576915.3616608",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/00010PMZJG23"
     },
     {
       "title": "How Hard is Takeover in DPoS Blockchains? Understanding the Security of Coin-based Voting Governance",
@@ -3789,7 +3913,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3623171"
+      "url": "https://doi.org/10.1145/3576915.3623171",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/LiPXDL023"
     },
     {
       "title": "Large Language Models for Code: Security Hardening and Adversarial Testing",
@@ -3806,7 +3931,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3623175"
+      "url": "https://doi.org/10.1145/3576915.3623175",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/HeV23"
     },
     {
       "title": "PANIC: PAN-assisted Intra-process Memory Isolation on ARM",
@@ -3859,7 +3985,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3623206"
+      "url": "https://doi.org/10.1145/3576915.3623206",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/XuX0ZLHLKWW023"
     },
     {
       "title": "Security Verification of Low-Trust Architectures",
@@ -3896,7 +4023,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3616643"
+      "url": "https://doi.org/10.1145/3576915.3616643",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/TanFCBJMA23"
     },
     {
       "title": "Silence is not Golden: Disrupting the Load Balancing of Authoritative DNS Servers",
@@ -3945,7 +4073,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3603165.3607438"
+      "url": "https://doi.org/10.1145/3603165.3607438",
+      "data_checked_via": "https://dblp.org/rec/conf/acmturc/ZhangLACLSMLD023"
     },
     {
       "title": "SpecVerilog: Adapting Information Flow Control for Secure Speculation",
@@ -3970,7 +4099,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3623074"
+      "url": "https://doi.org/10.1145/3576915.3623074",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/ZagieboyloSMS23"
     },
     {
       "title": "Specification and Verification of Side-channel Security for Open-source Processors via Leakage Contracts",
@@ -3999,7 +4129,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3623192"
+      "url": "https://doi.org/10.1145/3576915.3623192",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/WangMG0G23"
     },
     {
       "title": "Stealing the Decoding Algorithms of Language Models",
@@ -4024,7 +4155,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3616652"
+      "url": "https://doi.org/10.1145/3576915.3616652",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/NasehKIH23"
     },
     {
       "title": "Uncle Maker: (Time)Stamping Out The Competition in Ethereum",
@@ -4045,7 +4177,8 @@
       "venue": "ACM CCS",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3576915.3616674"
+      "url": "https://doi.org/10.1145/3576915.3616674",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/YaishSZ23"
     },
     {
       "title": "Characterizing Everyday Misuse of Smart Home Devices",
@@ -4078,7 +4211,8 @@
       "venue": "IEEE S&P",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://ieeexplore.ieee.org/document/10179476"
+      "url": "https://ieeexplore.ieee.org/document/10179476",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/MohDWBMM23"
     },
     {
       "title": "It's (DOM) Clobbering Time: Attack Techniques, Prevalence, and Defenses",
@@ -4095,7 +4229,8 @@
       "venue": "IEEE S&P",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://ieeexplore.ieee.org/document/10179403"
+      "url": "https://ieeexplore.ieee.org/document/10179403",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/KhodayariP23"
     },
     {
       "title": "MEGA: Malleable Encryption Goes Awry",
@@ -4112,7 +4247,8 @@
       "venue": "IEEE S&P",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://eprint.iacr.org/2022/959"
+      "url": "https://eprint.iacr.org/2022/959",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/BackendalHP23"
     },
     {
       "title": "Not Yet Another Digital ID: Privacy-preserving Humanitarian Aid Distribution",
@@ -4137,7 +4273,8 @@
       "venue": "IEEE S&P",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://www.computer.org/csdl/proceedings-article/sp/2023/933600a645/1OXH55rpknm"
+      "url": "https://www.computer.org/csdl/proceedings-article/sp/2023/933600a645/1OXH55rpknm",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/WangLSNT23"
     },
     {
       "title": "Practically-exploitable Cryptographic Vulnerabilities in Matrix",
@@ -4162,7 +4299,8 @@
       "venue": "IEEE S&P",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://eprint.iacr.org/2023/485"
+      "url": "https://eprint.iacr.org/2023/485",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/AlbrechtCDJ23"
     },
     {
       "title": "Red Team vs. Blue Team: A Real-World Hardware Trojan Detection Case Study Across Four Modern CMOS Technology Generations",
@@ -4195,7 +4333,8 @@
       "venue": "IEEE S&P",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://eprint.iacr.org/2022/1720"
+      "url": "https://eprint.iacr.org/2022/1720",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/PuschnerMBKMP23"
     },
     {
       "title": "Space Odyssey: An Experimental Software Security Analysis of Satellites",
@@ -4224,7 +4363,8 @@
       "venue": "IEEE S&P",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://publications.cispa.saarland/3934/"
+      "url": "https://publications.cispa.saarland/3934/",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/WillboldSVGH023"
     },
     {
       "title": "The Leaky Web: Automated Discovery of Cross-Site Information Leaks in Browsers and the Web",
@@ -4245,7 +4385,8 @@
       "venue": "IEEE S&P",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://ieeexplore.ieee.org/document/10179311"
+      "url": "https://ieeexplore.ieee.org/document/10179311",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/RautenstrauchPS23"
     },
     {
       "title": "Typing High-Speed Cryptography against Spectre v1",
@@ -4278,7 +4419,8 @@
       "venue": "IEEE S&P",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://eprint.iacr.org/2022/1270"
+      "url": "https://eprint.iacr.org/2022/1270",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/ShivakumarBGLOPST23"
     },
     {
       "title": "WaVe: a verifiably secure WebAssembly sandboxing runtime",
@@ -4315,7 +4457,8 @@
       "venue": "IEEE S&P",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://ieeexplore.ieee.org/document/10179357"
+      "url": "https://ieeexplore.ieee.org/document/10179357",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/JohnsonLZGNSSB23"
     },
     {
       "title": "Weak Fiat-Shamir Attacks on Modern Proof Systems",
@@ -4336,7 +4479,8 @@
       "venue": "IEEE S&P",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://eprint.iacr.org/2023/691"
+      "url": "https://eprint.iacr.org/2023/691",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/DaoMWG23"
     },
     {
       "title": "“In Eighty Percent of the Cases, I Select the Password for Them”: Security and Privacy Challenges, Advice, and Opportunities at Cybercafes in Kenya",
@@ -4357,7 +4501,8 @@
       "venue": "IEEE S&P",
       "year": 2023,
       "award": "Best Paper",
-      "url": "https://ieeexplore.ieee.org/document/10179410"
+      "url": "https://ieeexplore.ieee.org/document/10179410",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/MunyendoAA23"
     },
     {
       "title": "DARWIN: Survival of the Fittest Fuzzing Mutators",
@@ -4386,7 +4531,8 @@
       "venue": "NDSS",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/darwin-survival-of-the-fittest-fuzzing-mutators/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/darwin-survival-of-the-fittest-fuzzing-mutators/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/JauernigJPSS23"
     },
     {
       "title": "Your Router is My Prober: Measuring IPv6 Networks via ICMP Rate Limiting Side Channels",
@@ -4423,7 +4569,8 @@
       "venue": "NDSS",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/your-router-is-my-prober-measuring-ipv6-networks-via-icmp-rate-limiting-side-channels/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/your-router-is-my-prober-measuring-ipv6-networks-via-icmp-rate-limiting-side-channels/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/Pan00WNSL23"
     },
     {
       "title": "A Bug's Life: Analyzing the Lifecycle and Mitigation Process of Content Security Policy Bugs",
@@ -4444,7 +4591,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/franken"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/franken",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/FrankenGDJ23"
     },
     {
       "title": "A Two-Decade Retrospective Analysis of a University's Vulnerability to Attacks Exploiting Reused Passwords",
@@ -4493,7 +4641,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/nisenoff-retrospective"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/nisenoff-retrospective",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/NisenoffGWHSBHC23"
     },
     {
       "title": "Account Security Interfaces: Important, Unintuitive, and Untrustworthy",
@@ -4522,7 +4671,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/daffalla"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/daffalla",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/DaffallaBDBR23"
     },
     {
       "title": "An Efficient Design of Intelligent Network Data Plane",
@@ -4551,7 +4701,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/zhou-guangmeng"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/zhou-guangmeng",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ZhouLF0023"
     },
     {
       "title": "Automated Analysis of Protocols that use Authenticated Encryption: How Subtle AEAD Differences can impact Protocol Security",
@@ -4576,7 +4727,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/cremers-protocols"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/cremers-protocols",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/CremersDJZ23"
     },
     {
       "title": "BotScreen: Trust Everybody, but Cut the Aimbots Yourself",
@@ -4597,7 +4749,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/choi"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/choi",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ChoiKC23"
     },
     {
       "title": "Bug Hunters’ Perspectives on the Challenges and Benefits of the Bug Bounty Ecosystem",
@@ -4634,7 +4787,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/akgul"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/akgul",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/AkgulEEGGMVL23"
     },
     {
       "title": "Don’t be Dense: Efficient Keyword PIR for Sparse Databases",
@@ -4655,7 +4809,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/patel"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/patel",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/PatelSY23"
     },
     {
       "title": "Ethical Frameworks and Computer Security Trolley Problems: Foundations for Conversations",
@@ -4676,7 +4831,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/kohno"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/kohno",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/KohnoAL23"
     },
     {
       "title": "Examining Power Dynamics and User Privacy in Smart Technology Use Among Jordanian Households",
@@ -4693,7 +4849,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/albayaydh"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/albayaydh",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/AlbayaydhF23"
     },
     {
       "title": "Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge",
@@ -4722,7 +4879,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/bars"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/bars",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/BarsSSSH23"
     },
     {
       "title": "Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models",
@@ -4755,7 +4913,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/shan"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/shan",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ShanCW0HZ23"
     },
     {
       "title": "Hash Gone Bad: Automated discovery of protocol attacks that exploit hash function weaknesses",
@@ -4784,7 +4943,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/cheval"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/cheval",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ChevalCDHJK23"
     },
     {
       "title": "Remote Direct Memory Introspection",
@@ -4817,7 +4977,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/liu-hongyi"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/liu-hongyi",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/LiuXHZD023"
     },
     {
       "title": "Tight Auditing of Differentially Private Machine Learning",
@@ -4858,7 +5019,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/nasr"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/nasr",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/NasrH0BTJCT23"
     },
     {
       "title": "TreeSync: Authenticated Group Management for Messaging Layer Security",
@@ -4883,7 +5045,8 @@
       "venue": "USENIX Security",
       "year": 2023,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/wallez"
+      "url": "https://www.usenix.org/conference/usenixsecurity23/presentation/wallez",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/WallezPBB23"
     },
     {
       "title": "Automatic Detection of Speculative Execution Combinations",
@@ -4904,7 +5067,8 @@
       "venue": "ACM CCS",
       "year": 2022,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3548606.3560555"
+      "url": "https://doi.org/10.1145/3548606.3560555",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/FabianGP22"
     },
     {
       "title": "Proving UNSAT in Zero Knowledge",
@@ -4937,7 +5101,8 @@
       "venue": "ACM CCS",
       "year": 2022,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3548606.3559373"
+      "url": "https://doi.org/10.1145/3548606.3559373",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/LuoAHPTW22"
     },
     {
       "title": "STAR: Secret Sharing for Private Threshold Aggregation Reporting",
@@ -4970,7 +5135,8 @@
       "venue": "ACM CCS",
       "year": 2022,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3548606.3560631"
+      "url": "https://doi.org/10.1145/3548606.3560631",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/DavidsonSQGLH22"
     },
     {
       "title": "Victory by KO: Attacking OpenPGP Using Key Overwriting",
@@ -4991,7 +5157,8 @@
       "venue": "ACM CCS",
       "year": 2022,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3548606.3559363"
+      "url": "https://doi.org/10.1145/3548606.3559363",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/BruseghiniHP22"
     },
     {
       "title": "Zapper: Smart Contracts with Data and Identity Privacy",
@@ -5012,7 +5179,8 @@
       "venue": "ACM CCS",
       "year": 2022,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3548606.3560622"
+      "url": "https://doi.org/10.1145/3548606.3560622",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/SteffenBV22"
     },
     {
       "title": "Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions",
@@ -5041,7 +5209,8 @@
       "venue": "IEEE S&P",
       "year": 2022,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3610721"
+      "url": "https://doi.org/10.1145/3610721",
+      "data_checked_via": "https://dblp.org/rec/journals/cacm/PearceATDK25"
     },
     {
       "title": "Committed to Trust: A Qualitative Study on Security & Trust in Open Source Software Projects",
@@ -5070,7 +5239,8 @@
       "venue": "IEEE S&P",
       "year": 2022,
       "award": "Best Paper",
-      "url": "https://doi.org/10.18420/sw2024_46"
+      "url": "https://doi.org/10.18420/sw2024_46",
+      "data_checked_via": "https://dblp.org/rec/conf/se/WermkeWKFAF24"
     },
     {
       "title": "Four Attacks and a Proof for Telegram",
@@ -5087,7 +5257,8 @@
       "venue": "IEEE S&P",
       "year": 2022,
       "award": "Best Paper",
-      "url": "https://eprint.iacr.org/2023/469"
+      "url": "https://eprint.iacr.org/2023/469",
+      "data_checked_via": "https://dblp.org/rec/journals/iacr/AlbrechtMPS23"
     },
     {
       "title": "Invisible Finger: Practical Electromagnetic Interference Attack on Touchscreen-based Electronic Devices",
@@ -5120,7 +5291,8 @@
       "venue": "IEEE S&P",
       "year": 2022,
       "award": "Best Paper",
-      "url": "https://doi.org/10.48550/arXiv.2402.02227"
+      "url": "https://doi.org/10.48550/arXiv.2402.02227",
+      "data_checked_via": "https://dblp.org/rec/journals/corr/abs-2402-02227"
     },
     {
       "title": "Preventing Kernel Hacks with HAKCs",
@@ -5157,7 +5329,8 @@
       "venue": "NDSS",
       "year": 2022,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/auto-draft-257/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/auto-draft-257/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/McKeeGOSPOB22"
     },
     {
       "title": "An Audit of Facebook's Political Ad Policy Enforcement",
@@ -5186,7 +5359,8 @@
       "venue": "USENIX Security",
       "year": 2022,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/lepochat"
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/lepochat",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/PochatEGJML22"
     },
     {
       "title": "Attacks on Deidentification's Defenses",
@@ -5199,7 +5373,8 @@
       "venue": "USENIX Security",
       "year": 2022,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/cohen"
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/cohen",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/Cohen22"
     },
     {
       "title": "Augmenting Decompiler Output with Learned Variable Names and Types",
@@ -5232,7 +5407,8 @@
       "venue": "USENIX Security",
       "year": 2022,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-qibin"
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/chen-qibin",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ChenLSGNV22"
     },
     {
       "title": "Dos and Don'ts of Machine Learning in Computer Security",
@@ -5273,7 +5449,8 @@
       "venue": "USENIX Security",
       "year": 2022,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp"
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/arp",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ArpQPWPWCR22"
     },
     {
       "title": "FIXREVERTER: A Realistic Bug Injection Methodology for Benchmarking Fuzz Testing",
@@ -5298,7 +5475,8 @@
       "venue": "USENIX Security",
       "year": 2022,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-zenong"
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-zenong",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ZhangP0W22"
     },
     {
       "title": "Faster Yet Safer: Logging System Via Fixed-Key Blockcipher",
@@ -5319,7 +5497,8 @@
       "venue": "USENIX Security",
       "year": 2022,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/hoang"
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/hoang",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/HoangW022"
     },
     {
       "title": "Identity Confusion in WebView-based Mobile App-in-app Ecosystems",
@@ -5364,7 +5543,8 @@
       "venue": "USENIX Security",
       "year": 2022,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-lei"
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/zhang-lei",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/0096ZLC0C0Y022"
     },
     {
       "title": "Online Website Fingerprinting: Evaluating Website Fingerprinting Attacks on Tor in the Real World",
@@ -5381,7 +5561,8 @@
       "venue": "USENIX Security",
       "year": 2022,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/cherubin"
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/cherubin",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/CherubinJT22"
     },
     {
       "title": "OpenVPN is Open to VPN Fingerprinting",
@@ -5414,7 +5595,8 @@
       "venue": "USENIX Security",
       "year": 2022,
       "award": "Distinguished Paper",
-      "url": "https://doi.org/10.1145/3618117"
+      "url": "https://doi.org/10.1145/3618117",
+      "data_checked_via": "https://dblp.org/rec/journals/cacm/XueRJKHCE25"
     },
     {
       "title": "Private Signaling",
@@ -5464,7 +5646,8 @@
       "venue": "USENIX Security",
       "year": 2022,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/bosamiya"
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/bosamiya",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/BosamiyaLP22"
     },
     {
       "title": "The Antrim County 2020 Election Incident: An Independent Forensic Investigation",
@@ -5477,7 +5660,8 @@
       "venue": "USENIX Security",
       "year": 2022,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/halderman"
+      "url": "https://www.usenix.org/conference/usenixsecurity22/presentation/halderman",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/Halderman22"
     },
     {
       "title": "On the (In)Security of ElGamal in OpenPGP",
@@ -5498,7 +5682,8 @@
       "venue": "ACM CCS",
       "year": 2021,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3592835"
+      "url": "https://doi.org/10.1145/3592835",
+      "data_checked_via": "https://dblp.org/rec/journals/cacm/FeoPS23"
     },
     {
       "title": "On the Renyi Differential Privacy of the Shuffle Model",
@@ -5527,7 +5712,8 @@
       "venue": "ACM CCS",
       "year": 2021,
       "award": "Best Paper",
-      "url": "https://arxiv.org/abs/2105.05180"
+      "url": "https://arxiv.org/abs/2105.05180",
+      "data_checked_via": "https://dblp.org/rec/journals/corr/abs-2105-05180"
     },
     {
       "title": "One Glitch to Rule Them All: Fault Injection Attacks Against AMD's Secure Encrypted Virtualization",
@@ -5544,7 +5730,8 @@
       "venue": "ACM CCS",
       "year": 2021,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3460120.3484779"
+      "url": "https://doi.org/10.1145/3460120.3484779",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/BuhrenJKS21"
     },
     {
       "title": "V-Shuttle: Scalable and Semantics-Aware Hypervisor Virtual Device Fuzzing",
@@ -5589,7 +5776,8 @@
       "venue": "ACM CCS",
       "year": 2021,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3460120.3484811"
+      "url": "https://doi.org/10.1145/3460120.3484811",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/PanL0JJWYWW21"
     },
     {
       "title": "XSinator.com: From a Formal Model to the Automatic Evaluation of Cross-Site Leaks in Web Browsers",
@@ -5618,7 +5806,8 @@
       "venue": "ACM CCS",
       "year": 2021,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3460120.3484739"
+      "url": "https://doi.org/10.1145/3460120.3484739",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/KnittelMNNS21"
     },
     {
       "title": "Compositional Security for Reentrant Applications",
@@ -5639,7 +5828,8 @@
       "venue": "IEEE S&P",
       "year": 2021,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP40001.2021.00084"
+      "url": "https://doi.org/10.1109/SP40001.2021.00084",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/CecchettiYNM21"
     },
     {
       "title": "Hardware-Software Contracts for Secure Speculation",
@@ -5660,7 +5850,8 @@
       "venue": "IEEE S&P",
       "year": 2021,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP40001.2021.00036"
+      "url": "https://doi.org/10.1109/SP40001.2021.00036",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/GuarnieriKRV21"
     },
     {
       "title": "Awakening the Web’s Sleeper Agents: Misusing Service Workers for Privacy Leakage",
@@ -5681,7 +5872,8 @@
       "venue": "NDSS",
       "year": 2021,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/awakening-the-webs-sleeper-agents-misusing-service-workers-for-privacy-leakage/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/awakening-the-webs-sleeper-agents-misusing-service-workers-for-privacy-leakage/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/KaramiIP21"
     },
     {
       "title": "An Analysis of Speculative Type Confusion Vulnerabilities in the Wild",
@@ -5698,7 +5890,8 @@
       "venue": "USENIX Security",
       "year": 2021,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner"
+      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/kirzner",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/Kirzner021"
     },
     {
       "title": "It's stressful having all these phones: Investigating Sex Workers' Safety Goals, Risks, and Practices Online",
@@ -5727,7 +5920,8 @@
       "venue": "USENIX Security",
       "year": 2021,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/mcdonald"
+      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/mcdonald",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/McDonaldBMSR21"
     },
     {
       "title": "Poisoning the Unlabeled Dataset of Semi-Supervised Learning",
@@ -5740,7 +5934,8 @@
       "venue": "USENIX Security",
       "year": 2021,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-poisoning"
+      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/carlini-poisoning",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/Carlini21"
     },
     {
       "title": "Rage Against the Machine Clear: A Systematic Analysis of Machine Clears and Their Implications for Transient Execution Attacks",
@@ -5765,7 +5960,8 @@
       "venue": "USENIX Security",
       "year": 2021,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/ragab"
+      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/ragab",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/RagabBBG21"
     },
     {
       "title": "Weaponizing Middleboxes for TCP Reflected Amplification",
@@ -5798,7 +5994,8 @@
       "venue": "USENIX Security",
       "year": 2021,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/bock"
+      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/bock",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/0001AFHWL21"
     },
     {
       "title": "Why wouldn't someone think of democracy as a target?: Security practices & challenges of people involved with U.S. political campaigns",
@@ -5831,7 +6028,8 @@
       "venue": "USENIX Security",
       "year": 2021,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/consolvo"
+      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/consolvo",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ConsolvoKMTDB21"
     },
     {
       "title": "You Autocomplete Me: Poisoning Vulnerabilities in Neural Code Completion",
@@ -5856,7 +6054,8 @@
       "venue": "USENIX Security",
       "year": 2021,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/schuster"
+      "url": "https://www.usenix.org/conference/usenixsecurity21/presentation/schuster",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/SchusterSTS21"
     },
     {
       "title": "DNS Cache Poisoning Attack Reloaded: Revolutions with Side Channels",
@@ -5889,7 +6088,8 @@
       "venue": "ACM CCS",
       "year": 2020,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3372297.3417280"
+      "url": "https://doi.org/10.1145/3372297.3417280",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/ManQ0ZHD20"
     },
     {
       "title": "TRRespass: Exploiting the Many Sides of Target Row Refresh",
@@ -5930,7 +6130,8 @@
       "venue": "IEEE S&P",
       "year": 2020,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP40000.2020.00090"
+      "url": "https://doi.org/10.1109/SP40000.2020.00090",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/FrigoVHVMGBR20"
     },
     {
       "title": "Melting Pot of Origins: Compromising the Intermediary Web Services that Rehost Websites",
@@ -5951,7 +6152,8 @@
       "venue": "NDSS",
       "year": 2020,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/melting-pot-of-origins-compromising-the-intermediary-web-services-that-rehost-websites/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/melting-pot-of-origins-compromising-the-intermediary-web-services-that-rehost-websites/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/0001SAM20"
     },
     {
       "title": "A Comprehensive Quality Evaluation of Security and Privacy Advice on the Web",
@@ -5992,7 +6194,8 @@
       "venue": "USENIX Security",
       "year": 2020,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/redmiles"
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/redmiles",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/RedmilesWJKKMSM20"
     },
     {
       "title": "Composition Kills: A Case Study of Email Sender Authentication",
@@ -6013,7 +6216,8 @@
       "venue": "USENIX Security",
       "year": 2020,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/chen-jianjun"
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/chen-jianjun",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ChenPJ20"
     },
     {
       "title": "Datalog Disassembly",
@@ -6030,7 +6234,8 @@
       "venue": "USENIX Security",
       "year": 2020,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/flores-montoya"
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/flores-montoya",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/Flores-MontoyaS20"
     },
     {
       "title": "Pancake: Frequency Smoothing for Encrypted Data Stores",
@@ -6063,7 +6268,8 @@
       "venue": "USENIX Security",
       "year": 2020,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/grubbs"
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/grubbs",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/GrubbsKLBL0R20"
     },
     {
       "title": "Retrofitting Fine Grain Isolation in the Firefox Renderer",
@@ -6104,7 +6310,8 @@
       "venue": "USENIX Security",
       "year": 2020,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/narayan"
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/narayan",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/NarayanDGFRLSS20"
     },
     {
       "title": "Sunrise to Sunset: Analyzing the End-to-end Life Cycle and Effectiveness of Phishing Attacks at Scale",
@@ -6149,7 +6356,8 @@
       "venue": "USENIX Security",
       "year": 2020,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/oest-sunrise"
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/oest-sunrise",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/OestZWNBZTDA20"
     },
     {
       "title": "Symbolic execution with SymCC: Don't interpret, compile!",
@@ -6166,7 +6374,8 @@
       "venue": "USENIX Security",
       "year": 2020,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau"
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/poeplau",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/PoeplauF20"
     },
     {
       "title": "The Tools and Tactics Used in Intimate Partner Surveillance: An Analysis of Online Infidelity Forums",
@@ -6207,7 +6416,8 @@
       "venue": "USENIX Security",
       "year": 2020,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/tseng"
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/tseng",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/TsengBMDGMDR20"
     },
     {
       "title": "The Unpatchable Silicon: A Full Break of the Bitstream Encryption of Xilinx 7-Series FPGAs",
@@ -6228,7 +6438,8 @@
       "venue": "USENIX Security",
       "year": 2020,
       "award": "Distinguished Paper",
-      "url": "https://arxiv.org/abs/2105.13756"
+      "url": "https://arxiv.org/abs/2105.13756",
+      "data_checked_via": "https://dblp.org/rec/journals/corr/abs-2105-13756"
     },
     {
       "title": "Understanding security mistakes developers make: Qualitative analysis from Build It, Break It, Fix It",
@@ -6261,7 +6472,8 @@
       "venue": "USENIX Security",
       "year": 2020,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding"
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/votipka-understanding",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/VotipkaFPHM020"
     },
     {
       "title": "Who's Calling? Characterizing Robocalls through Audio and Metadata Analysis",
@@ -6286,7 +6498,8 @@
       "venue": "USENIX Security",
       "year": 2020,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/prasad"
+      "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/prasad",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/PrasadBMR20"
     },
     {
       "title": "Where Does It Go? Refining Indirect-Call Targets with Multi-layer Type Analysis",
@@ -6303,7 +6516,8 @@
       "venue": "ACM CCS",
       "year": 2019,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3319535.3354244"
+      "url": "https://doi.org/10.1145/3319535.3354244",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/LuH19"
     },
     {
       "title": "Spectre attacks: exploiting speculative execution",
@@ -6360,7 +6574,8 @@
       "venue": "IEEE S&P",
       "year": 2019,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3399742"
+      "url": "https://doi.org/10.1145/3399742",
+      "data_checked_via": "https://dblp.org/rec/journals/cacm/KocherHFGGHHLMP20"
     },
     {
       "title": "Cleaning Up the Internet of Evil Things: Real-World Evidence on ISP and Consumer Efforts to Remove Mirai",
@@ -6405,7 +6620,8 @@
       "venue": "NDSS",
       "year": 2019,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/cleaning-up-the-internet-of-evil-things-real-world-evidence-on-isp-and-consumer-efforts-to-remove-mirai/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/cleaning-up-the-internet-of-evil-things-real-world-evidence-on-isp-and-consumer-efforts-to-remove-mirai/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/CetinGAKITTYE19"
     },
     {
       "title": "Cracking the Wall of Confinement: Understanding and Analyzing Malicious Domain Take-downs",
@@ -6450,7 +6666,8 @@
       "venue": "NDSS",
       "year": 2019,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/cracking-the-wall-of-confinement-understanding-and-analyzing-malicious-domain-take-downs/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/cracking-the-wall-of-confinement-understanding-and-analyzing-malicious-domain-take-downs/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/AlowaisheqWAL0A19"
     },
     {
       "title": "Establishing Software Root of Trust Unconditionally",
@@ -6467,7 +6684,8 @@
       "venue": "NDSS",
       "year": 2019,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/establishing-software-root-of-trust-unconditionally/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/establishing-software-root-of-trust-unconditionally/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/GligorW19"
     },
     {
       "title": "MBeacon: Privacy-Preserving Beacons for DNA Methylation Data",
@@ -6504,7 +6722,8 @@
       "venue": "NDSS",
       "year": 2019,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss-paper/mbeacon-privacy-preserving-beacons-for-dna-methylation-data/"
+      "url": "https://www.ndss-symposium.org/ndss-paper/mbeacon-privacy-preserving-beacons-for-dna-methylation-data/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/Hagestedt0HBT0019"
     },
     {
       "title": "50 Ways to Leak Your Data: An Exploration of Apps' Circumvention of the Android Permissions System",
@@ -6533,7 +6752,8 @@
       "venue": "USENIX Security",
       "year": 2019,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/publications/login/winter2019/reardon"
+      "url": "https://www.usenix.org/publications/login/winter2019/reardon",
+      "data_checked_via": "https://dblp.org/rec/journals/usenix-login/ReardonFWOVE19"
     },
     {
       "title": "Computer Security and Privacy in the Interactions Between Victim Service Providers and Human Trafficking Survivors",
@@ -6554,7 +6774,8 @@
       "venue": "USENIX Security",
       "year": 2019,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/chen"
+      "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/chen",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ChenDR19"
     },
     {
       "title": "Detecting and Characterizing Lateral Phishing at Scale",
@@ -6595,7 +6816,8 @@
       "venue": "USENIX Security",
       "year": 2019,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/ho"
+      "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/ho",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/HoCGSPSV019"
     },
     {
       "title": "ERIM: Secure, Efficient In-process Isolation with Protection Keys (MPK)",
@@ -6628,7 +6850,8 @@
       "venue": "USENIX Security",
       "year": 2019,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/vahldiek-oberwagner"
+      "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/vahldiek-oberwagner",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/Vahldiek-Oberwagner19"
     },
     {
       "title": "Protecting accounts from credential stuffing with password breach alerting",
@@ -6681,7 +6904,8 @@
       "venue": "USENIX Security",
       "year": 2019,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/thomas"
+      "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/thomas",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ThomasPYRKIBPPB19"
     },
     {
       "title": "Users Really Do Answer Telephone Scams",
@@ -6706,7 +6930,8 @@
       "venue": "USENIX Security",
       "year": 2019,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/tu"
+      "url": "https://www.usenix.org/conference/usenixsecurity19/presentation/tu",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/TuD0A19"
     },
     {
       "title": "LEMNA: Explaining Deep Learning based Security Applications",
@@ -6739,7 +6964,8 @@
       "venue": "ACM CCS",
       "year": 2018,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3243734.3243792"
+      "url": "https://doi.org/10.1145/3243734.3243792",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/GuoMXSWX18"
     },
     {
       "title": "Toward Detecting Violations of Differential Privacy",
@@ -6768,7 +6994,8 @@
       "venue": "ACM CCS",
       "year": 2018,
       "award": "Best Paper",
-      "url": "http://arxiv.org/abs/1805.10277"
+      "url": "http://arxiv.org/abs/1805.10277",
+      "data_checked_via": "https://dblp.org/rec/journals/corr/abs-1805-10277"
     },
     {
       "title": "DEEPSEC: Deciding Equivalence Properties in Security Protocols -- Theory and Practice",
@@ -6785,7 +7012,8 @@
       "venue": "IEEE S&P",
       "year": 2018,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP.2018.00033"
+      "url": "https://doi.org/10.1109/SP.2018.00033",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/ChevalKR18"
     },
     {
       "title": "On Enforcing the Digital Immunity of a Large Humanitarian Organization",
@@ -6818,7 +7046,8 @@
       "venue": "IEEE S&P",
       "year": 2018,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP.2018.00019"
+      "url": "https://doi.org/10.1109/SP.2018.00019",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/BlondCTJFH18"
     },
     {
       "title": "Knock Knock, Who’s There? Membership Inference on Aggregate Location Data",
@@ -6839,7 +7068,8 @@
       "venue": "NDSS",
       "year": 2018,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_05B-5_Pyrgelis_paper.pdf"
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_05B-5_Pyrgelis_paper.pdf",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/PyrgelisTC18"
     },
     {
       "title": "Resolving the Predicament of Android Custom Permissions",
@@ -6864,7 +7094,8 @@
       "venue": "NDSS",
       "year": 2018,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_08-4_Tuncay_paper.pdf"
+      "url": "https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_08-4_Tuncay_paper.pdf",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/TuncayDGG18"
     },
     {
       "title": "Fear the Reaper: Characterization and Fast Detection of Card Skimmers",
@@ -6885,7 +7116,8 @@
       "venue": "USENIX Security",
       "year": 2018,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/scaife"
+      "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/scaife",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ScaifePT18"
     },
     {
       "title": "NAVEX: Precise and Scalable Exploit Generation for Dynamic Web Applications",
@@ -6910,7 +7142,8 @@
       "venue": "USENIX Security",
       "year": 2018,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/alhuzali"
+      "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/alhuzali",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/AlhuzaliGEV18"
     },
     {
       "title": "QSYM : A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing",
@@ -6939,7 +7172,8 @@
       "venue": "USENIX Security",
       "year": 2018,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun"
+      "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/yun",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/Yun0XJK18"
     },
     {
       "title": "The Battle for New York: A Case Study of Applied Digital Threat Modeling at the Enterprise Level",
@@ -6972,7 +7206,8 @@
       "venue": "USENIX Security",
       "year": 2018,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/stevens"
+      "url": "https://www.usenix.org/conference/usenixsecurity18/presentation/stevens",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/StevensVRASM18"
     },
     {
       "title": "Who Left Open the Cookie Jar? A Comprehensive Evaluation of Third-Party Cookie Policies",
@@ -6989,7 +7224,8 @@
       "venue": "USENIX Security",
       "year": 2018,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/atc19/presentation/franken"
+      "url": "https://www.usenix.org/conference/atc19/presentation/franken",
+      "data_checked_via": "https://dblp.org/rec/conf/usenix/FrankenGJ19"
     },
     {
       "title": "A Formal Foundation for Secure Remote Execution of Enclaves",
@@ -7018,7 +7254,8 @@
       "venue": "ACM CCS",
       "year": 2017,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3133956.3134098"
+      "url": "https://doi.org/10.1145/3133956.3134098",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/Subramanyan0LDS17"
     },
     {
       "title": "Authenticated Garbling and Efficient Maliciously Secure Two-Party Computation",
@@ -7039,7 +7276,8 @@
       "venue": "ACM CCS",
       "year": 2017,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3133956.3134053"
+      "url": "https://doi.org/10.1145/3133956.3134053",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/WangRK17"
     },
     {
       "title": "Better Bounds for Block Cipher Modes of Operation via Nonce-Based Key Derivation",
@@ -7056,7 +7294,8 @@
       "venue": "ACM CCS",
       "year": 2017,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3133956.3133992"
+      "url": "https://doi.org/10.1145/3133956.3133992",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/GueronL17"
     },
     {
       "title": "DolphinAttack: Inaudible Voice Commands",
@@ -7089,7 +7328,8 @@
       "venue": "ACM CCS",
       "year": 2017,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3133956.3134052"
+      "url": "https://doi.org/10.1145/3133956.3134052",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/ZhangYJZZX17"
     },
     {
       "title": "Scaling ORAM for Secure Computation",
@@ -7106,7 +7346,8 @@
       "venue": "ACM CCS",
       "year": 2017,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3133956.3133967"
+      "url": "https://doi.org/10.1145/3133956.3133967",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/DoernerS17"
     },
     {
       "title": "Verified Models and Reference Implementations for the TLS 1.3 Standard Candidate",
@@ -7127,7 +7368,8 @@
       "venue": "IEEE S&P",
       "year": 2017,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP.2017.26"
+      "url": "https://doi.org/10.1109/SP.2017.26",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/BhargavanBK17"
     },
     {
       "title": "Dial One for Scam: A Large-Scale Analysis of Technical Support Scams",
@@ -7148,7 +7390,8 @@
       "venue": "NDSS",
       "year": 2017,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/dial-one-scam-large-scale-analysis-technical-support-scams/"
+      "url": "https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/dial-one-scam-large-scale-analysis-technical-support-scams/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/MiramirkhaniSN17"
     },
     {
       "title": "Ramblr: Making Reassembly Great Again",
@@ -7189,7 +7432,8 @@
       "venue": "NDSS",
       "year": 2017,
       "award": "Distinguished Paper",
-      "url": "https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/ramblr-making-reassembly-great-again/"
+      "url": "https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/ramblr-making-reassembly-great-again/",
+      "data_checked_via": "https://dblp.org/rec/conf/ndss/WangSBMGGKV17"
     },
     {
       "title": "A Longitudinal, End-to-End View of the DNSSEC Ecosystem",
@@ -7226,7 +7470,8 @@
       "venue": "USENIX Security",
       "year": 2017,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/chung"
+      "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/chung",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ChungR0CLMMW17"
     },
     {
       "title": "CLKSCREW: Exposing the Perils of Security-Oblivious Energy Management",
@@ -7247,7 +7492,8 @@
       "venue": "USENIX Security",
       "year": 2017,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/tang"
+      "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/tang",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/TangSS17"
     },
     {
       "title": "Detecting Credential Spearphishing in Enterprise Settings",
@@ -7276,7 +7522,8 @@
       "venue": "USENIX Security",
       "year": 2017,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/ho"
+      "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/ho",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/HoSJP017"
     },
     {
       "title": "Loophole: Timing Attacks on Shared Event Loops in Chrome",
@@ -7293,7 +7540,8 @@
       "venue": "USENIX Security",
       "year": 2017,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/vila"
+      "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/vila",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/VilaK17"
     },
     {
       "title": "MPI: Multiple Perspective Attack Investigation with Semantic Aware Execution Partitioning",
@@ -7326,7 +7574,8 @@
       "venue": "USENIX Security",
       "year": 2017,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/ma"
+      "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/ma",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/MaZ0LZX17"
     },
     {
       "title": "Vale: Verifying High-Performance Cryptographic Assembly Code",
@@ -7371,7 +7620,8 @@
       "venue": "USENIX Security",
       "year": 2017,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/bond"
+      "url": "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/bond",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/BondHKLLPRST17"
     },
     {
       "title": "A Surfeit of SSH Cipher Suites",
@@ -7388,7 +7638,8 @@
       "venue": "ACM CCS",
       "year": 2016,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/2976749.2978364"
+      "url": "https://doi.org/10.1145/2976749.2978364",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/AlbrechtDHP16"
     },
     {
       "title": "A Systematic Analysis of the Juniper Dual EC Incident",
@@ -7437,7 +7688,8 @@
       "venue": "ACM CCS",
       "year": 2016,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/2976749.2978395"
+      "url": "https://doi.org/10.1145/2976749.2978395",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/CheckowayMGFC0H16"
     },
     {
       "title": "High-Throughput Semi-Honest Secure Three-Party Computation with an Honest Majority",
@@ -7466,7 +7718,8 @@
       "venue": "ACM CCS",
       "year": 2016,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/2976749.2978331"
+      "url": "https://doi.org/10.1145/2976749.2978331",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/ArakiFLNO16"
     },
     {
       "title": "A2: Analog Malicious Hardware",
@@ -7495,7 +7748,8 @@
       "venue": "IEEE S&P",
       "year": 2016,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP.2016.10"
+      "url": "https://doi.org/10.1109/SP.2016.10",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/YangHDAS16"
     },
     {
       "title": "Fast, Lean, and Accurate: Modeling Password Guessability Using Neural Networks",
@@ -7532,7 +7786,8 @@
       "venue": "USENIX Security",
       "year": 2016,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/atc17/technical-sessions/presentation/melicher"
+      "url": "https://www.usenix.org/conference/atc17/technical-sessions/presentation/melicher",
+      "data_checked_via": "https://dblp.org/rec/conf/usenix/MelicherUKBCC17"
     },
     {
       "title": "The Million-Key Question—Investigating the Origins of RSA Public Keys",
@@ -7569,7 +7824,8 @@
       "venue": "USENIX Security",
       "year": 2016,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/svenda"
+      "url": "https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/svenda",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/SvendaNSKFKM16"
     },
     {
       "title": "ZKBoo: Faster Zero-Knowledge for Boolean Circuits",
@@ -7590,7 +7846,8 @@
       "venue": "USENIX Security",
       "year": 2016,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/giacomelli"
+      "url": "https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/giacomelli",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/GiacomelliMO16"
     },
     {
       "title": "Automated Analysis and Synthesis of Authenticated Encryption Schemes",
@@ -7611,7 +7868,8 @@
       "venue": "ACM CCS",
       "year": 2015,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/2810103.2813636"
+      "url": "https://doi.org/10.1145/2810103.2813636",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/HoangKM15"
     },
     {
       "title": "GUITAR: Piecing Together Android App GUIs from Memory Images",
@@ -7640,7 +7898,8 @@
       "venue": "ACM CCS",
       "year": 2015,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/2810103.2813650"
+      "url": "https://doi.org/10.1145/2810103.2813650",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/SaltaformaggioB15"
     },
     {
       "title": "Imperfect forward secrecy: how Diffie-Hellman fails in practice",
@@ -7705,7 +7964,8 @@
       "venue": "ACM CCS",
       "year": 2015,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3292035"
+      "url": "https://doi.org/10.1145/3292035",
+      "data_checked_via": "https://dblp.org/rec/journals/cacm/AdrianBDGGHHSTV19"
     },
     {
       "title": "A messy state of the union: taming the composite state machines of TLS",
@@ -7742,7 +8002,8 @@
       "venue": "IEEE S&P",
       "year": 2015,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3023357"
+      "url": "https://doi.org/10.1145/3023357",
+      "data_checked_via": "https://dblp.org/rec/journals/cacm/BeurdoucheBDFKP17"
     },
     {
       "title": "Riposte: An Anonymous Messaging System Handling Millions of Users",
@@ -7759,7 +8020,8 @@
       "venue": "IEEE S&P",
       "year": 2015,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP.2015.27"
+      "url": "https://doi.org/10.1109/SP.2015.27",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/Corrigan-GibbsB15"
     },
     {
       "title": "All Your Biases Belong to Us: Breaking RC4 in WPA-TKIP and TLS",
@@ -7776,7 +8038,8 @@
       "venue": "USENIX Security",
       "year": 2015,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/atc16/technical-sessions/presentation/vanhoef"
+      "url": "https://www.usenix.org/conference/atc16/technical-sessions/presentation/vanhoef",
+      "data_checked_via": "https://dblp.org/rec/conf/usenix/VanhoefP16"
     },
     {
       "title": "Under-Constrained Symbolic Execution: Correctness Checking for Real Code",
@@ -7793,7 +8056,8 @@
       "venue": "USENIX Security",
       "year": 2015,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/atc16/technical-sessions/presentation/ramos"
+      "url": "https://www.usenix.org/conference/atc16/technical-sessions/presentation/ramos",
+      "data_checked_via": "https://dblp.org/rec/conf/usenix/RamosE16"
     },
     {
       "title": "Code Reuse Attacks in PHP: Automated POP Chain Generation",
@@ -7814,7 +8078,8 @@
       "venue": "ACM CCS",
       "year": 2014,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/2660267.2660363"
+      "url": "https://doi.org/10.1145/2660267.2660363",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/DahseKH14"
     },
     {
       "title": "Multi-Ciphersuite Security of the Secure Shell (SSH) Protocol",
@@ -7843,7 +8108,8 @@
       "venue": "ACM CCS",
       "year": 2014,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/2660267.2660286"
+      "url": "https://doi.org/10.1145/2660267.2660286",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/BergsmaDKSS14"
     },
     {
       "title": "Private-by-Design Advertising Meets the Real World",
@@ -7860,7 +8126,8 @@
       "venue": "ACM CCS",
       "year": 2014,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/2660267.2660305"
+      "url": "https://doi.org/10.1145/2660267.2660305",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/ReznichenkoF14"
     },
     {
       "title": "Secure Multiparty Computations on Bitcoin",
@@ -7881,7 +8148,8 @@
       "venue": "IEEE S&P",
       "year": 2014,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP.2014.35"
+      "url": "https://doi.org/10.1109/SP.2014.35",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/AndrychowiczDMM14"
     },
     {
       "title": "Automatically Detecting Vulnerable Websites Before They Turn Malicious",
@@ -7898,7 +8166,8 @@
       "venue": "USENIX Security",
       "year": 2014,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/soska"
+      "url": "https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/soska",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/SoskaC14"
     },
     {
       "title": "DSCRETE: Automatic Rendering of Forensic Information from Memory Images via Application Logic Reuse",
@@ -7923,7 +8192,8 @@
       "venue": "USENIX Security",
       "year": 2014,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/saltaformaggio"
+      "url": "https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/saltaformaggio",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/SaltaformaggioGZX14"
     },
     {
       "title": "Privacy in Pharmacogenetics: An End-to-End Case Study of Personalized Warfarin Dosing",
@@ -7956,7 +8226,8 @@
       "venue": "USENIX Security",
       "year": 2014,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/fredrikson_matthew"
+      "url": "https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/fredrikson_matthew",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/FredriksonLJLPR14"
     },
     {
       "title": "FANCI: identification of stealthy malicious logic using boolean functional analysis",
@@ -7973,7 +8244,8 @@
       "venue": "ACM CCS",
       "year": 2013,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/2508859.2516654"
+      "url": "https://doi.org/10.1145/2508859.2516654",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/WaksmanSS13"
     },
     {
       "title": "Path ORAM: An Extremely Simple Oblivious RAM Protocol",
@@ -8014,7 +8286,8 @@
       "venue": "ACM CCS",
       "year": 2013,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/3177872"
+      "url": "https://doi.org/10.1145/3177872",
+      "data_checked_via": "https://dblp.org/rec/journals/jacm/StefanovDSCFRYD18"
     },
     {
       "title": "Security analysis of integrated circuit camouflaging",
@@ -8039,7 +8312,8 @@
       "venue": "ACM CCS",
       "year": 2013,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1145/2508859.2516656"
+      "url": "https://doi.org/10.1145/2508859.2516656",
+      "data_checked_via": "https://dblp.org/rec/conf/ccs/RajendranSSK13"
     },
     {
       "title": "Pinocchio: Nearly Practical Verifiable Computation",
@@ -8064,7 +8338,8 @@
       "venue": "IEEE S&P",
       "year": 2013,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP.2013.47"
+      "url": "https://doi.org/10.1109/SP.2013.47",
+      "data_checked_via": "https://dblp.org/rec/journals/cacm/ParnoHG016"
     },
     {
       "title": "Control Flow Integrity for COTS Binaries",
@@ -8081,7 +8356,8 @@
       "venue": "USENIX Security",
       "year": 2013,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/Zhang"
+      "url": "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/Zhang",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ZhangS13"
     },
     {
       "title": "Securing Computer Hardware Using 3D Integrated Circuit (IC) Technology and Split Manufacturing for Obfuscation",
@@ -8106,7 +8382,8 @@
       "venue": "USENIX Security",
       "year": 2013,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/imeson"
+      "url": "https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/imeson",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/ImesonEGT13"
     },
     {
       "title": "Don't Trust Satellite Phones: A Security Analysis of Two Satphone Standards",
@@ -8135,7 +8412,8 @@
       "venue": "IEEE S&P",
       "year": 2012,
       "award": "Best Paper",
-      "url": "https://doi.org/10.1109/SP.2012.18"
+      "url": "https://doi.org/10.1109/SP.2012.18",
+      "data_checked_via": "https://dblp.org/rec/conf/sp/DriessenHWPH12"
     },
     {
       "title": "Mining Your Ps and Qs: Detection of Widespread Weak Keys in Network Devices",
@@ -8160,7 +8438,8 @@
       "venue": "USENIX Security",
       "year": 2012,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/heninger"
+      "url": "https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/heninger",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/HeningerDWH12"
     },
     {
       "title": "Social Networking with Frientegrity: Privacy and Integrity with an Untrusted Provider",
@@ -8185,7 +8464,8 @@
       "venue": "USENIX Security",
       "year": 2012,
       "award": "Distinguished Paper",
-      "url": "https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/feldman"
+      "url": "https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/feldman",
+      "data_checked_via": "https://dblp.org/rec/conf/uss/FeldmanBFF12"
     }
   ]
 }

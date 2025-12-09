@@ -1,18 +1,8 @@
 # Best Papers in Systems Security
 
-A static website showcasing award-winning papers from top computer security conferences.
+A static website showcasing award-winning papers from the top computer security conferences IEEE S&P, ACM CCS, USENIX Security and NDSS
 
-## Live Site
-
-Visit: [your-username.github.io/best-security-papers](https://your-username.github.io/best-security-papers)
-
-## Features
-
-- Papers from 4 major security conferences: IEEE S&P, ACM CCS, USENIX Security, NDSS
-- Filter by venue
-- Papers grouped by year (newest first)
-- Direct links to paper PDFs where available
-- Responsive design with Bootstrap 5
+**Note:** There is no guarantee regarding the correctness or completeness of the data.
 
 ## Data
 
@@ -21,11 +11,7 @@ Paper data is stored in `data/papers.json` and can be easily edited manually.
 ### Updating the Data
 
 1. **Manual editing**: Edit `data/papers.json` directly to add, remove, or modify entries.
-
-2. **Re-run the parser**: To fetch the latest data from the source repository:
-   ```bash
-   python3 scripts/parse_data.py
-   ```
+2. **Validate data**: Run `python3 scripts/check_db.py --dblp-all` to verify entries against DBLP.
 
 ### JSON Structure
 
@@ -34,11 +20,15 @@ Paper data is stored in `data/papers.json` and can be easily edited manually.
   "papers": [
     {
       "title": "Paper Title",
-      "authors": "Author 1 (Affiliation), Author 2 (Affiliation)",
+      "authors": [
+        {"name": "Author 1", "institution": "University A"},
+        {"name": "Author 2", "institution": "University B"}
+      ],
       "venue": "IEEE S&P",
       "year": 2024,
       "award": "Best Paper",
-      "url": "https://example.com/paper.pdf"
+      "url": "https://doi.org/...",
+      "data_checked_via": "https://dblp.org/rec/..."
     }
   ]
 }
@@ -51,20 +41,9 @@ This is a static site with no build step required. To run locally:
 ```bash
 # Using Python
 python3 -m http.server 8000
-
-# Using Node.js
-npx serve .
 ```
 
 Then open http://localhost:8000 in your browser.
-
-## Deployment to GitHub Pages
-
-1. Create a new repository on GitHub
-2. Push this code to the repository
-3. Go to Settings > Pages
-4. Select "Deploy from a branch" and choose `main` branch
-5. Your site will be available at `https://your-username.github.io/repository-name`
 
 ## Data Source
 
