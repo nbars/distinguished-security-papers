@@ -24,6 +24,7 @@ async function loadPapers() {
 
         renderPapers(allPapers);
         renderAuthorsRanking(allPapers);
+        renderFirstAuthorsRanking(allPapers);
         setupFilters();
     } catch (error) {
         console.error('Error loading papers:', error);
@@ -108,6 +109,7 @@ function applyFilters() {
 
     renderPapers(filtered);
     renderAuthorsRanking(filtered);
+    renderFirstAuthorsRanking(filtered);
 }
 
 // Render papers grouped by year
@@ -330,6 +332,122 @@ function renderAuthorsRanking(papers) {
     container.innerHTML = html;
 }
 
+// Calculate first author statistics and render ranking
+function renderFirstAuthorsRanking(papers) {
+    const container = document.getElementById('first-authors-container');
+
+    // Build first author -> papers mapping (only first author counts)
+    const authorPapers = {};
+    papers.forEach(paper => {
+        if (!paper.authors || !Array.isArray(paper.authors) || paper.authors.length === 0) return;
+        const firstAuthor = paper.authors[0];
+        const name = firstAuthor.name;
+        if (!name) return;
+        if (!authorPapers[name]) {
+            authorPapers[name] = [];
+        }
+        authorPapers[name].push(paper);
+    });
+
+    // Extract surname (last word) from full name
+    const getSurname = (name) => {
+        const parts = name.trim().split(/\s+/);
+        return parts[parts.length - 1];
+    };
+
+    // Convert to array and sort by paper count, then alphabetically by surname
+    const authorList = Object.entries(authorPapers)
+        .map(([name, papers]) => ({ name, papers, count: papers.length }))
+        .sort((a, b) => {
+            if (b.count !== a.count) {
+                return b.count - a.count; // Higher count first
+            }
+            return getSurname(a.name).localeCompare(getSurname(b.name)); // Alphabetical by surname
+        });
+
+    if (authorList.length === 0) {
+        container.innerHTML = '<p class="text-muted">No authors found.</p>';
+        return;
+    }
+
+    // Calculate ranks (with ties - dense ranking: 1, 1, 2, 2, 3...)
+    let previousCount = null;
+    let currentRank = 0;
+    authorList.forEach((author) => {
+        if (author.count !== previousCount) {
+            currentRank++;
+        }
+        author.rank = currentRank;
+        previousCount = author.count;
+    });
+
+    // Build HTML with limit
+    const INITIAL_LIMIT = 25;
+    const showAll = authorList.length <= INITIAL_LIMIT;
+
+    let html = '<div class="authors-list">';
+    authorList.forEach((author, index) => {
+        const authorId = `first-author-${index}`;
+        const isHidden = !showAll && index >= INITIAL_LIMIT;
+        const papersHtml = author.papers
+            .sort((a, b) => b.year - a.year)
+            .map(p => {
+                const titleHtml = p.url
+                    ? `<a href="${escapeHtml(p.url)}" target="_blank" rel="noopener">${escapeHtml(p.title)}</a>`
+                    : escapeHtml(p.title);
+                return `<li class="author-paper-item">${titleHtml} <span class="text-muted">(${escapeHtml(p.venue)} ${p.year})</span></li>`;
+            })
+            .join('');
+
+        html += `
+            <div class="author-entry${isHidden ? ' first-author-hidden' : ''}" ${isHidden ? 'style="display:none;"' : ''}>
+                <div class="author-header" onclick="toggleAuthorPapers('${authorId}')">
+                    <span class="author-rank">#${author.rank}</span>
+                    <span class="author-name">${escapeHtml(author.name)}</span>
+                    <span class="author-count">${author.count} award${author.count > 1 ? 's' : ''}</span>
+                    <span class="author-toggle" id="${authorId}-toggle">+</span>
+                </div>
+                <ul class="author-papers collapsed" id="${authorId}-papers">
+                    ${papersHtml}
+                </ul>
+            </div>
+        `;
+    });
+    html += '</div>';
+
+    // Add show more/less button if needed
+    if (authorList.length > INITIAL_LIMIT) {
+        html += `
+            <div class="text-center mt-3">
+                <button class="btn btn-outline-primary" id="toggle-first-authors-btn" onclick="toggleFirstAuthorsList()">
+                    Show all ${authorList.length} authors
+                </button>
+            </div>
+        `;
+    }
+
+    container.innerHTML = html;
+}
+
+// Toggle first authors list visibility
+let firstAuthorsExpanded = false;
+function toggleFirstAuthorsList() {
+    const hiddenAuthors = document.querySelectorAll('.author-entry.first-author-hidden');
+    const btn = document.getElementById('toggle-first-authors-btn');
+
+    firstAuthorsExpanded = !firstAuthorsExpanded;
+
+    hiddenAuthors.forEach(el => {
+        el.style.display = firstAuthorsExpanded ? '' : 'none';
+    });
+
+    if (firstAuthorsExpanded) {
+        btn.textContent = 'Show less';
+    } else {
+        btn.textContent = `Show all ${hiddenAuthors.length + 25} authors`;
+    }
+}
+
 // Toggle author papers visibility
 function toggleAuthorPapers(authorId) {
     const papersEl = document.getElementById(`${authorId}-papers`);
@@ -363,5 +481,38 @@ function toggleAuthorsList() {
     }
 }
 
+// Handle tab URL hash
+function initTabFromHash() {
+    const hash = window.location.hash;
+    if (hash) {
+        const tabId = hash.replace('#', '') + '-tab';
+        const tabEl = document.getElementById(tabId);
+        if (tabEl) {
+            const tab = new bootstrap.Tab(tabEl);
+            tab.show();
+        }
+    }
+}
+
+// Update URL hash when tab changes
+function setupTabHashSync() {
+    const tabEls = document.querySelectorAll('button[data-bs-toggle="tab"]');
+    tabEls.forEach(tabEl => {
+        tabEl.addEventListener('shown.bs.tab', (event) => {
+            const paneId = event.target.getAttribute('data-bs-target').replace('#', '').replace('-pane', '');
+            history.replaceState(null, null, '#' + paneId);
+        });
+    });
+
+    // Handle browser back/forward
+    window.addEventListener('popstate', () => {
+        initTabFromHash();
+    });
+}
+
 // Initialize
-document.addEventListener('DOMContentLoaded', loadPapers);
+document.addEventListener('DOMContentLoaded', () => {
+    loadPapers();
+    setupTabHashSync();
+    initTabFromHash();
+});

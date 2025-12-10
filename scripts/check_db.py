@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.10"
+# dependencies = ["pymupdf"]
+# ///
 """
 Check the papers.json database for issues:
 - Missing years (gaps in coverage)
 - Potential duplicate entries using fuzzy matching
 - Verify papers against DBLP
+
+Run with: uv run scripts/check_db.py [options]
 """
 
 import json
@@ -19,7 +25,9 @@ from datetime import datetime, timedelta
 
 # Cache configuration
 CACHE_DIR = Path(__file__).parent / '.cache'
+PDF_CACHE_DIR = Path(__file__).parent / '.cache' / 'pdfs'
 CACHE_EXPIRY_HOURS = 24 * 7  # Cache expires after 7 days
+PDF_CACHE_EXPIRY_HOURS = 24 * 30  # PDF cache expires after 30 days
 
 
 def get_cache_path(url):
@@ -68,6 +76,313 @@ def clear_cache():
     if CACHE_DIR.exists():
         count = 0
         for cache_file in CACHE_DIR.glob('*.json'):
+            cache_file.unlink()
+            count += 1
+        return count
+    return 0
+
+
+def get_pdf_cache_path(url):
+    """Get cache file path for a PDF URL."""
+    url_hash = hashlib.md5(url.encode()).hexdigest()
+    return PDF_CACHE_DIR / f"{url_hash}.pdf"
+
+
+def get_pdf_meta_path(url):
+    """Get metadata file path for a cached PDF."""
+    url_hash = hashlib.md5(url.encode()).hexdigest()
+    return PDF_CACHE_DIR / f"{url_hash}.meta.json"
+
+
+def is_pdf_cached(url):
+    """Check if a PDF is cached and not expired."""
+    pdf_path = get_pdf_cache_path(url)
+    meta_path = get_pdf_meta_path(url)
+
+    if not pdf_path.exists() or not meta_path.exists():
+        return False
+
+    try:
+        with open(meta_path, 'r', encoding='utf-8') as f:
+            meta = json.load(f)
+        cached_time = datetime.fromisoformat(meta['timestamp'])
+        if datetime.now() - cached_time > timedelta(hours=PDF_CACHE_EXPIRY_HOURS):
+            return False
+        return True
+    except (json.JSONDecodeError, KeyError, ValueError):
+        return False
+
+
+def resolve_doi_to_pdf(url):
+    """Try to resolve a DOI or landing page URL to a direct PDF URL."""
+    pdf_urls = []
+
+    # ACM Digital Library
+    if 'doi.org/10.1145' in url or 'dl.acm.org' in url:
+        # ACM pattern: https://dl.acm.org/doi/pdf/10.1145/xxxxx
+        if 'doi.org/10.1145' in url:
+            doi = url.split('doi.org/')[-1]
+            pdf_urls.append(f"https://dl.acm.org/doi/pdf/{doi}")
+
+    # IEEE
+    if 'doi.org/10.1109' in url or 'ieeexplore.ieee.org' in url:
+        # IEEE is harder - requires authentication usually
+        pass
+
+    # USENIX
+    if 'usenix.org' in url:
+        # USENIX patterns vary by conference and year
+        import re as re_mod
+        # Match both /presentation/name and /technical-sessions/presentation/name
+        match = re_mod.search(r'/conference/(\w+?)(\d+)/(?:technical-sessions/)?presentation/([^/]+)/?$', url)
+        if match:
+            conf, year, name = match.groups()
+            # Try multiple naming patterns (USENIX has been inconsistent)
+            # Pattern 1: Full conf name (usenixsecurity23-name.pdf) - newer
+            pdf_urls.append(f"https://www.usenix.org/system/files/{conf}{year}-{name}.pdf")
+            # Pattern 2: Short name (sec21-name.pdf) - older
+            conf_short = conf.replace('usenixsecurity', 'sec').replace('security', 'sec')
+            if conf_short != conf:
+                pdf_urls.append(f"https://www.usenix.org/system/files/{conf_short}{year}-{name}.pdf")
+            # Pattern 3: Very old format with underscores
+            pdf_urls.append(f"https://www.usenix.org/system/files/conference/{conf}{year}/sec{year}-paper-{name}.pdf")
+
+    # NDSS
+    if 'ndss-symposium.org' in url:
+        # NDSS: try adding /pdf suffix
+        if not url.endswith('.pdf'):
+            # Pattern: /ndss-paper/name/ -> /ndss-paper/auto-pdf/name/
+            if '/ndss-paper/' in url:
+                pdf_urls.append(url.rstrip('/') + '/paper_file')
+
+    # arXiv
+    if 'arxiv.org/abs' in url:
+        pdf_urls.append(url.replace('/abs/', '/pdf/') + '.pdf')
+
+    return pdf_urls
+
+
+def download_pdf(url, use_cache=True):
+    """Download a PDF and cache it. Returns the local file path or None."""
+    PDF_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+
+    pdf_path = get_pdf_cache_path(url)
+    meta_path = get_pdf_meta_path(url)
+
+    # Check cache first
+    if use_cache and is_pdf_cached(url):
+        return pdf_path
+
+    # Try resolving DOI to direct PDF URL first
+    urls_to_try = [url] + resolve_doi_to_pdf(url)
+
+    for try_url in urls_to_try:
+        try:
+            req = urllib.request.Request(try_url, headers={
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                'Accept': 'application/pdf,*/*'
+            })
+
+            with urllib.request.urlopen(req, timeout=30) as response:
+                content_type = response.headers.get('Content-Type', '')
+                final_url = response.geturl()
+
+                # Check if we got a PDF
+                is_pdf = ('pdf' in content_type.lower() or
+                          final_url.endswith('.pdf') or
+                          try_url.endswith('.pdf'))
+
+                if not is_pdf:
+                    continue
+
+                # Download and save
+                content = response.read()
+
+                # Verify it's actually a PDF (check magic bytes)
+                if not content.startswith(b'%PDF'):
+                    continue
+
+                with open(pdf_path, 'wb') as f:
+                    f.write(content)
+
+                # Save metadata
+                meta = {
+                    'timestamp': datetime.now().isoformat(),
+                    'url': url,
+                    'resolved_url': try_url,
+                    'final_url': final_url
+                }
+                with open(meta_path, 'w', encoding='utf-8') as f:
+                    json.dump(meta, f)
+
+                return pdf_path
+
+        except Exception:
+            continue
+
+    return None
+
+
+def extract_title_from_landing_page(url, use_cache=True):
+    """Fetch a landing page and extract the paper title from HTML."""
+    import html as html_module
+
+    # Check cache first
+    cache_key = f"landing:{url}"
+
+    if use_cache:
+        cached = load_from_cache(cache_key)
+        if cached is not None:
+            return cached.get('title')
+
+    try:
+        req = urllib.request.Request(url, headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.5',
+        })
+
+        with urllib.request.urlopen(req, timeout=15) as response:
+            content_type = response.headers.get('Content-Type', '')
+            if 'html' not in content_type.lower():
+                return None
+
+            html_content = response.read().decode('utf-8', errors='ignore')
+
+            # Try multiple patterns to extract title
+            title = None
+
+            # Pattern 1: citation_title meta tag (most reliable for academic papers)
+            meta_match = re.search(r'<meta\s+name=["\']citation_title["\']\s+content=["\']([^"\']+)["\']', html_content, re.IGNORECASE)
+            if not meta_match:
+                meta_match = re.search(r'<meta\s+content=["\']([^"\']+)["\']\s+name=["\']citation_title["\']', html_content, re.IGNORECASE)
+            if meta_match:
+                title = meta_match.group(1).strip()
+
+            # Pattern 2: og:title meta tag
+            if not title:
+                og_match = re.search(r'<meta\s+property=["\']og:title["\']\s+content=["\']([^"\']+)["\']', html_content, re.IGNORECASE)
+                if not og_match:
+                    og_match = re.search(r'<meta\s+content=["\']([^"\']+)["\']\s+property=["\']og:title["\']', html_content, re.IGNORECASE)
+                if og_match:
+                    title = og_match.group(1).strip()
+
+            # Pattern 3: <title> tag (fallback, often contains site name)
+            if not title:
+                title_match = re.search(r'<title[^>]*>([^<]+)</title>', html_content, re.IGNORECASE)
+                if title_match:
+                    title = title_match.group(1).strip()
+                    # Remove common suffixes like " | ACM Digital Library", " - IEEE Xplore"
+                    title = re.sub(r'\s*[\|–\-]\s*(ACM|IEEE|USENIX|NDSS|arXiv).*$', '', title, flags=re.IGNORECASE)
+
+            # Decode HTML entities (e.g., &#039; -> ')
+            if title:
+                title = html_module.unescape(title)
+
+            # Cache the result
+            if use_cache and title:
+                save_to_cache(cache_key, {'title': title, 'url': url})
+
+            return title
+
+    except Exception:
+        return None
+
+
+def extract_text_from_pdf(pdf_path, max_pages=2):
+    """Extract text from PDF using pymupdf, with OCR fallback."""
+    import fitz  # pymupdf - declared in script dependencies
+
+    text = ""
+
+    # Try native text extraction first (faster, works for most academic PDFs)
+    try:
+        doc = fitz.open(pdf_path)
+        for page_num in range(min(max_pages, len(doc))):
+            page = doc[page_num]
+            text += page.get_text()
+        doc.close()
+
+        # If we got meaningful text, return it
+        if len(text.strip()) > 100:
+            return text
+    except Exception:
+        pass  # PDF parsing error, try OCR
+
+    # Fallback to OCR if native extraction failed or returned little text
+    try:
+        from pdf2image import convert_from_path
+        import pytesseract
+
+        images = convert_from_path(pdf_path, first_page=1, last_page=max_pages, dpi=150)
+        for img in images:
+            text += pytesseract.image_to_string(img)
+
+        return text
+    except ImportError:
+        # OCR is optional - requires system packages (poppler, tesseract)
+        if not text:
+            raise ImportError(
+                "PDF has no extractable text and OCR is not available. "
+                "Install: pdf2image pytesseract (plus poppler and tesseract system packages)"
+            )
+        return text
+    except Exception as e:
+        print(f"    OCR error: {e}")
+        return text
+
+
+def normalize_for_comparison(text):
+    """Normalize text for fuzzy comparison."""
+    # Lowercase, remove punctuation, collapse whitespace
+    t = text.lower()
+    t = re.sub(r'[^\w\s]', ' ', t)
+    t = re.sub(r'\s+', ' ', t).strip()
+    return t
+
+
+def title_in_pdf(title, pdf_text, threshold=0.7):
+    """Check if the title appears in the PDF text."""
+    if not pdf_text or not title:
+        return False, 0.0
+
+    norm_title = normalize_for_comparison(title)
+    norm_text = normalize_for_comparison(pdf_text)
+
+    # Direct substring match
+    if norm_title in norm_text:
+        return True, 1.0
+
+    # Check for significant words match (handles line breaks in titles)
+    title_words = set(norm_title.split())
+    # Only check first ~2000 chars (title should be near the top)
+    text_start = norm_text[:2000]
+
+    # Count how many title words appear in text
+    found_words = sum(1 for word in title_words if word in text_start and len(word) > 3)
+    word_ratio = found_words / len(title_words) if title_words else 0
+
+    if word_ratio >= threshold:
+        return True, word_ratio
+
+    # Fuzzy match on sliding window
+    title_len = len(norm_title)
+    best_similarity = 0.0
+    for i in range(0, min(len(norm_text), 2000) - title_len + 1, 10):
+        window = norm_text[i:i + title_len + 20]
+        similarity = fuzzy_similarity(norm_title, window)
+        best_similarity = max(best_similarity, similarity)
+        if similarity >= threshold:
+            return True, similarity
+
+    return best_similarity >= threshold, best_similarity
+
+
+def clear_pdf_cache():
+    """Clear all cached PDFs."""
+    if PDF_CACHE_DIR.exists():
+        count = 0
+        for cache_file in PDF_CACHE_DIR.glob('*'):
             cache_file.unlink()
             count += 1
         return count
@@ -602,6 +917,164 @@ def verify_against_dblp(papers, sample_size=None, delay=0.5, log_file=None, use_
     return False
 
 
+def is_blocked_publisher(url):
+    """Check if URL is from a publisher that blocks automated access."""
+    blocked_patterns = [
+        'doi.org/10.1145',   # ACM
+        'dl.acm.org',        # ACM
+        'doi.org/10.1109',   # IEEE
+        'ieeexplore.ieee.org',  # IEEE
+    ]
+    return any(pattern in url for pattern in blocked_patterns)
+
+
+def verify_pdf_titles(papers, sample_size=None, delay=1.0, use_cache=True):
+    """Verify that paper titles match the content of linked PDFs."""
+    print("\n" + "=" * 60)
+    print("VERIFYING PDF TITLES")
+    print("=" * 60)
+
+    if use_cache:
+        print(f"(Using PDF cache from {PDF_CACHE_DIR})")
+
+    # Filter papers with URLs
+    papers_with_urls = [p for p in papers if p.get('url')]
+
+    # Filter out ACM/IEEE URLs (they block automated access)
+    accessible_papers = [p for p in papers_with_urls if not is_blocked_publisher(p['url'])]
+    blocked_count = len(papers_with_urls) - len(accessible_papers)
+
+    print(f"\nPapers with URLs: {len(papers_with_urls)}/{len(papers)}")
+    if blocked_count > 0:
+        print(f"Skipping {blocked_count} ACM/IEEE papers (blocked by Cloudflare)")
+
+    papers_to_check = accessible_papers
+    if sample_size and sample_size < len(accessible_papers):
+        import random
+        papers_to_check = random.sample(accessible_papers, sample_size)
+        print(f"Checking {sample_size} random papers (use --pdf-all for full check)")
+    else:
+        print(f"Checking all {len(papers_to_check)} accessible papers...")
+
+    issues = []
+    verified = 0
+    verified_via_landing = 0
+    download_failed = 0
+    extraction_failed = 0
+    cache_hits = 0
+
+    for i, paper in enumerate(papers_to_check):
+        title = paper['title']
+        url = paper['url']
+        print(f"\n  [{i+1}/{len(papers_to_check)}] {title[:50]}...")
+        print(f"    URL: {url[:60]}{'...' if len(url) > 60 else ''}")
+
+        # Check if cached
+        was_cached = use_cache and is_pdf_cached(url)
+        if was_cached:
+            cache_hits += 1
+            print(f"    (cached)", end="")
+
+        # Download PDF
+        pdf_path = download_pdf(url, use_cache=use_cache)
+        if not pdf_path:
+            # Fallback: try to extract title from landing page (for DOI/NDSS links)
+            print(f"    No PDF, checking landing page...", end="")
+            landing_title = extract_title_from_landing_page(url, use_cache=use_cache)
+            if landing_title:
+                # Compare titles
+                similarity = fuzzy_similarity(
+                    normalize_for_comparison(title),
+                    normalize_for_comparison(landing_title)
+                )
+                if similarity >= 0.8:
+                    print(f" OK (landing page, {similarity:.0%})")
+                    verified += 1
+                    verified_via_landing += 1
+                else:
+                    print(f" TITLE MISMATCH ({similarity:.0%})")
+                    issues.append({
+                        'paper': paper,
+                        'issue': f'Title mismatch on landing page ({similarity:.0%})',
+                        'details': f'Landing page title: "{landing_title[:80]}..."'
+                    })
+            else:
+                print(f" FAILED (no PDF or landing page)")
+                download_failed += 1
+                issues.append({
+                    'paper': paper,
+                    'issue': 'Could not download PDF or fetch landing page',
+                    'details': 'URL may be inaccessible'
+                })
+            if not was_cached:
+                time.sleep(delay)
+            continue
+
+        # Extract text
+        pdf_text = extract_text_from_pdf(pdf_path)
+        if not pdf_text or len(pdf_text.strip()) < 50:
+            print(f"    EXTRACTION FAILED (no text in PDF)")
+            extraction_failed += 1
+            issues.append({
+                'paper': paper,
+                'issue': 'Could not extract text from PDF',
+                'details': 'PDF may be image-only or corrupted'
+            })
+            if not was_cached:
+                time.sleep(delay)
+            continue
+
+        # Check title
+        found, confidence = title_in_pdf(title, pdf_text)
+        if found:
+            print(f"    OK (confidence: {confidence:.0%})")
+            verified += 1
+        else:
+            print(f"    TITLE MISMATCH (best match: {confidence:.0%})")
+            # Show what was found at the start of the PDF
+            first_line = pdf_text.strip().split('\n')[0][:80] if pdf_text else "(empty)"
+            issues.append({
+                'paper': paper,
+                'issue': f'Title not found in PDF (confidence: {confidence:.0%})',
+                'details': f'PDF starts with: "{first_line}..."'
+            })
+
+        if not was_cached:
+            time.sleep(delay)
+
+    # Report results
+    print(f"\n\n{'=' * 60}")
+    print("PDF Verification Results:")
+    print(f"{'=' * 60}")
+    print(f"  Verified: {verified}/{len(papers_to_check)}")
+    if verified_via_landing:
+        print(f"    (via landing page: {verified_via_landing})")
+    print(f"  Download/fetch failed: {download_failed}")
+    print(f"  Text extraction failed: {extraction_failed}")
+    print(f"  Title mismatches: {len(issues) - download_failed - extraction_failed}")
+    if use_cache:
+        print(f"  Cache hits: {cache_hits}/{len(papers_to_check)}")
+
+    if issues:
+        print(f"\n\n{'=' * 60}")
+        print("DETAILED ISSUES")
+        print(f"{'=' * 60}")
+
+        for idx, issue in enumerate(issues, 1):
+            p = issue['paper']
+            print(f"\n{'─' * 60}")
+            print(f"Issue #{idx}: {issue['issue']}")
+            print(f"{'─' * 60}")
+            print(f"  Title:  {p['title']}")
+            print(f"  Venue:  {p['venue']} {p['year']}")
+            print(f"  URL:    {p.get('url', '(none)')}")
+            print(f"  Detail: {issue['details']}")
+
+        print(f"\n{'─' * 60}")
+
+    return len(issues) > 0
+
+
 def check_data_quality(papers):
     """Check for data quality issues."""
     print("\n" + "=" * 60)
@@ -690,15 +1163,24 @@ def main():
     parser.add_argument('--dblp', action='store_true', help='Verify papers against DBLP (sample of 10)')
     parser.add_argument('--dblp-all', action='store_true', help='Verify ALL papers against DBLP (slow)')
     parser.add_argument('--dblp-sample', type=int, metavar='N', help='Verify N random papers against DBLP')
+    parser.add_argument('--pdf', action='store_true', help='Verify PDF titles match (sample of 5)')
+    parser.add_argument('--pdf-all', action='store_true', help='Verify ALL PDF titles (slow, downloads PDFs)')
+    parser.add_argument('--pdf-sample', type=int, metavar='N', help='Verify N random PDF titles')
     parser.add_argument('--log', type=str, metavar='FILE', help='Write DBLP verification results to log file')
     parser.add_argument('--no-cache', action='store_true', help='Disable request caching')
     parser.add_argument('--clear-cache', action='store_true', help='Clear the request cache and exit')
+    parser.add_argument('--clear-pdf-cache', action='store_true', help='Clear the PDF cache and exit')
     args = parser.parse_args()
 
     # Handle cache clear
     if args.clear_cache:
         count = clear_cache()
         print(f"Cleared {count} cached responses from {CACHE_DIR}")
+        return 0
+
+    if args.clear_pdf_cache:
+        count = clear_pdf_cache()
+        print(f"Cleared {count} cached PDFs from {PDF_CACHE_DIR}")
         return 0
 
     print("Distinguished Papers Database Checker")
@@ -730,6 +1212,15 @@ def main():
         save_data(data)
         print(f"\nSaved updated data to {get_json_path()}")
 
+    # PDF verification (optional)
+    has_pdf_issues = False
+    if args.pdf_all:
+        has_pdf_issues = verify_pdf_titles(papers, use_cache=use_cache)
+    elif args.pdf_sample:
+        has_pdf_issues = verify_pdf_titles(papers, sample_size=args.pdf_sample, use_cache=use_cache)
+    elif args.pdf:
+        has_pdf_issues = verify_pdf_titles(papers, sample_size=5, use_cache=use_cache)
+
     # Print summary
     print_summary(papers)
 
@@ -737,7 +1228,7 @@ def main():
     print("\n" + "=" * 60)
     print("CHECK RESULTS")
     print("=" * 60)
-    if has_missing_years or has_duplicates or has_quality_issues or has_dblp_issues:
+    if has_missing_years or has_duplicates or has_quality_issues or has_dblp_issues or has_pdf_issues:
         print("\nIssues found! Review the above output.")
         return 1
     else:
